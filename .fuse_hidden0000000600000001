@@ -1,0 +1,30 @@
+---
+type: sell-discipline
+tags: [investing/process]
+---
+
+# Sell Discipline
+
+What this note is for: when you sell, trim, or hold. The re-test workflow applies this as if the position were flat (to fight endowment bias), and the bias audit checks whether you're holding for a good reason or a sunk-cost one.
+
+## Default framework (replace with your own)
+
+**Good reasons to sell or trim:**
+- The thesis broke — a load-bearing claim failed (not a single soft quarter that doesn't touch one).
+- The price fully reflects the optimistic case with no margin of safety left.
+- A materially better opportunity needs the capital.
+- Position size drifted past your construction limits (trim to rebalance).
+
+**Not good enough on their own:**
+- The price fell (that's not new information about value).
+- The price rose (selling winners early is the disposition effect).
+- Boredom, or it's "been dead money."
+- One bad print that doesn't break a load-bearing claim.
+
+**The test:** would you buy this position today, at this price and weight, if you didn't already own it? If no, the hold needs a reason that isn't about what you paid.
+
+> FILL THIS IN — your actual sell rules:
+> - What makes you sell completely vs trim?
+> - Do you use any rules-based triggers (valuation ceiling, position-size cap, stop-loss)? Or purely thesis-based?
+> - How do you handle a winner that's now overweight and richly valued?
+> - What's your honest history — do you sell too early, hold too long? Which error do you want the agent to push back on?

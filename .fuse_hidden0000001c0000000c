@@ -1,0 +1,22 @@
+---
+type: portfolio-strategy
+tags: [investing/process]
+---
+
+# Portfolio Strategy
+
+What this note is for: how you build the book. The portfolio-fit workflow scores against these limits and sizing rules. Without your real numbers here, fit checks fall back to generic caps.
+
+## Default framework (replace with your own)
+
+- **Concentration:** size to conviction and to downside, not excitement. Soft flags (replace): single position above ~20% of the book, or a single theme/factor above ~35%, needs explicit justification.
+- **Sizing:** bigger when the downside is well-understood and contained; smaller when the outcome range is wide. Build to a target weight in tranches rather than all at once.
+- **Diversification that's real:** breadth of *bets*, not just count of tickers. Watch hidden correlation — several names that are the same bet (same end-market, macro driver, or input cost) concentrate risk while looking diversified.
+- **Cash:** a residual of opportunity, not a market call. Hold it when nothing clears the bar.
+
+> FILL THIS IN — your actual construction rules:
+> - How concentrated are you willing to be? Max single-name weight? Max theme/sector?
+> - How many positions is your target range? Do you run a "best ideas" book or a broader one?
+> - How do you size — fixed tranches, Kelly-ish by edge, conviction tiers? What's a "full" position vs a "starter"?
+> - What's your cash policy and your view on hedging?
+> - Any hard rules? (no single position over X, no more than Y names, rebalance trigger at Z drift)
