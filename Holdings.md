@@ -68,20 +68,36 @@ One pre-registered, event-based trigger per name. The daily brief checks news ag
 
 The daily brief computes each Lane B name's ATR trailing stop live (highest close since entry minus 3 x ATR(14)) and flags a TRIM SIGNAL if the last close is at or below the stop, or at or above the valuation target. See [[Sell Discipline]] for the logic. Rising price alone never trims; these are risk/valuation/thesis/time lines. Lane A names (GOOG, ORCL) are exempt from the stop and valuation harvest, they trim only at the 20% ceiling or on a thesis break.
 
-Entry dates marked (assumed) need confirming against the Fidelity export. Valuation targets marked FILL IN are yours to set; the proposed anchor is a starting point, not the number.
+Entry dates marked (assumed) need confirming against the Fidelity export.
+
+> Valuation targets set 2026-07-29 (agent-set at Kevin's instruction, "provide these yourself"). **Provenance: borrowed, not Kevin's own work** — same flag the vault puts on agent-screened buys. Each target names its anchor and the multiple used, so any one can be audited or overridden in a line. Basis: closes of 2026-07-28, forward EPS from analyst_estimates, annual history 2017-2025. Anchors are the three sanctioned in [[Sell Discipline]]: normalized-earnings multiple, prior-cycle high, or street target. Where a prior-cycle high reflects a materially different company (XRAY pre-impairment, NCLH pre-dilution, QXO pre-2024 shell), it was rejected as an anchor and the reason is recorded.
 
 | Ticker | Lane | Entry date | Valuation target | Time-stop (re-underwrite by) | Notes |
 |---|---|---|---|---|---|
-| XRAY | B | 2026-07-01 (assumed) | FILL IN (anchor: prior 52wk high ~17.09; confirm vs normalized-earnings view) | 2028-01 (~6 qtrs) | Live example 2026-07-20: peak-since-entry 14.05, ATR(14) 0.55, 3xATR stop = 12.39; close 13.46 sits ~8% above the stop, not fired. At 79% of 52wk high, RSI 68, extended short-term but room to prior high. |
-| GEHC | B | 2026-07-02 | FILL IN | 2028-01 | Piotroski 2, still impaired; harvest thesis is margin inflection, not compounding. |
-| KMX | B | 2026-07-02 | FILL IN | 2028-01 | Insider-cluster bet. |
-| PATK | B | 2026-07-16 | FILL IN | 2028-01 | Insider cluster 6/10; thesis missing. |
-| NCLH | B | 2026-07-16 | FILL IN | 2028-01 | Insider cluster 6/02; thesis missing. |
-| ADT | B | 2026-07-23 | FILL IN | 2028-01 | Insider cluster 5/08-5/29; first-pass done (dig-deeper), stress-test (debt maturity ladder) owed. |
-| RYAN | B | 2026-07-23 | FILL IN | 2028-01 | Insider cluster 6/03-6/12; ELEVATED-RISK (financials), deep dive owed. First-pass-lite only. |
-| QXO | B | (assumed 2026 entry) | FILL IN | n/a | 0.2% of book, immaterial; monitor only if resized. |
+| XRAY | B | 2026-07-01 (assumed) | **18.50** (12x FY27E adj EPS 1.55) | 2028-01 (~6 qtrs) | Prior-cycle high 41.56 REJECTED as anchor: pre-impairment company, GAAP EPS negative 4 of last 5 years. Street 13.38 is below spot, so street rejected too. Target rests entirely on the margin-inflection thesis landing. |
+| GEHC | B | 2026-07-02 | **82.00** (15.3x FY27E EPS 5.36) | 2028-01 | Between street 79.33 and 52wk high 89.77. Piotroski 2, still impaired; harvest thesis is margin inflection, not compounding. |
+| KMX | B | 2026-07-02 | **62.00** (17.7x normalized EPS ~3.50) | 2028-01 | Insider-cluster bet. **Only ~5% above spot by design.** Street target 51.31 sits BELOW spot; FY26 EPS 1.68 vs 3.21 prior; stock at 94% of 52wk high. Price has worked without earnings recovering, so the gap to fair value is mostly closed. Expect this to fire first. |
+| PATK | B | 2026-07-16 | **118.00** (~15x mid-cycle EPS ~7.85) | 2028-01 | Insider cluster 6/10. Cyclical trough: rev 3.95B vs 4.88B 2022 peak, EPS 3.90 vs 8.99 peak. Street 116.90 corroborates. 2022 high 148.50 was a cycle blowoff, not a base case. |
+| NCLH | B | 2026-07-16 | **26.00** (12.9x FY27E EPS 2.02) | 2028-01 | Insider cluster 6/02. Pre-COVID EPS 4.25-4.30 REJECTED as anchor: share count roughly tripled in the 2020-21 raises, so that EPS is unreachable. Set just under the 52wk high 27.18. FCF/share negative on newbuild capex; balance sheet is the risk. |
+| ADT | B | 2026-07-23 | **9.25** (9.5x FY27E EPS 0.97) | 2028-01 | Insider cluster 5/08-5/29. Modestly above the 3yr high 8.94; FCF/share 1.97 is a ~27% FCF yield, so the discount is leverage, not operations. Stress-test (debt maturity ladder) still owed and this target does not substitute for it. |
+| RYAN | B | 2026-07-23 | **58.00** (24.7x FY27E EPS 2.35) | 2028-01 | Insider cluster 6/03-6/12. Trailing GAAP P/E 111.8 is distorted by the Up-C structure and amortization, so operating/forward EPS used instead. Re-rate toward the 52wk high 66.25 is the bet. **ELEVATED-RISK (financials) deep dive still owed; this target does not clear that gate.** |
+| QXO | B | (assumed 2026 entry) | **19.00** (25x FY27E EPS 0.75) — DORMANT | n/a | 0.2% of book, immaterial; monitor only if resized. Target recorded for completeness and NOT evaluated by the daily brief until the position is resized. Database 3yr high of 290 is a pre-2024 shell/reverse-split artifact, not a real prior-cycle high. |
 
 Thesis-completion and time-stop are qualitative and checked at earnings and the weekly retest, not daily. Lane-unassigned names are not on the harvest monitor yet; assign a lane before adding them. As of 2026-07-29 that is the full "?" list: NBIS, VRTX, VEEV, CRS, VSAT, OKLO, IREN. (ZTS is marked "A?", provisionally Lane A, so it is exempt from the stop either way. GEHC, KMX, XRAY are marked "B?" and ARE monitored as Lane B.)
+
+## Lane A cut/trim plan (agent-set 2026-07-29 at Kevin's instruction; borrowed conviction, override freely)
+
+Lane A names do not get ATR stops or valuation harvests. They cut for one of two reasons only: the 20%-at-market ceiling, or a thesis break. Only the ceiling leg is live today.
+
+**GOOG — scheduled trim to the ceiling.** At the 2026-07-28 close GOOG is ~$8,451 at market, 41.7% of a ~$20,287 book. The 20% line is ~$4,057, so the excess is **~$4,394**. The 7/16 and 7/23 trims were ~$500 token installments; at that size closing the gap takes nine more, which is inertia wearing discipline's clothes.
+
+- **Size:** four tranches of ~$1,100, one per month, Aug through Nov 2026. This reaches the line without a single large print.
+- **Trigger:** a calendar date, not a price. Execute on the first trading day of each month regardless of where GOOG trades. This is a risk action at a preset line per [[Portfolio Strategy]], so a price condition would turn it back into a market call.
+- **Account order:** sell from the Roth first. Avg cost is 185.63 against a 332.60 close, so the taxable lot carries a large embedded gain and the Roth leg is tax-free. Move to taxable only once the Roth GOOG is exhausted.
+- **Proceeds:** do NOT redeploy into the AI/data-center theme, which is at ~63.6% against a 30% hard cap. Cash, or a name outside the theme that clears the Checklist.
+- **Recompute the excess each month** before the tranche; a falling price shrinks it and may end the plan early.
+
+**ORCL — no trim owed.** 17.7% at market, under the 20% ceiling. It re-enters the plan only on a breach or a thesis break. Separately, the 7/16 decision to hold the remainder of a BBB- credit still has no written reasoning behind it; that is a writing task, not a trim.
 
 ## Open trigger decisions (agent-maintained log; close items by writing the decision)
 
