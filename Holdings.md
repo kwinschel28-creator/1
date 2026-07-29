@@ -1,7 +1,7 @@
 ---
 type: holdings
 tags: [investing/process]
-updated: 2026-07-02
+updated: 2026-07-29
 ---
 
 # Holdings
@@ -14,7 +14,7 @@ What this note is for: my current book. The portfolio-fit workflow uses this to 
 
 > Updated 2026-07-23 (agent-logged; share counts ESTIMATED from ~$499 fills at 7/23 prices, reconcile with the attached Jul-23 Fidelity export, a full book reconcile is still owed). Sold ~$500 GOOG (Roth) and ~$500 ORCL (taxable) earlier; the ~$1,000 proceeds were redeployed the same day into ~$499 ADT (~72.3 sh at ~$6.90) and ~$499 RYAN (~12.7 sh at ~$39.29), both Lane B from the 7/23 insider-cluster screen, both starter-sized (~2.6%). ADT had a first-pass (dig-deeper); its stress-test is incomplete (maturity ladder owed). RYAN had only a first-pass-lite AND is Financials/insurance, so it breaches the elevated-risk regime (deep dive owed BEFORE buy per [[Philosophy]]). Both logged over objection; conviction source is the agent screen (borrowed). Third same-pattern screen-to-buy event after 7/2 and 7/16. Per the 2026-07-23 Checklist amendment, per-company one-liner theses are retired and "theses owed" is no longer tracked per name; buys now gate on the Checklist/lane system. Still process-outstanding on these two: RYAN's elevated-risk (financials) deep dive, owed before it clears the gate, and ADT's stress-test (debt maturity ladder).
 
-| Ticker | Company | Shares | Avg cost | Px (7/2) | Mkt $ | Wt % | Lane | Driver / theme | Circle |
+| Ticker | Company | Shares | Avg cost | Px (as dated per row) | Mkt $ | Wt % | Lane | Driver / theme | Circle |
 |---|---|---|---|---|---|---|---|---|---|
 | GOOG | Alphabet C | ~25.41 | 185.63 | 371.36 (7/16) | 9,435 | ~46.6% | A | Mega-cap tech, digital ads, AI/cloud | Edge? No (large-cap) |
 | ORCL | Oracle | ~29.93 | 114.80 | 127.20 (7/16) | 3,807 | ~18.8% | A | Enterprise software, AI/data-center capex | Adjacent (large-cap) |
@@ -39,7 +39,7 @@ What this note is for: my current book. The portfolio-fit workflow uses this to 
 
 **Accounts:** Roth IRA holds GOOG, KMX, NBIS, most of GEHC (9.14 sh), and a VRTX sliver. Taxable Individual holds everything else plus 3.005 sh of GEHC.
 
-**Conviction provenance:** GOOG is my own research. ORCL (Twitter), CRS (Perplexity screen), QXO (friend) are borrowed. ZTS, GEHC, KMX came from the 7/2 agent screens (borrowed until the operating work is done). NBIS, VSAT, VEEV, VRTX, XRAY, OKLO, IREN: unrecorded, FILL IN.
+**Conviction provenance:** GOOG is my own research. ORCL (Twitter), CRS (Perplexity screen), QXO (friend) are borrowed. ZTS, GEHC, KMX came from the 7/2 agent screens (borrowed until the operating work is done). PATK, NCLH came from the 7/16 agent insider-cluster screen; ADT, RYAN from the 7/23 agent insider-cluster screen (all four borrowed). NBIS, VSAT, VEEV, VRTX, XRAY, OKLO, IREN: unrecorded, FILL IN.
 
 ## Sell/trim triggers (DRAFT 2026-07-16, agent-written; edit these, they are yours to own)
 
@@ -81,15 +81,15 @@ Entry dates marked (assumed) need confirming against the Fidelity export. Valuat
 | RYAN | B | 2026-07-23 | FILL IN | 2028-01 | Insider cluster 6/03-6/12; ELEVATED-RISK (financials), deep dive owed. First-pass-lite only. |
 | QXO | B | (assumed 2026 entry) | FILL IN | n/a | 0.2% of book, immaterial; monitor only if resized. |
 
-Thesis-completion and time-stop are qualitative and checked at earnings and the weekly retest, not daily. NBIS, OKLO, IREN are lane-unassigned (fill in) so they are not on the harvest monitor yet; assign a lane before adding them.
+Thesis-completion and time-stop are qualitative and checked at earnings and the weekly retest, not daily. Lane-unassigned names are not on the harvest monitor yet; assign a lane before adding them. As of 2026-07-29 that is the full "?" list: NBIS, VRTX, VEEV, CRS, VSAT, OKLO, IREN. (ZTS is marked "A?", provisionally Lane A, so it is exempt from the stop either way. GEHC, KMX, XRAY are marked "B?" and ARE monitored as Lane B.)
 
 ## Open trigger decisions (agent-maintained log; close items by writing the decision)
 
 - ORCL: FIRED 2026-07-16. S&P downgrade to BBB- tied to debt-funded AI capex (pre-registered trigger matched exactly). Status: CLOSED 2026-07-16. Kevin's decision: trim (~$500 sold), hold the remainder at ~18.8% weight, now under the 20% ceiling. Note: the hold-remainder leg is a de facto re-underwrite of a BBB- credit with a ~$42B projected FY27 FCF deficit; no written reasoning exists for it yet.
 - GOOG: PLAUSIBLY FIRED 2026-07-16. EU binding instructions to open Android and search data to AI rivals; adverse-remedy trigger arguably met, market shrugged. Written decision owed: re-underwrite or dismiss with one line. Status: OPEN. (A ~$500 cap-discipline trim was logged 2026-07-16; it does not address this trigger.)
 
-**Known concentrations (vs the Tight caps, updated 2026-07-16 at estimated prices):**
-- GOOG ~46.6%, still ~2.3x the 20% single-name hard-trim ceiling; the 7/16 trim was a token installment against a ~$5,900 excess. ORCL ~18.8%, under the ceiling for the first time (trim plus price decline).
-- AI / data-center capex theme: GOOG + ORCL + NBIS + OKLO + IREN = ~70% vs the 30% hard cap. Direction: better, still more than double the cap.
-- Breadth: 13 names above 2% vs the floor of 8. New correlated pair: PATK + NCLH are both leveraged consumer-discretionary/rates bets (~5% combined); not a named theme yet, watch it.
+**Known concentrations (vs the Tight caps, recomputed 2026-07-29 from shares x 2026-07-28 closes; book ~$20,287):**
+- GOOG ~41.7%, still ~2.1x the 20% single-name hard-trim ceiling; excess is ~$4,400 at market. ORCL ~17.7%, under the ceiling.
+- AI / data-center capex theme: GOOG + ORCL + NBIS + OKLO + IREN = ~63.6% vs the 30% hard cap. Direction: better, still more than double the cap.
+- Breadth: 14 names above 2% vs the floor of 8 (VSAT ~1.9% now sits just below the line). Correlated pair: PATK + NCLH are both leveraged consumer-discretionary/rates bets (~5.2% combined); not a named theme yet, watch it. KMX shares that rates/consumer-credit driver and would make it ~9.2% if grouped.
 - Per-company one-liner theses retired 2026-07-23 (Kevin's call); buys gate on the Checklist/lane system instead. The per-name "thesis owed" counter is dropped. Two system items remain outstanding: RYAN's elevated-risk (financials) deep dive and ADT's stress-test maturity ladder.
