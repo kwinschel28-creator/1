@@ -192,9 +192,13 @@ since entry_date) minus 3 x ATR(14, latest).
   once in a Data-gaps footer line.
 - Lane A names (GOOG, ORCL) are exempt. They trim only at the 20% ceiling or on a
   thesis break. See the Lane A cut/trim plan in `Holdings.md`.
-- Lane-unassigned names (marked "? (fill in)") are not on the monitor. Assign a
-  lane first. As of 2026-07-29 that list is NBIS, VRTX, VEEV, CRS, VSAT, OKLO,
-  IREN. Names marked "B?" ARE monitored as Lane B; "A?" is treated as Lane A.
+- Lane-unassigned names are not on the monitor. As of 2026-07-29 there are none:
+  every holding carries a lane. Lane A is GOOG, ORCL, VRTX, VEEV, ZTS; Lane B is
+  everything else. If a future holding is added without a lane, it is not
+  monitored and you say so in the Data-gaps footer.
+- CRS, VSAT, OKLO and IREN have UNCONFIRMED entry dates, so their stops are
+  uncomputable and go in the Data-gaps footer alongside XRAY. Their valuation
+  targets are live regardless.
 
 If the last close is at or below the stop, OR at or above the written valuation
 target, add a bold TRIM SIGNAL line inside the alert block: name, which line was

@@ -18,17 +18,17 @@ What this note is for: my current book. The portfolio-fit workflow uses this to 
 |---|---|---|---|---|---|---|---|---|---|
 | GOOG | Alphabet C | ~25.41 | 185.63 | 371.36 (7/16) | 9,435 | ~46.6% | A | Mega-cap tech, digital ads, AI/cloud | Edge? No (large-cap) |
 | ORCL | Oracle | ~29.93 | 114.80 | 127.20 (7/16) | 3,807 | ~18.8% | A | Enterprise software, AI/data-center capex | Adjacent (large-cap) |
-| GEHC | GE HealthCare | 12.145 | ~65.6 | 65.24 | 792 | 3.8% | B? (insider cluster) | Medical imaging/equipment; hospital capex | In? (medtech) |
-| NBIS | Nebius Group A | 3.271 | 213.99 | 216.51 | 708 | 3.4% | ? (fill in) | AI cloud / GPU data-center infrastructure | Out? |
-| KMX | CarMax | 13.891 | 50.39 | 50.41 | 700 | 3.4% | B? (insider cluster) | Used-car demand, auto credit | ? (fill in) |
-| VRTX | Vertex Pharma | 1.260 | 497.97 | 519.37 | 654 | 3.2% | ? (fill in) | Biotech; CF franchise, pipeline | ? (fill in) |
-| VEEV | Veeva Systems | 3.407 | 176.06 | 188.26 | 641 | 3.1% | ? (fill in) | Healthcare SaaS; pharma R&D/commercial spend | ? (fill in) |
-| CRS | Carpenter Technology | 1 | 240.82 | 603.20 | 603 | 2.9% | ? | Specialty alloys; aerospace/defense demand | Out |
-| ZTS | Zoetis | 8.066 | 74.38 | 74.33 | 600 | 2.9% | A? (dislocated quality) | Animal health; pet/vet spending | In (commercial pharma) |
-| XRAY | Dentsply Sirona | 52.071 | 10.54 | 11.16 | 581 | 2.8% | B? (insider cluster 6/15) | Dental equipment/consumables; turnaround | ? (fill in) |
-| VSAT | Viasat | 5.181 | 86.85 | 84.91 | 440 | 2.1% | ? (fill in) | Satellite comms; defense + broadband | ? (fill in) |
-| OKLO | Oklo | 3.884 | 51.49 | 54.16 | 210 | 1.0% | ? (fill in) | Nuclear SMR; AI/data-center power demand | Out? |
-| IREN | IREN Ltd | 4.408 | 45.37 | 40.59 | 179 | 0.9% | ? (fill in) | Bitcoin mining / AI-HPC data centers | Out? |
+| GEHC | GE HealthCare | 12.145 | ~65.6 | 65.24 | 792 | 3.8% | B (insider cluster) | Medical imaging/equipment; hospital capex | In? (medtech) |
+| NBIS | Nebius Group A | 3.271 | 213.99 | 216.51 | 708 | 3.4% | B | AI cloud / GPU data-center infrastructure | Out? |
+| KMX | CarMax | 13.891 | 50.39 | 50.41 | 700 | 3.4% | B (insider cluster) | Used-car demand, auto credit | ? (fill in) |
+| VRTX | Vertex Pharma | 1.260 | 497.97 | 519.37 | 654 | 3.2% | A | Biotech; CF franchise, pipeline | ? (fill in) |
+| VEEV | Veeva Systems | 3.407 | 176.06 | 188.26 | 641 | 3.1% | A | Healthcare SaaS; pharma R&D/commercial spend | ? (fill in) |
+| CRS | Carpenter Technology | 1 | 240.82 | 603.20 | 603 | 2.9% | B | Specialty alloys; aerospace/defense demand | Out |
+| ZTS | Zoetis | 8.066 | 74.38 | 74.33 | 600 | 2.9% | A (dislocated quality) | Animal health; pet/vet spending | In (commercial pharma) |
+| XRAY | Dentsply Sirona | 52.071 | 10.54 | 11.16 | 581 | 2.8% | B (insider cluster 6/15) | Dental equipment/consumables; turnaround | ? (fill in) |
+| VSAT | Viasat | 5.181 | 86.85 | 84.91 | 440 | 2.1% | B | Satellite comms; defense + broadband | ? (fill in) |
+| OKLO | Oklo | 3.884 | 51.49 | 54.16 | 210 | 1.0% | B | Nuclear SMR; AI/data-center power demand | Out? |
+| IREN | IREN Ltd | 4.408 | 45.37 | 40.59 | 179 | 0.9% | B | Bitcoin mining / AI-HPC data centers | Out? |
 | QXO | QXO Inc | 3 | 24.00 | 16.23 | 49 | 0.2% | B | Building-products distribution; M&A roll-up (Jacobs) | Out |
 | PATK | Patrick Industries | ~5.91 | ~84.60 | 84.60 (7/16) | ~500 | ~2.5% | B (insider cluster 6/10) | RV/marine/MH components; consumer discretionary, rates | ? (fill in) |
 | NCLH | Norwegian Cruise | ~25.34 | ~19.73 | 19.73 (7/16) | ~500 | ~2.5% | B (insider cluster 6/02) | Cruise demand; leveraged consumer discretionary, rates | ? (fill in) |
@@ -81,9 +81,18 @@ Entry dates marked (assumed) need confirming against the Fidelity export.
 | NCLH | B | 2026-07-16 | **26.00** (12.9x FY27E EPS 2.02) | 2028-01 | Insider cluster 6/02. Pre-COVID EPS 4.25-4.30 REJECTED as anchor: share count roughly tripled in the 2020-21 raises, so that EPS is unreachable. Set just under the 52wk high 27.18. FCF/share negative on newbuild capex; balance sheet is the risk. |
 | ADT | B | 2026-07-23 | **9.25** (9.5x FY27E EPS 0.97) | 2028-01 | Insider cluster 5/08-5/29. Modestly above the 3yr high 8.94; FCF/share 1.97 is a ~27% FCF yield, so the discount is leverage, not operations. Stress-test (debt maturity ladder) still owed and this target does not substitute for it. |
 | RYAN | B | 2026-07-23 | **58.00** (24.7x FY27E EPS 2.35) | 2028-01 | Insider cluster 6/03-6/12. Trailing GAAP P/E 111.8 is distorted by the Up-C structure and amortization, so operating/forward EPS used instead. Re-rate toward the 52wk high 66.25 is the bet. **ELEVATED-RISK (financials) deep dive still owed; this target does not clear that gate.** |
+| CRS | B | UNCONFIRMED (pre-2026-07) | **625.00** (prior-cycle high 625.99) | 2028-01 | Lane assigned 2026-07-29. Clears Lane A numbers today (ROIC 19.3%, Piotroski 8) but on PEAK-cycle aerospace margins, circle marked Out, conviction borrowed (Perplexity screen), and street target 571 is at spot. Lane B because active harvest is the right treatment for a cyclical at peak that he cannot explain. Up ~133% on cost. |
+| NBIS | B | 2026-07-02 | **240.00** (street 244.21) | 2028-01 | Lane assigned 2026-07-29. Fits NEITHER lane cleanly: not a compounder (ROIC -4.7%, losses widening, FY27E EPS -4.87), not an insider-cluster turnaround. Lane B is a risk treatment, not a thesis. No-thesis 7/2 buy inside a theme at 2x its cap. Target rests on street consensus, the weakest sanctioned anchor, because no earnings anchor exists. |
+| VSAT | B | UNCONFIRMED (pre-2026-07) | **92.00** (prior-cycle high 93.03, street 94.56) | 2028-01 | Lane assigned 2026-07-29. Genuine turnaround/special situation: ROIC -0.4%, D/E 1.48, FY27E EPS falling 1.09 to 0.30. Refinancing stress is already a pre-registered trigger. |
+| OKLO | B | UNCONFIRMED (pre-2026-07) | **86.00** (street 86.50) | 2028-01 | Lane assigned 2026-07-29. Pre-revenue: zero revenue, ROIC -8.6%, Piotroski 3. **Arguably trips the Philosophy refuse-to-own line on pure-narrative stocks with no credible path to cash generation.** No earnings exist to multiply, so the target is street consensus only. Real discipline here is the stop and the 0.8% size, not this number. 3yr high 193.84 was a bubble peak, rejected as anchor. |
+| IREN | B | UNCONFIRMED (pre-2026-07) | **72.00** (just under prior-cycle high 76.87) | 2028-01 | Lane assigned 2026-07-29. **Gross margin is NEGATIVE (-11.3%)**, net margin -171%, D/E 1.49. Selling below cost. Street target 80.93 exceeds the 3yr high and was rejected as too aggressive. Same weak-anchor caveat as OKLO. |
 | QXO | B | (assumed 2026 entry) | **19.00** (25x FY27E EPS 0.75), DORMANT | n/a | 0.2% of book, immaterial; monitor only if resized. Target recorded for completeness and NOT evaluated by the daily brief until the position is resized. Database 3yr high of 290 is a pre-2024 shell/reverse-split artifact, not a real prior-cycle high. |
 
-Thesis-completion and time-stop are qualitative and checked at earnings and the weekly retest, not daily. Lane-unassigned names are not on the harvest monitor yet; assign a lane before adding them. As of 2026-07-29 that is the full "?" list: NBIS, VRTX, VEEV, CRS, VSAT, OKLO, IREN. (ZTS is marked "A?", provisionally Lane A, so it is exempt from the stop either way. GEHC, KMX, XRAY are marked "B?" and ARE monitored as Lane B.)
+Thesis-completion and time-stop are qualitative and checked at earnings and the weekly retest, not daily.
+
+**Every holding now carries a lane as of 2026-07-29. There are no unassigned names left.** Lane A: GOOG, ORCL, VRTX, VEEV, ZTS. Lane B: everything else. The provisional "A?" and "B?" marks were resolved to A and B. Lane assignments for the seven previously-blank names were agent-set at Kevin's instruction and, like the valuation targets, are **borrowed conviction, flagged for override**.
+
+Four of the newly assigned names (CRS, VSAT, OKLO, IREN) have UNCONFIRMED entry dates because they predate the 2026-07-02 export and no entry date was ever recorded. Per the monitor rules their ATR stop is uncomputable and no stop signal fires. **The valuation-target leg does not depend on entry date and IS live for them.** Confirming those four dates against a Fidelity export turns their stops on.
 
 ## Lane A cut/trim plan (agent-set 2026-07-29 at Kevin's instruction; borrowed conviction, override freely)
 
