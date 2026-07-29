@@ -70,7 +70,7 @@ The daily brief computes each Lane B name's ATR trailing stop live (highest clos
 
 Entry dates marked (assumed) need confirming against the Fidelity export.
 
-> Valuation targets set 2026-07-29 (agent-set at Kevin's instruction, "provide these yourself"). **Provenance: borrowed, not Kevin's own work** — same flag the vault puts on agent-screened buys. Each target names its anchor and the multiple used, so any one can be audited or overridden in a line. Basis: closes of 2026-07-28, forward EPS from analyst_estimates, annual history 2017-2025. Anchors are the three sanctioned in [[Sell Discipline]]: normalized-earnings multiple, prior-cycle high, or street target. Where a prior-cycle high reflects a materially different company (XRAY pre-impairment, NCLH pre-dilution, QXO pre-2024 shell), it was rejected as an anchor and the reason is recorded.
+> Valuation targets set 2026-07-29 (agent-set at Kevin's instruction, "provide these yourself"). **Provenance: borrowed, not Kevin's own work**, the same flag the vault puts on agent-screened buys. Each target names its anchor and the multiple used, so any one can be audited or overridden in a line. Basis: closes of 2026-07-28, forward EPS from analyst_estimates, annual history 2017-2025. Anchors are the three sanctioned in [[Sell Discipline]]: normalized-earnings multiple, prior-cycle high, or street target. Where a prior-cycle high reflects a materially different company (XRAY pre-impairment, NCLH pre-dilution, QXO pre-2024 shell), it was rejected as an anchor and the reason is recorded.
 
 | Ticker | Lane | Entry date | Valuation target | Time-stop (re-underwrite by) | Notes |
 |---|---|---|---|---|---|
@@ -81,7 +81,7 @@ Entry dates marked (assumed) need confirming against the Fidelity export.
 | NCLH | B | 2026-07-16 | **26.00** (12.9x FY27E EPS 2.02) | 2028-01 | Insider cluster 6/02. Pre-COVID EPS 4.25-4.30 REJECTED as anchor: share count roughly tripled in the 2020-21 raises, so that EPS is unreachable. Set just under the 52wk high 27.18. FCF/share negative on newbuild capex; balance sheet is the risk. |
 | ADT | B | 2026-07-23 | **9.25** (9.5x FY27E EPS 0.97) | 2028-01 | Insider cluster 5/08-5/29. Modestly above the 3yr high 8.94; FCF/share 1.97 is a ~27% FCF yield, so the discount is leverage, not operations. Stress-test (debt maturity ladder) still owed and this target does not substitute for it. |
 | RYAN | B | 2026-07-23 | **58.00** (24.7x FY27E EPS 2.35) | 2028-01 | Insider cluster 6/03-6/12. Trailing GAAP P/E 111.8 is distorted by the Up-C structure and amortization, so operating/forward EPS used instead. Re-rate toward the 52wk high 66.25 is the bet. **ELEVATED-RISK (financials) deep dive still owed; this target does not clear that gate.** |
-| QXO | B | (assumed 2026 entry) | **19.00** (25x FY27E EPS 0.75) — DORMANT | n/a | 0.2% of book, immaterial; monitor only if resized. Target recorded for completeness and NOT evaluated by the daily brief until the position is resized. Database 3yr high of 290 is a pre-2024 shell/reverse-split artifact, not a real prior-cycle high. |
+| QXO | B | (assumed 2026 entry) | **19.00** (25x FY27E EPS 0.75), DORMANT | n/a | 0.2% of book, immaterial; monitor only if resized. Target recorded for completeness and NOT evaluated by the daily brief until the position is resized. Database 3yr high of 290 is a pre-2024 shell/reverse-split artifact, not a real prior-cycle high. |
 
 Thesis-completion and time-stop are qualitative and checked at earnings and the weekly retest, not daily. Lane-unassigned names are not on the harvest monitor yet; assign a lane before adding them. As of 2026-07-29 that is the full "?" list: NBIS, VRTX, VEEV, CRS, VSAT, OKLO, IREN. (ZTS is marked "A?", provisionally Lane A, so it is exempt from the stop either way. GEHC, KMX, XRAY are marked "B?" and ARE monitored as Lane B.)
 
@@ -89,7 +89,7 @@ Thesis-completion and time-stop are qualitative and checked at earnings and the 
 
 Lane A names do not get ATR stops or valuation harvests. They cut for one of two reasons only: the 20%-at-market ceiling, or a thesis break. Only the ceiling leg is live today.
 
-**GOOG — scheduled trim to the ceiling.** At the 2026-07-28 close GOOG is ~$8,451 at market, 41.7% of a ~$20,287 book. The 20% line is ~$4,057, so the excess is **~$4,394**. The 7/16 and 7/23 trims were ~$500 token installments; at that size closing the gap takes nine more, which is inertia wearing discipline's clothes.
+**GOOG, scheduled trim to the ceiling.** At the 2026-07-28 close GOOG is ~$8,451 at market, 41.7% of a ~$20,287 book. The 20% line is ~$4,057, so the excess is **~$4,394**. The 7/16 and 7/23 trims were ~$500 token installments; at that size closing the gap takes nine more, which is inertia wearing discipline's clothes.
 
 - **Size:** four tranches of ~$1,100, one per month, Aug through Nov 2026. This reaches the line without a single large print.
 - **Trigger:** a calendar date, not a price. Execute on the first trading day of each month regardless of where GOOG trades. This is a risk action at a preset line per [[Portfolio Strategy]], so a price condition would turn it back into a market call.
@@ -97,7 +97,7 @@ Lane A names do not get ATR stops or valuation harvests. They cut for one of two
 - **Proceeds:** do NOT redeploy into the AI/data-center theme, which is at ~63.6% against a 30% hard cap. Cash, or a name outside the theme that clears the Checklist.
 - **Recompute the excess each month** before the tranche; a falling price shrinks it and may end the plan early.
 
-**ORCL — no trim owed.** 17.7% at market, under the 20% ceiling. It re-enters the plan only on a breach or a thesis break. Separately, the 7/16 decision to hold the remainder of a BBB- credit still has no written reasoning behind it; that is a writing task, not a trim.
+**ORCL, no trim owed.** 17.7% at market, under the 20% ceiling. It re-enters the plan only on a breach or a thesis break. Separately, the 7/16 decision to hold the remainder of a BBB- credit still has no written reasoning behind it; that is a writing task, not a trim.
 
 ## Open trigger decisions (agent-maintained log; close items by writing the decision)
 

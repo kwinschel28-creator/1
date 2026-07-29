@@ -53,21 +53,27 @@ Kevin wants idea sourcing continuously refined to catch more names like XRAY, GW
 
 Baseline finding (n=13, 3 weeks): the insider-cluster screen (INS) is the primary engine and Kevin's edge, but the paying signal is insider cluster PLUS financially healthy (Piotroski 4+) PLUS in-circle PLUS deep dislocation (~30%+ off high), not the cluster alone. Quality-dislocation (QD) is secondary; add a guidance-up/price-down overreaction screen (how GWRE surfaced). Recurring execution gap: best names get left on watchlist while weaker names get bought in haste.
 
-## 6. Mobile brief setup
+## 6. Daily brief setup (single source as of 2026-07-29)
 
-Kevin runs the daily pre-market brief twice: a desktop Cowork scheduled task named `daily-portfolio-check` that reads the local Obsidian vault and has the Shibui stock database MCP, and a mobile Claude Code session on claude.ai/code that reads this GitHub mirror at `kwinschel28-creator/1` (git remote `mobile-brief`, branch `main`) because he does not always have the desktop.
+**Changed 2026-07-29: the Claude Code routine is now the ONLY pre-market brief.** Kevin retired the desktop Cowork scheduled task `daily-portfolio-check`. There is no second brief behind this one, so a missed run is a total miss and a quiet degradation is invisible to him. Say out loud when the run is degraded rather than working around it.
 
-The git index cannot be written from the Cowork sandbox (FUSE mount throws a bus error on `git add`), so any repo sync has to be run by Kevin on the Mac.
+The routine runs on claude.ai/code/routines against this GitHub repo `kwinschel28-creator/1` (git remote `mobile-brief` from the Mac, branch `main`). The live prompt is versioned at `Daily Brief Prompt 2026-07-29.md`, which supersedes `Mobile Brief Prompt 2026-07-27.md`. Editing that file does NOT change the routine: the stored prompt lives in the web UI Instructions box and only Kevin can paste it in.
+
+**This session HAS the Shibui stock database MCP.** The old note that "mobile has no Shibui MCP" is retired as of 2026-07-29; ATR and closes come from the database, not estimates. The hard-fail-on-ATR rule stays anyway, because it is about never running a mechanical rule on a guessed input, not about which host is running.
+
+**Sync is now two-way, and that is the live risk.** The routine writes to the repo (a `briefs/` commit every run, plus any agent edit to the process files) as well as reading from it. The Mac vault does not see those commits until Kevin pulls. Pull before editing on the Mac or the next `git push mobile-brief main` silently reverts agent-side work. The git index cannot be written from the Cowork sandbox (FUSE mount throws a bus error on `git add`), so the Mac side of any sync is still Kevin's to run by hand.
 
 Five recurring failure modes to re-check on future runs:
 
 1. Percent moves lifted from headlines instead of the price pull (reported NBIS -15% for Fri 7/24 when the actual session was about -9%; -15% belonged to 7/16-7/17).
 2. Month-old evidence presented as a fresh trigger fire (Meta Compute broke 7/1, surfaced as a new NBIS fire on 7/27).
 3. Catalyst calendar stopping early rather than walking every ticker (missed VRTX 8/3 and ZTS 8/6, both confirmed and in window).
-4. Trim signals on names the vault explicitly excludes (QXO is marked "monitor only if resized" in the Gainer trim lines Notes column).
-5. Unattributed ATR inputs feeding the mechanical trailing-stop rule, since mobile has no Shibui MCP.
+4. Trim signals on names the vault explicitly excludes (QXO is marked "monitor only if resized" in the Gainer trim lines Notes column, and its valuation target is marked DORMANT).
+5. Unattributed ATR inputs feeding the mechanical trailing-stop rule.
 
-Chosen fixes: hard fail on ATR (no data source, no trim signal, ever), full process files in the repo, and each brief committed to `briefs/YYYY-MM-DD.md` so the next run has real prior-run memory instead of guessing at deltas. These fixes are implemented in `Mobile Brief Prompt 2026-07-27.md`.
+Chosen fixes: hard fail on ATR (no data source, no trim signal, ever), full process files in the repo, and each brief committed to `briefs/YYYY-MM-DD.md` so the next run has real prior-run memory instead of guessing at deltas.
+
+**Borrowed-conviction watch, added 2026-07-29.** On this date Kevin instructed the agent to set the Lane B valuation targets and the GOOG cut/trim plan itself ("I don't have time for these"). Those numbers are now in `Holdings.md` flagged as borrowed conviction, and they mechanically fire TRIM SIGNAL blocks. This is exactly the pattern section 1 warns about: the agent becoming his next borrowed-conviction source. When a target fires, name in one clause that the target is agent-set so he re-checks the anchor before acting.
 
 ## 7. Stock Research Agent project
 
@@ -75,4 +81,6 @@ Kevin is building a "Stock Research Agent": a Cowork plugin (`stock-research-age
 
 Plugin = 4 workflows (stress-test-thesis, first-pass, portfolio-fit, earnings-retest) over shared files (core-principles, philosophy-loader, rubric = Pass/Concern/Fail/Unknown, bias-library, default-frameworks, output-templates). The agent reads the vault live; the vault overrides generic defaults. Provenance tags: [vault] / [default] / [primary] / [secondary] / [estimate]. v0.2 added: loader treats SCAFFOLD/[YOURS] content as provisional (not [vault] conviction); rubric picks Lane A vs Lane B before scoring.
 
-Ops notes (2026-07-07): Kevin calls the Shibui-backed daily-portfolio-check the "Shibu stock checker." Shibui stock_quotes/valuation are EOD with ~1-day lag (present by ~7:53 AM ET normally); sec_filings is near-real-time; no intraday/overnight data, so news must come from web search. The checker is weekdays-only (45 7 * * 1-5), with a freshness gate, web-quote fallback on stale/error, a mandatory source/date first line, and an overnight news sweep of top-5 weights plus movers. Scheduled runs do not auto-retry on crash; a missing brief means the run died.
+Ops notes (2026-07-07, amended 2026-07-29): Kevin calls the Shibui-backed brief the "Shibu stock checker." Shibui stock_quotes/valuation are EOD with ~1-day lag (present by ~7:53 AM ET normally); sec_filings is near-real-time; no intraday/overnight data, so news must come from web search. Retain the freshness gate, web-quote fallback on stale/error, mandatory source/date first line, and overnight news sweep of top-5 weights plus movers. Scheduled runs do not auto-retry on crash; a missing brief means the run died.
+
+The `45 7 * * 1-5` schedule belonged to the retired desktop Cowork task. The Claude Code routine keeps its own schedule in the web UI; it should stay weekdays and start no earlier than about 7:45 AM ET so the Shibui EOD load has landed. A pre-7:45 start reads the prior session and the Data line will say so.
