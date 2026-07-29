@@ -77,6 +77,8 @@ Entry dates marked (assumed) need confirming against the Fidelity export. Valuat
 | KMX | B | 2026-07-02 | FILL IN | 2028-01 | Insider-cluster bet. |
 | PATK | B | 2026-07-16 | FILL IN | 2028-01 | Insider cluster 6/10; thesis missing. |
 | NCLH | B | 2026-07-16 | FILL IN | 2028-01 | Insider cluster 6/02; thesis missing. |
+| ADT | B | 2026-07-23 | FILL IN | 2028-01 | Insider cluster 5/08-5/29; first-pass done (dig-deeper), stress-test (debt maturity ladder) owed. |
+| RYAN | B | 2026-07-23 | FILL IN | 2028-01 | Insider cluster 6/03-6/12; ELEVATED-RISK (financials), deep dive owed. First-pass-lite only. |
 | QXO | B | (assumed 2026 entry) | FILL IN | n/a | 0.2% of book, immaterial; monitor only if resized. |
 
 Thesis-completion and time-stop are qualitative and checked at earnings and the weekly retest, not daily. NBIS, OKLO, IREN are lane-unassigned (fill in) so they are not on the harvest monitor yet; assign a lane before adding them.
