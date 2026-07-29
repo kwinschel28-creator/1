@@ -41,7 +41,7 @@ How to apply: run screens against his gates (section 1) as usual, then present e
 
 On 2026-07-23 Kevin retired the per-company one-sentence thesis requirement. Do NOT ask for or track a one-liner per stock, and do NOT report a "theses owed on N of M holdings" per-name counter. Why: he has built his system (Philosophy, Checklist, lanes, triggers, Sell Discipline) as the thesis framework and considers a separate per-stock one-liner redundant.
 
-How to apply: a buy is justified by clearing the Checklist and its lane gates (Lane A falsifiers, Lane B operating-inflection checks) plus caps/sizing. Two things were NOT removed and still gate buys: the Lane A/B system checks themselves, and the Philosophy elevated-risk deep dive for financials/opaque models (banks, insurers, brokers, REITs, utilities) before those buys. Recorded in [[Checklist]] amendment 2026-07-23. Note: this change was made the same session three screen-sourced buys were flagged for missing theses; the vault logs that timing neutrally.
+How to apply: a buy is justified by clearing the Checklist and its lane gates (Lane A falsifiers, Lane B operating-inflection checks) plus caps/sizing. Two things were NOT removed and still gate buys: the Lane A/B system checks themselves, and the Philosophy elevated-risk deep dive for financials/opaque models (banks, insurers, brokers, REITs, utilities) before those buys. Recorded in [[Checklist]] amendment 2026-07-23. Note: this change was made the same session two screen-sourced buys (ADT, RYAN) were flagged for missing theses, in the third such screen-to-buy event after 7/2 and 7/16; the vault logs that timing neutrally.
 
 ## 5. Sourcing refinement loop
 
