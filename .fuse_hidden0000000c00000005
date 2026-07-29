@@ -1,0 +1,21 @@
+---
+type: holdings
+tags: [investing/process]
+updated: <YYYY-MM-DD>
+---
+
+# Holdings
+
+What this note is for: your current book. The portfolio-fit workflow needs this to judge concentration and overlap, and re-tests use it to know what you own. Keep weights roughly current; stale holdings get flagged.
+
+> FILL THIS IN — your current positions. Tickers and rough weights are enough to start; add thesis links and themes for sharper fit checks.
+
+| Ticker | Company | Weight % | Opened | Theme / key exposure | Thesis |
+|---|---|---|---|---|---|
+| EXMPL | Example Co | 0% | YYYY-MM-DD | (e.g. US data-center capex) | [[Theses/EXMPL]] |
+| | | | | | |
+| | | | | | |
+
+**Cash:** <%>
+
+**Notes / known concentrations:** <e.g. "three names levered to enterprise software spend" — or let the fit check find them>

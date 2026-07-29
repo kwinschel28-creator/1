@@ -1,0 +1,32 @@
+---
+type: checklist
+tags: [investing/process]
+---
+
+# Pre-Investment Checklist & Hard Disqualifiers
+
+What this note is for: the checks you run before committing, and the **hard disqualifiers** that kill an idea instantly. The first-pass and stress-test workflows run your disqualifiers *first* — a fast, evidenced kill is the most valuable thing the agent does. List them explicitly.
+
+## Default hard disqualifiers (fast kills — one trip = Fail and stop)
+
+- Accounting smell: cash flow persistently lagging earnings, aggressive revenue recognition, frequent restatements, auditor turnover, going-concern language.
+- Balance-sheet fragility: debt maturities it likely can't refinance, covenants near breach, negative tangible equity while burning cash.
+- Governance: controlling holder extracting value, serial dilution, related-party deals against minority holders, comp untethered from performance.
+- You can't explain in plain terms how it makes money or why the edge lasts.
+- It's outside your circle of competence.
+
+## Default pre-investment checklist
+
+- Do I understand the business and the unit economics?
+- Is there a real, evidenced moat (per Moat Analysis)?
+- Is management honest and a good capital allocator?
+- Is the balance sheet built to survive a bad year?
+- What does the price imply, and is there a margin of safety?
+- What are the three things that would make me wrong, and can I monitor them?
+- Why does this opportunity exist — what do I see that the seller doesn't?
+
+> FILL THIS IN — your actual checklist and disqualifiers:
+> - What are *your* instant kills? (the things that make you close the tab immediately)
+> - What checks must pass before you'll size a position?
+> - Any quantitative gates? (min ROIC, max leverage, min liquidity, max valuation multiple)
+> - What's the question you always forget to ask and want the agent to force?

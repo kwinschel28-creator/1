@@ -1,0 +1,22 @@
+---
+type: bias-list
+tags: [investing/process]
+---
+
+# Cognitive Biases (mine)
+
+What this note is for: your personal failure modes. The bias audit weights the biases *you* admit to here far more heavily than the generic catalog, and uses your language. Be honest and specific; this is the note that catches you rationalizing.
+
+## Default catalog (the agent already knows these; mark the ones that are actually you)
+
+Confirmation bias, anchoring (to cost basis or prior targets), endowment / sunk-cost, recency / extrapolation, narrative fallacy, authority / cloning a famous investor, overconfidence / false precision, loss aversion (holding losers, moving goalposts), base-rate neglect, survivorship bias, complexity-as-edge.
+
+> FILL THIS IN — your actual tendencies:
+> - Which two or three of the above are genuinely *your* problem? Describe how each shows up for you specifically.
+> - Name a real past mistake for each and what the tell was beforehand.
+> - What's your personal "I'm rationalizing" signature? (e.g. you start adding new reasons to hold after a bad print; you check the price more when anxious; you fall for founder narratives)
+> - What de-biasing rule do you want the agent to enforce on you? (e.g. "make me write the bear case first", "flag me when my hold reason changed but my conclusion didn't")
+
+## Notes for the agent
+
+When auditing, quote my own words back to me as evidence. Don't lecture me on what a bias is; show me where I'm doing it. The goalpost-movement check (reasons changed, conclusion didn't) is the one I most want enforced.
