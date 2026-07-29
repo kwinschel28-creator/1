@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+._*
+
+# Cowork/FUSE sandbox scratch files. These are partial copies of real notes and
+# will silently shadow the originals if committed.
+.fuse_hidden*
+
+# Obsidian workspace state (per-machine, not content)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
