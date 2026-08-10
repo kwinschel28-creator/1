@@ -41,8 +41,8 @@ I am a generalist. No sector is hard-excluded.
 Previously excluded or otherwise opaque business models (banks, insurers, brokers, REITs, rate-base utilities) are eligible but start furthest from my strongest footing: they enter ONLY through the elevated-risk regime, and the agent must deliver the essential-information brief (how it makes money, what the balance sheet hides, the one or two numbers that break it) before any buy, not after.
 
 Everything is eligible, but eligibility is not understanding. Two rules keep the breadth honest, because a circle that is "everything" only does work if something still bites:
-- The per-business test governs (see Checklist): if I cannot sketch on one page how a specific company makes money and why its edge lasts, it is out, whatever the sector. Comfort with a sector does not make every business in it knowable.
-- Learning is not competence. A business I want to learn runs at elevated risk until I have done the operating-thesis work: full deep-dive only, no fast-track, position size capped at the low end.
+- The per-business test governs (see Checklist): if I cannot pass the three-question check on a specific company, it is out, whatever the sector. Comfort with a sector does not make every business in it knowable. (Amended 2026-08-10: the one-page written test was replaced by the three-question check and the research behind it is the agent's to produce.)
+- Learning is not competence. A business I want to learn runs at elevated risk until the deep dive exists and I have passed the three-question check on it: full deep-dive only, no fast-track, position size capped at the low end. The deep dive is written by the agent; the check is mine and cannot be delegated, because it tests me and not the company.
 
 Strongest footing, where I have actually done the work: recurring-revenue software / SaaS, and commercial-stage biopharma, medtech, and healthcare. These are where I start, and they get less benefit of the doubt to skip the deep dive.
 

@@ -27,16 +27,17 @@ What this note is for: my current book. The portfolio-fit workflow uses this to 
 | VRTX | Vertex Pharma | 1.260 | 497.97 | 496.07 | 625 | 2.9% | A | Biotech; CF franchise, pipeline | ? (fill in) |
 | NBIS | Nebius Group A | 3.271 | 213.99 | 187.97 | 615 | 2.8% | B | AI cloud / GPU data-center infrastructure | Out? |
 | CRS | Carpenter Technology | 1 | 240.82 | 570.66 | 571 | 2.6% | B | Specialty alloys; aerospace/defense demand | Out |
-| ADT | ADT Inc | ~72.3 | ~6.90 | 7.64 | 552 | 2.5% | B (insider cluster 5/08-5/29) | Home security/monitoring; recurring subscription, consumer | In? (recurring rev) |
 | RYAN | Ryan Specialty | ~12.7 | ~39.29 | 42.84 | 544 | 2.5% | B (insider cluster 6/03-6/12) | Specialty insurance brokerage; hard-market fees, rates | ELEVATED-RISK (financials, deep dive owed) |
 | PATK | Patrick Industries | ~5.91 | ~84.60 | 88.84 | 525 | 2.4% | B (insider cluster 6/10) | RV/marine/MH components; consumer discretionary, rates | ? (fill in) |
 | VSAT | Viasat | 5.181 | 86.85 | 80.38 | 416 | 1.9% | B | Satellite comms; defense + broadband | ? (fill in) |
 | IREN | IREN Ltd | 4.408 | 45.37 | 41.23 | 182 | 0.8% | B | Bitcoin mining / AI-HPC data centers | Out? |
 | QXO | QXO Inc | 3 | 24.00 | 16.16 | 48 | 0.2% | B | Building-products distribution; M&A roll-up (Jacobs) | Out |
 
-**Cash:** ~$2,362 (10.8%), from the 8/10 sales. First real dry powder since 7/02. No cash ceiling is set; see [[Portfolio Strategy]]. **Total book:** ~$21,820.
+**Cash:** ~$2,914 (13.4%), after the ADT exit. First real dry powder since 7/02. No cash ceiling is set; see [[Portfolio Strategy]]. **Total book:** ~$21,820. Note the ORCL ~$1,100 theme-cap trim discussed 8/10 is NOT yet reported as executed and is not reflected here.
 
-**Exited 2026-08-10:** NCLH (~$488, thesis break), ZTS (~$586, derm trigger), OKLO (~$188, dilutive-raise trigger). All three exits were the pre-registered rule firing, not a price call.
+**Exited 2026-08-10:** NCLH (~$488, thesis break), ZTS (~$586, derm trigger), OKLO (~$188, dilutive-raise trigger), ADT (~$552, no trigger). The first three were the pre-registered rule firing, not a price call.
+
+**ADT exit is DISCRETIONARY and its reason is UNRECORDED.** No trigger fired: interest coverage was 3.05x against a 2.5x line and rising, the maturity ladder had just been checked clean (net leverage 2.8x, nothing above $1.67B before 2030), and no insider selling appeared. It was sold the same day its stress-test closed favourably, while RYAN, which is one print from its trigger and still owes its gate, was kept. Every exit owes a one-line written reason per [[Sell Discipline]]; this one is owed.
 
 **Accounts:** Roth IRA holds GOOG, KMX, NBIS, most of GEHC (9.14 sh), and a VRTX sliver. Taxable Individual holds everything else plus 3.005 sh of GEHC.
 
@@ -59,7 +60,6 @@ One pre-registered, event-based trigger per name. The daily brief checks news ag
 - IREN: no new AI/HPC contract wins in two quarters while BTC mining economics deteriorate.
 - QXO: Brad Jacobs steps back, or a large acquisition at a stretched price.
 - PATK (DRAFT 2026-07-16): the insider cluster reverses to selling, or RV/marine OEM production guidance cuts for two straight quarters.
-- ADT (DRAFT 2026-07-23): interest coverage falls below ~2.5x, a debt maturity cannot be refinanced at a survivable rate, or the insider cluster reverses to selling.
 - RYAN (DRAFT 2026-07-23): organic revenue growth decelerates below high-single-digits for two straight quarters, the insider cluster reverses, or leverage rises on debt-funded M&A.
 
 ## Gainer trim lines (Lane B harvest monitor)
@@ -72,11 +72,10 @@ Entry dates marked (assumed) need confirming against the Fidelity export.
 
 | Ticker | Lane | Entry date | Valuation target | Time-stop (re-underwrite by) | Notes |
 |---|---|---|---|---|---|
-| XRAY | B | 2026-07-01 (assumed) | **18.50** (12x FY27E adj EPS 1.55) | 2028-01 (~6 qtrs) | Prior-cycle high 41.56 REJECTED as anchor: pre-impairment company, GAAP EPS negative 4 of last 5 years. Street 13.38 is below spot, so street rejected too. Target rests entirely on the margin-inflection thesis landing. |
+| XRAY | B | 2026-06-30 (confirmed 8/10) | **18.50** (12x FY27E adj EPS 1.55) | 2028-01 (~6 qtrs) | Prior-cycle high 41.56 REJECTED as anchor: pre-impairment company, GAAP EPS negative 4 of last 5 years. Street 13.38 is below spot, so street rejected too. Target rests entirely on the margin-inflection thesis landing. |
 | GEHC | B | 2026-07-02 | **82.00** (15.3x FY27E EPS 5.36) | 2028-01 | Between street 79.33 and 52wk high 89.77. Piotroski 2, still impaired; harvest thesis is margin inflection, not compounding. |
 | KMX | B | 2026-07-02 | **62.00** (17.7x normalized EPS ~3.50) | 2028-01 | Insider-cluster bet. **Only ~5% above spot by design.** Street target 51.31 sits BELOW spot; FY26 EPS 1.68 vs 3.21 prior; stock at 94% of 52wk high. Price has worked without earnings recovering, so the gap to fair value is mostly closed. Expect this to fire first. |
 | PATK | B | 2026-07-16 | **118.00** (~15x mid-cycle EPS ~7.85) | 2028-01 | Insider cluster 6/10. Cyclical trough: rev 3.95B vs 4.88B 2022 peak, EPS 3.90 vs 8.99 peak. Street 116.90 corroborates. 2022 high 148.50 was a cycle blowoff, not a base case. |
-| ADT | B | 2026-07-23 | **9.25** (9.5x FY27E EPS 0.97) | 2028-01 | Insider cluster 5/08-5/29. Modestly above the 3yr high 8.94; FCF/share 1.97 is a ~27% FCF yield, so the discount is leverage, not operations. Stress-test (debt maturity ladder) still owed and this target does not substitute for it. |
 | RYAN | B | 2026-07-23 | **58.00** (24.7x FY27E EPS 2.35) | 2028-01 | Insider cluster 6/03-6/12. Trailing GAAP P/E 111.8 is distorted by the Up-C structure and amortization, so operating/forward EPS used instead. Re-rate toward the 52wk high 66.25 is the bet. **ELEVATED-RISK (financials) deep dive still owed; this target does not clear that gate.** |
 | CRS | B | 2025-09-04 (confirmed 8/10) | **625.00** (prior-cycle high 625.99) | 2028-01 | Lane assigned 2026-07-29. Clears Lane A numbers today (ROIC 19.3%, Piotroski 8) but on PEAK-cycle aerospace margins, circle marked Out, conviction borrowed (Perplexity screen), and street target 571 is at spot. Lane B because active harvest is the right treatment for a cyclical at peak that he cannot explain. Up ~133% on cost. |
 | NBIS | B | 2026-07-02 | **240.00** (street 244.21) | 2028-01 | Lane assigned 2026-07-29. Fits NEITHER lane cleanly: not a compounder (ROIC -4.7%, losses widening, FY27E EPS -4.87), not an insider-cluster turnaround. Lane B is a risk treatment, not a thesis. No-thesis 7/2 buy inside a theme at 2x its cap. Target rests on street consensus, the weakest sanctioned anchor, because no earnings anchor exists. |
@@ -88,7 +87,7 @@ Thesis-completion and time-stop are qualitative and checked at earnings and the 
 
 **Every holding carries a lane.** Lane A: GOOG, ORCL, VRTX, VEEV (ZTS exited 8/10). Lane B: everything else. The provisional "A?" and "B?" marks were resolved to A and B. Lane assignments for the seven previously-blank names were agent-set at Kevin's instruction and, like the valuation targets, are **borrowed conviction, flagged for override**.
 
-**Entry dates confirmed 2026-08-10** for CRS (2025-09-04) and VSAT (2026-06-30); OKLO was exited the same day. Both stops are now live and computed: CRS stop 533.59 against a 570.66 close, VSAT stop 70.57 against an 80.38 close, neither crossed nor within 1 ATR. **IREN also confirmed 2026-06-30**, stop 33.01 against a 41.23 close, not crossed and not within 1 ATR. Only XRAY remains off the stop monitor, its 2026-07-01 entry still marked (assumed); its valuation-target leg is live regardless.
+**Entry dates confirmed 2026-08-10** for CRS (2025-09-04) and VSAT (2026-06-30); OKLO was exited the same day. Both stops are now live and computed: CRS stop 533.59 against a 570.66 close, VSAT stop 70.57 against an 80.38 close, neither crossed nor within 1 ATR. **IREN also confirmed 2026-06-30**, stop 33.01 against a 41.23 close, not crossed and not within 1 ATR. **XRAY confirmed 2026-06-30 and its stop fired immediately: peak since entry 14.27, ATR 0.704, stop 12.16 against a 12.12 close on 8/7.** Every holding is now on the stop monitor with a confirmed entry date; there are no uncomputable stops left.
 
 ## Lane A cut/trim plan (agent-set 2026-07-29 at Kevin's instruction; borrowed conviction, override freely)
 
@@ -115,8 +114,9 @@ Lane A names do not get ATR stops or valuation harvests. They cut for one of two
 **Known concentrations (vs the Tight caps, recomputed 2026-08-10 from shares x 2026-08-07 closes; book ~$21,820 including ~$2,362 cash):**
 - GOOG ~36.1%, still ~1.8x the 20% single-name hard-trim ceiling; excess is ~$3,519 at market, from ~$4,619 before the 8/10 tranche. ORCL ~20.2%, a first breach by ~$36.
 - AI / data-center capex theme: GOOG + ORCL + NBIS + IREN = ~59.9% vs the 30% hard cap, from ~65.8%. OKLO left the group on the 8/10 exit. Still roughly double the cap, and **the arithmetic has not changed: running the GOOG plan to completion and exiting NBIS and IREN entirely still leaves the theme near 40%, because GOOG and ORCL alone are ~56%.** Either the cap forces GOOG well below its own single-name ceiling, or the theme definition needs a written revision. That decision is unmade.
-- Breadth: 12 names above 2% vs the floor of 8, from 14 (the three 8/10 exits). VSAT ~1.9%, IREN ~0.8% and QXO ~0.2% sit below the line. Correlated group: PATK + KMX + ADT are leveraged consumer-discretionary/rates bets, ~8.6% combined; NCLH left that group on 8/10. Not a named theme yet, watch it.
+- Breadth: 11 names above 2% vs the floor of 8, from 14 (four 8/10 exits). VSAT ~1.9%, IREN ~0.8% and QXO ~0.2% sit below the line. Correlated group: PATK + KMX are leveraged consumer-discretionary/rates bets, ~6.1% combined; NCLH and ADT left that group on 8/10. Not a named theme yet, watch it.
+- **Open TRIM SIGNAL, XRAY (fired 2026-08-10 when the entry date was confirmed):** close 12.12 against an ATR stop of 12.16, a 4-cent cross on an ATR of 0.704, so it is hairline and the next close may reverse it. The rule is mechanical and does not get eyeballed. Written trim decision owed: trim a tranche and re-set the stop, or exit. The valuation-target leg (18.50) is nowhere near and did not fire.
 - Healthcare is ~13.4% across GEHC, VEEV, XRAY and VRTX, on genuinely different drivers, so not one theme. But GEHC plus any second medtech name would share a hospital-capex and procedure-volume driver; check that before a second medtech buy, not after.
-- Per-company one-liner theses retired 2026-07-23 (Kevin's call); buys gate on the Checklist/lane system instead. The per-name "thesis owed" counter is dropped. One system item remains outstanding: RYAN's elevated-risk (financials) deep dive.
+- Per-company one-liner theses retired 2026-07-23 (Kevin's call); buys gate on the Checklist/lane system instead. The per-name "thesis owed" counter is dropped. One system item remains outstanding: RYAN's elevated-risk gate. Per the 2026-08-10 Checklist amendment the written deep dive is the agent's to produce and was delivered 2026-08-10 (organic growth 6.7% in Q2 against a 5-7% full-year guide, so the two-quarter trigger is one print away; debt up ~$277M over two quarters against falling book equity; Up-C structure makes book leverage unreadable). What remains is Kevin's three-question check, which is a two-minute action, not a research task.
 
 **ADT stress-test (debt maturity ladder): RESOLVED 2026-08-10.** Total debt ~$7.42B at 6/30/26, net leverage 2.8x adjusted EBITDA, inside the Checklist's 3.5x ceiling for non-defensives. Near-term maturities are ~$241M against ~$1.6B of TTM free cash flow, roughly 6.7x covered. The largest single maturity, ~$1.67B, is not due until 2030 and the rest is spread 2027 to 2033; the 2026 first-lien notes were already addressed with a $500M redemption in 2025. Interest coverage is 3.05x TTM and rising from a 2.64x trough in Q1 2025, so the pre-registered 2.5x trigger is not near. There is no refinancing wall. This item is closed.

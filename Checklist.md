@@ -16,6 +16,18 @@ What this note is for: the checks you run before committing, and the **hard disq
 
 I judge ideas in two lanes with different bars (see [[Philosophy]]). The hard disqualifiers below apply to BOTH lanes. Lane A (quality compounders) must pass the Lane A checklist and quantitative gates. Lane B (insider / special-situations) is judged on the Lane B gates instead, and is sourced from the insider-buying screen at the bottom of this note.
 
+> Amendment 2026-08-10 (Kevin's call): **research and deep dives are explicitly outsourced to the agent.** The agent produces the essential-information brief, the full written deep dive, and the analysis behind any elevated-risk or opaque-model name. I do not write them. The old "sketch it on one page in my own words" test is retired and replaced by a **three-question check**, answered out loud, without looking at the brief:
+>
+> 1. How does this company make money?
+> 2. What is the single thing that would break it?
+> 3. What would make me sell?
+>
+> Two minutes. A pass clears the gate. A fail means capped starter size or no buy; it does not mean "read it again later." The check is run once before the buy and again at any fired trigger.
+>
+> Why: the one-page test was not too strict, it was too expensive, so it got skipped and the buys happened anyway on 7/2, 7/16 and 7/23. A cheap gate that actually runs beats an expensive one that gets routed around. Nothing else changes: the hard disqualifiers, the Lane A/B gates, sizing and caps all still apply.
+>
+> Record-keeper note: this is the fourth process amendment in six weeks, and the third made within a day of a rule blocking something specific Kevin wanted (6/30 sector exclusions, 7/16 financials exclusions, 7/23 per-company theses, 8/10 this one). The agent flagged the pattern and Kevin made the call. **This check is now the only comprehension gate left in the system**, so if it is skipped too, nothing distinguishes understanding a business from having been told about one.
+
 > Amendment 2026-07-23 (Kevin's call): the per-company one-sentence thesis is retired. A buy is justified by clearing this Checklist and its lane gates, nothing more. The agent no longer requires or tracks a separate one-liner per stock, and "theses owed" is dropped as a per-name counter. What stays is the system itself: the Lane A falsifiers and the Lane B operating-inflection checks below are the gate, not a redundant one-liner, and the Philosophy elevated-risk deep dive for financials/opaque models is unaffected and still required before those buys. Record-keeper note: this was decided the same session two screen-sourced buys (ADT, RYAN) were flagged for missing theses, in the third such screen-to-buy event after 7/2 and 7/16; the timing is logged per the same practice used for the 2026-07-16 circle amendment. Kevin made the call.
 
 ### Hard disqualifiers (one trip = Fail and stop, fast)
@@ -23,7 +35,7 @@ I judge ideas in two lanes with different bars (see [[Philosophy]]). The hard di
 - **Accounting smell.** Cumulative free cash flow well below cumulative net income across 3+ years with no clean explanation; receivables or inventory growing materially faster than revenue; repeated "one-time" charges; restatements; auditor or CFO turnover; going-concern language. One credible flag is enough to stop.
 - **Balance-sheet fragility.** Near-term maturities it cannot plausibly refinance at a survivable rate; covenant headroom thin; net debt/EBITDA above your ceiling (default >3.5x for non-defensive, >2x for cyclicals); negative tangible equity while free cash flow is negative.
 - **Governance and dilution.** Controlling holder extracting value; related-party deals against minorities; share count rising materially year over year with no commensurate per-share value created; pay untethered from per-share results; promotional management that sells the stock more than it runs the business.
-- **Unexplainable business.** (Sector exclusions removed 2026-07-16, see amendment log in [[Philosophy]].) Any sector is eligible, but if I cannot sketch on one page how a specific company makes money and why its advantage persists, it is out regardless of sector. "I could learn it" is not understanding: a to-be-learned business runs at elevated risk with capped size until I have done the operating work. Balance-sheet-opaque models (banks, insurers, REITs, utilities) require the agent's essential-information brief plus a full deep dive before any buy; the one-page test is done by me in my own words, not by pasting the agent's summary.
+- **Unexplainable business.** (Sector exclusions removed 2026-07-16, see amendment log in [[Philosophy]].) Any sector is eligible, but if I cannot answer the three-question check below on a specific company, it is out regardless of sector. Balance-sheet-opaque models (banks, insurers, REITs, utilities) require the agent's essential-information brief plus the agent's full written deep dive before any buy. Per the 2026-08-10 amendment the research is the agent's to produce; the three-question check is mine, and it is the gate.
 - **[YOURS] your personal instant-kills.** The things that make you close the tab on sight. Examples to keep or replace: serial acquirers that never show organic growth; "TAM times a percent" decks with no unit economics; companies whose IR answers questions with adjusted metrics only; heavy reliance on a single customer or regulator.
 
 ### Lane A checklist: quality compounders (each must pass before you size)
