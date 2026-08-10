@@ -31,6 +31,17 @@ On 2026-07-16 Kevin asked to "stay ahead of the market" and go beyond tech/healt
 
 How to apply: lead with catalysts and news, not prices. Never dump a full position table unless asked. Keep guardrail reporting terse but never drop it silently: it enforces the caps in section 1. New ideas always carry the first-pass process gate.
 
+**Temporary amendment 2026-08-10, expires after the 2026-08-14 run.** Kevin is holding ~15.6% cash after the 8/10 de-risking (three trigger exits, ADT, a GOOG tranche and an ORCL theme-cap trim) and wants deployment candidates daily rather than the usual one or two. For the runs of 8/11 through 8/14 inclusive:
+
+- Prospective ideas expands to 3 to 4 names.
+- The word cap rises from 300 to 400, and the extra 100 words are reserved for that section. Everything else stays as tight as before, and a fired trigger, a trim signal, a due tranche or a catalyst still outranks an idea when something has to be cut.
+- Run two screens, both against the Shibui database so they cost nothing against the 6 web-search cap, both excluding the AI/data-center theme:
+  1. **Lane B inflection screen.** Insider cluster of 2+ discretionary open-market buyers (tx_code P, not 10b5-1, not auto-plan) within 120 days totalling $400k+, AND operating margin expanding year over year, AND positive TTM free cash flow, AND current ratio above 1, AND Piotroski 5+.
+  2. **Results-up/price-down overreaction screen.** Positive EPS surprise in each of the last two reported quarters, revenue growing, ROIC above 10%, price down 20%+ over six months. This is the GWRE-shaped screen requested 2026-07-21 and first run 2026-08-10.
+- **Do NOT gate on percent off the 52-week high.** Tested 2026-08-10: in this market that filter selects almost perfectly for companies that cut guidance in the last month, and it returned four names that were then killed on their forward outlook (BSX on Lane A grounds, FISV, PODD, CHRW). Keep drawdown as a display column only. Dislocation is not a cause.
+- Each candidate names the lane it would enter and which sourcing leg is missing. Log every one to the Idea Ledger.
+- Reverts to 1 to 2 ideas and a 300-word cap after 2026-08-14 unless Kevin renews it.
+
 ## 3. Screen output format
 
 When presenting stock screen results, do NOT show multiples or metric tables. The screen filters already enforce his thresholds, so repeating the numbers is noise. Give each hit a one-line bull case and a one-line bear case. Why: Kevin said (2026-07-16) he decides better from a framed bull/bear tension than from a chart of numbers; passing the screen already certifies the quantitative gates.
