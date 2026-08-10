@@ -1,7 +1,7 @@
 ---
 type: holdings
 tags: [investing/process]
-updated: 2026-07-29
+updated: 2026-08-10
 ---
 
 # Holdings
@@ -14,28 +14,29 @@ What this note is for: my current book. The portfolio-fit workflow uses this to 
 
 > Updated 2026-07-23 (agent-logged; share counts ESTIMATED from ~$499 fills at 7/23 prices, reconcile with the attached Jul-23 Fidelity export, a full book reconcile is still owed). Sold ~$500 GOOG (Roth) and ~$500 ORCL (taxable) earlier; the ~$1,000 proceeds were redeployed the same day into ~$499 ADT (~72.3 sh at ~$6.90) and ~$499 RYAN (~12.7 sh at ~$39.29), both Lane B from the 7/23 insider-cluster screen, both starter-sized (~2.6%). ADT had a first-pass (dig-deeper); its stress-test is incomplete (maturity ladder owed). RYAN had only a first-pass-lite AND is Financials/insurance, so it breaches the elevated-risk regime (deep dive owed BEFORE buy per [[Philosophy]]). Both logged over objection; conviction source is the agent screen (borrowed). Third same-pattern screen-to-buy event after 7/2 and 7/16. Per the 2026-07-23 Checklist amendment, per-company one-liner theses are retired and "theses owed" is no longer tracked per name; buys now gate on the Checklist/lane system. Still process-outstanding on these two: RYAN's elevated-risk (financials) deep dive, owed before it clears the gate, and ADT's stress-test (debt maturity ladder).
 
-| Ticker | Company | Shares | Avg cost | Px (as dated per row) | Mkt $ | Wt % | Lane | Driver / theme | Circle |
-|---|---|---|---|---|---|---|---|---|---|
-| GOOG | Alphabet C | ~25.41 | 185.63 | 371.36 (7/16) | 9,435 | ~46.6% | A | Mega-cap tech, digital ads, AI/cloud | Edge? No (large-cap) |
-| ORCL | Oracle | ~29.93 | 114.80 | 127.20 (7/16) | 3,807 | ~18.8% | A | Enterprise software, AI/data-center capex | Adjacent (large-cap) |
-| GEHC | GE HealthCare | 12.145 | ~65.6 | 65.24 | 792 | 3.8% | B (insider cluster) | Medical imaging/equipment; hospital capex | In? (medtech) |
-| NBIS | Nebius Group A | 3.271 | 213.99 | 216.51 | 708 | 3.4% | B | AI cloud / GPU data-center infrastructure | Out? |
-| KMX | CarMax | 13.891 | 50.39 | 50.41 | 700 | 3.4% | B (insider cluster) | Used-car demand, auto credit | ? (fill in) |
-| VRTX | Vertex Pharma | 1.260 | 497.97 | 519.37 | 654 | 3.2% | A | Biotech; CF franchise, pipeline | ? (fill in) |
-| VEEV | Veeva Systems | 3.407 | 176.06 | 188.26 | 641 | 3.1% | A | Healthcare SaaS; pharma R&D/commercial spend | ? (fill in) |
-| CRS | Carpenter Technology | 1 | 240.82 | 603.20 | 603 | 2.9% | B | Specialty alloys; aerospace/defense demand | Out |
-| ZTS | Zoetis | 8.066 | 74.38 | 74.33 | 600 | 2.9% | A (dislocated quality) | Animal health; pet/vet spending | In (commercial pharma) |
-| XRAY | Dentsply Sirona | 52.071 | 10.54 | 11.16 | 581 | 2.8% | B (insider cluster 6/15) | Dental equipment/consumables; turnaround | ? (fill in) |
-| VSAT | Viasat | 5.181 | 86.85 | 84.91 | 440 | 2.1% | B | Satellite comms; defense + broadband | ? (fill in) |
-| OKLO | Oklo | 3.884 | 51.49 | 54.16 | 210 | 1.0% | B | Nuclear SMR; AI/data-center power demand | Out? |
-| IREN | IREN Ltd | 4.408 | 45.37 | 40.59 | 179 | 0.9% | B | Bitcoin mining / AI-HPC data centers | Out? |
-| QXO | QXO Inc | 3 | 24.00 | 16.23 | 49 | 0.2% | B | Building-products distribution; M&A roll-up (Jacobs) | Out |
-| PATK | Patrick Industries | ~5.91 | ~84.60 | 84.60 (7/16) | ~500 | ~2.5% | B (insider cluster 6/10) | RV/marine/MH components; consumer discretionary, rates | ? (fill in) |
-| NCLH | Norwegian Cruise | ~25.34 | ~19.73 | 19.73 (7/16) | ~500 | ~2.5% | B (insider cluster 6/02) | Cruise demand; leveraged consumer discretionary, rates | ? (fill in) |
-| ADT | ADT Inc | ~72.3 | ~6.90 | 6.90 (7/23) | ~499 | ~2.6% | B (insider cluster 5/08-5/29) | Home security/monitoring; recurring subscription, consumer | In? (recurring rev) |
-| RYAN | Ryan Specialty | ~12.7 | ~39.29 | 39.29 (7/23) | ~499 | ~2.6% | B (insider cluster 6/03-6/12) | Specialty insurance brokerage; hard-market fees, rates | ELEVATED-RISK (financials, deep dive owed) |
+> Updated 2026-08-10 (agent-logged from Kevin's report; fills are approximate, reconcile against the next Fidelity export). **Sold in full: NCLH, ZTS, OKLO**, closing all three fired triggers below. **Sold ~$1,100 GOOG**, executing tranche 1 of the Lane A cut plan (due 8/3, executed 8/10, seven days late). GOOG share count reduced by ~3.11 at the 8/7 close of 353.47. Proceeds ~$2,362 are in cash and are NOT to be redeployed the same week (rule added 2026-08-10). Entry dates confirmed by Kevin: VSAT 2026-06-30, VRTX 2026-06-30, CRS 2025-09-04. Book is now 15 names plus cash. Prices below are 2026-08-07 closes, the last session in the database at the time of the update.
 
-**Cash:** ~$0.30 net of pending activity. Fully deployed; no dry powder. **Total book:** ~$20,626.
+| Ticker | Company | Shares | Avg cost | Px (2026-08-07 close) | Mkt $ | Wt % | Lane | Driver / theme | Circle |
+|---|---|---|---|---|---|---|---|---|---|
+| GOOG | Alphabet C | ~22.30 | 185.63 | 353.47 | 7,883 | 36.1% | A | Mega-cap tech, digital ads, AI/cloud | Edge? No (large-cap) |
+| ORCL | Oracle | ~29.93 | 114.80 | 147.02 | 4,400 | 20.2% | A | Enterprise software, AI/data-center capex | Adjacent (large-cap) |
+| GEHC | GE HealthCare | 12.145 | ~65.6 | 71.77 | 872 | 4.0% | B (insider cluster) | Medical imaging/equipment; hospital capex | In? (medtech) |
+| KMX | CarMax | 13.891 | 50.39 | 58.18 | 808 | 3.7% | B (insider cluster) | Used-car demand, auto credit | ? (fill in) |
+| VEEV | Veeva Systems | 3.407 | 176.06 | 230.47 | 785 | 3.6% | A | Healthcare SaaS; pharma R&D/commercial spend | ? (fill in) |
+| XRAY | Dentsply Sirona | 52.071 | 10.54 | 12.12 | 631 | 2.9% | B (insider cluster 6/15) | Dental equipment/consumables; turnaround | ? (fill in) |
+| VRTX | Vertex Pharma | 1.260 | 497.97 | 496.07 | 625 | 2.9% | A | Biotech; CF franchise, pipeline | ? (fill in) |
+| NBIS | Nebius Group A | 3.271 | 213.99 | 187.97 | 615 | 2.8% | B | AI cloud / GPU data-center infrastructure | Out? |
+| CRS | Carpenter Technology | 1 | 240.82 | 570.66 | 571 | 2.6% | B | Specialty alloys; aerospace/defense demand | Out |
+| ADT | ADT Inc | ~72.3 | ~6.90 | 7.64 | 552 | 2.5% | B (insider cluster 5/08-5/29) | Home security/monitoring; recurring subscription, consumer | In? (recurring rev) |
+| RYAN | Ryan Specialty | ~12.7 | ~39.29 | 42.84 | 544 | 2.5% | B (insider cluster 6/03-6/12) | Specialty insurance brokerage; hard-market fees, rates | ELEVATED-RISK (financials, deep dive owed) |
+| PATK | Patrick Industries | ~5.91 | ~84.60 | 88.84 | 525 | 2.4% | B (insider cluster 6/10) | RV/marine/MH components; consumer discretionary, rates | ? (fill in) |
+| VSAT | Viasat | 5.181 | 86.85 | 80.38 | 416 | 1.9% | B | Satellite comms; defense + broadband | ? (fill in) |
+| IREN | IREN Ltd | 4.408 | 45.37 | 41.23 | 182 | 0.8% | B | Bitcoin mining / AI-HPC data centers | Out? |
+| QXO | QXO Inc | 3 | 24.00 | 16.16 | 48 | 0.2% | B | Building-products distribution; M&A roll-up (Jacobs) | Out |
+
+**Cash:** ~$2,362 (10.8%), from the 8/10 sales. First real dry powder since 7/02. No cash ceiling is set; see [[Portfolio Strategy]]. **Total book:** ~$21,820.
+
+**Exited 2026-08-10:** NCLH (~$488, thesis break), ZTS (~$586, derm trigger), OKLO (~$188, dilutive-raise trigger). All three exits were the pre-registered rule firing, not a price call.
 
 **Accounts:** Roth IRA holds GOOG, KMX, NBIS, most of GEHC (9.14 sh), and a VRTX sliver. Taxable Individual holds everything else plus 3.005 sh of GEHC.
 
@@ -53,14 +54,11 @@ One pre-registered, event-based trigger per name. The daily brief checks news ag
 - VRTX: material CF-franchise competitive/pricing threat, or a lead pipeline program fails.
 - VEEV: guidance cut tied to pharma R&D spend, or seat/logo growth stalls.
 - CRS: aerospace build-rate cuts at Boeing/Airbus, or specialty-alloy pricing rolls over.
-- ZTS: sustained vet-visit volume declines, or a competitive launch against a key franchise (derm/parasiticides).
 - XRAY: turnaround margin milestones missed, or the 6/15 insider cluster reverses.
 - VSAT: ViaSat-3 technical setback, major defense contract loss, or refinancing stress.
-- OKLO: NRC licensing setback or timeline slip, or a dilutive raise.
 - IREN: no new AI/HPC contract wins in two quarters while BTC mining economics deteriorate.
 - QXO: Brad Jacobs steps back, or a large acquisition at a stretched price.
 - PATK (DRAFT 2026-07-16): the insider cluster reverses to selling, or RV/marine OEM production guidance cuts for two straight quarters.
-- NCLH (DRAFT 2026-07-16): booking curve or onboard-spend guidance cut, or a refinancing that raises rates materially / dilutes equity.
 - ADT (DRAFT 2026-07-23): interest coverage falls below ~2.5x, a debt maturity cannot be refinanced at a survivable rate, or the insider cluster reverses to selling.
 - RYAN (DRAFT 2026-07-23): organic revenue growth decelerates below high-single-digits for two straight quarters, the insider cluster reverses, or leverage rises on debt-funded M&A.
 
@@ -78,46 +76,45 @@ Entry dates marked (assumed) need confirming against the Fidelity export.
 | GEHC | B | 2026-07-02 | **82.00** (15.3x FY27E EPS 5.36) | 2028-01 | Between street 79.33 and 52wk high 89.77. Piotroski 2, still impaired; harvest thesis is margin inflection, not compounding. |
 | KMX | B | 2026-07-02 | **62.00** (17.7x normalized EPS ~3.50) | 2028-01 | Insider-cluster bet. **Only ~5% above spot by design.** Street target 51.31 sits BELOW spot; FY26 EPS 1.68 vs 3.21 prior; stock at 94% of 52wk high. Price has worked without earnings recovering, so the gap to fair value is mostly closed. Expect this to fire first. |
 | PATK | B | 2026-07-16 | **118.00** (~15x mid-cycle EPS ~7.85) | 2028-01 | Insider cluster 6/10. Cyclical trough: rev 3.95B vs 4.88B 2022 peak, EPS 3.90 vs 8.99 peak. Street 116.90 corroborates. 2022 high 148.50 was a cycle blowoff, not a base case. |
-| NCLH | B | 2026-07-16 | **26.00** (12.9x FY27E EPS 2.02) | 2028-01 | Insider cluster 6/02. Pre-COVID EPS 4.25-4.30 REJECTED as anchor: share count roughly tripled in the 2020-21 raises, so that EPS is unreachable. Set just under the 52wk high 27.18. FCF/share negative on newbuild capex; balance sheet is the risk. |
 | ADT | B | 2026-07-23 | **9.25** (9.5x FY27E EPS 0.97) | 2028-01 | Insider cluster 5/08-5/29. Modestly above the 3yr high 8.94; FCF/share 1.97 is a ~27% FCF yield, so the discount is leverage, not operations. Stress-test (debt maturity ladder) still owed and this target does not substitute for it. |
 | RYAN | B | 2026-07-23 | **58.00** (24.7x FY27E EPS 2.35) | 2028-01 | Insider cluster 6/03-6/12. Trailing GAAP P/E 111.8 is distorted by the Up-C structure and amortization, so operating/forward EPS used instead. Re-rate toward the 52wk high 66.25 is the bet. **ELEVATED-RISK (financials) deep dive still owed; this target does not clear that gate.** |
-| CRS | B | UNCONFIRMED (pre-2026-07) | **625.00** (prior-cycle high 625.99) | 2028-01 | Lane assigned 2026-07-29. Clears Lane A numbers today (ROIC 19.3%, Piotroski 8) but on PEAK-cycle aerospace margins, circle marked Out, conviction borrowed (Perplexity screen), and street target 571 is at spot. Lane B because active harvest is the right treatment for a cyclical at peak that he cannot explain. Up ~133% on cost. |
+| CRS | B | 2025-09-04 (confirmed 8/10) | **625.00** (prior-cycle high 625.99) | 2028-01 | Lane assigned 2026-07-29. Clears Lane A numbers today (ROIC 19.3%, Piotroski 8) but on PEAK-cycle aerospace margins, circle marked Out, conviction borrowed (Perplexity screen), and street target 571 is at spot. Lane B because active harvest is the right treatment for a cyclical at peak that he cannot explain. Up ~133% on cost. |
 | NBIS | B | 2026-07-02 | **240.00** (street 244.21) | 2028-01 | Lane assigned 2026-07-29. Fits NEITHER lane cleanly: not a compounder (ROIC -4.7%, losses widening, FY27E EPS -4.87), not an insider-cluster turnaround. Lane B is a risk treatment, not a thesis. No-thesis 7/2 buy inside a theme at 2x its cap. Target rests on street consensus, the weakest sanctioned anchor, because no earnings anchor exists. |
-| VSAT | B | UNCONFIRMED (pre-2026-07) | **92.00** (prior-cycle high 93.03, street 94.56) | 2028-01 | Lane assigned 2026-07-29. Genuine turnaround/special situation: ROIC -0.4%, D/E 1.48, FY27E EPS falling 1.09 to 0.30. Refinancing stress is already a pre-registered trigger. |
-| OKLO | B | UNCONFIRMED (pre-2026-07) | **86.00** (street 86.50) | 2028-01 | Lane assigned 2026-07-29. Pre-revenue: zero revenue, ROIC -8.6%, Piotroski 3. **Arguably trips the Philosophy refuse-to-own line on pure-narrative stocks with no credible path to cash generation.** No earnings exist to multiply, so the target is street consensus only. Real discipline here is the stop and the 0.8% size, not this number. 3yr high 193.84 was a bubble peak, rejected as anchor. |
-| IREN | B | UNCONFIRMED (pre-2026-07) | **72.00** (just under prior-cycle high 76.87) | 2028-01 | Lane assigned 2026-07-29. **Gross margin is NEGATIVE (-11.3%)**, net margin -171%, D/E 1.49. Selling below cost. Street target 80.93 exceeds the 3yr high and was rejected as too aggressive. Same weak-anchor caveat as OKLO. |
+| VSAT | B | 2026-06-30 (confirmed 8/10) | **92.00** (prior-cycle high 93.03, street 94.56) | 2028-01 | Lane assigned 2026-07-29. Genuine turnaround/special situation: ROIC -0.4%, D/E 1.48, FY27E EPS falling 1.09 to 0.30. Refinancing stress is already a pre-registered trigger. |
+| IREN | B | UNCONFIRMED (pre-2026-07) | **72.00** (just under prior-cycle high 76.87) | 2028-01 | Lane assigned 2026-07-29. **Gross margin is NEGATIVE (-11.3%)**, net margin -171%, D/E 1.49. Selling below cost. Street target 80.93 exceeds the 3yr high and was rejected as too aggressive. Weak anchor: no earnings exist to multiply, so the real discipline is size, not this number. |
 | QXO | B | (assumed 2026 entry) | **19.00** (25x FY27E EPS 0.75), DORMANT | n/a | 0.2% of book, immaterial; monitor only if resized. Target recorded for completeness and NOT evaluated by the daily brief until the position is resized. Database 3yr high of 290 is a pre-2024 shell/reverse-split artifact, not a real prior-cycle high. |
 
 Thesis-completion and time-stop are qualitative and checked at earnings and the weekly retest, not daily.
 
-**Every holding now carries a lane as of 2026-07-29. There are no unassigned names left.** Lane A: GOOG, ORCL, VRTX, VEEV, ZTS. Lane B: everything else. The provisional "A?" and "B?" marks were resolved to A and B. Lane assignments for the seven previously-blank names were agent-set at Kevin's instruction and, like the valuation targets, are **borrowed conviction, flagged for override**.
+**Every holding carries a lane.** Lane A: GOOG, ORCL, VRTX, VEEV (ZTS exited 8/10). Lane B: everything else. The provisional "A?" and "B?" marks were resolved to A and B. Lane assignments for the seven previously-blank names were agent-set at Kevin's instruction and, like the valuation targets, are **borrowed conviction, flagged for override**.
 
-Four of the newly assigned names (CRS, VSAT, OKLO, IREN) have UNCONFIRMED entry dates because they predate the 2026-07-02 export and no entry date was ever recorded. Per the monitor rules their ATR stop is uncomputable and no stop signal fires. **The valuation-target leg does not depend on entry date and IS live for them.** Confirming those four dates against a Fidelity export turns their stops on.
+**Entry dates confirmed 2026-08-10** for CRS (2025-09-04) and VSAT (2026-06-30); OKLO was exited the same day. Both stops are now live and computed: CRS stop 533.59 against a 570.66 close, VSAT stop 70.57 against an 80.38 close, neither crossed nor within 1 ATR. **IREN remains UNCONFIRMED** and XRAY's 2026-07-01 is still marked (assumed), so those two stay off the stop monitor; their valuation-target leg is live regardless.
 
 ## Lane A cut/trim plan (agent-set 2026-07-29 at Kevin's instruction; borrowed conviction, override freely)
 
 Lane A names do not get ATR stops or valuation harvests. They cut for one of two reasons only: the 20%-at-market ceiling, or a thesis break. Only the ceiling leg is live today.
 
-**GOOG, scheduled trim to the ceiling.** At the 2026-07-28 close GOOG is ~$8,451 at market, 41.7% of a ~$20,287 book. The 20% line is ~$4,057, so the excess is **~$4,394**. The 7/16 and 7/23 trims were ~$500 token installments; at that size closing the gap takes nine more, which is inertia wearing discipline's clothes.
+**GOOG, scheduled trim to the ceiling.** **Tranche 1 (~$1,100) EXECUTED 2026-08-10**, seven days after its 8/3 due date. Recomputed at the 2026-08-07 close: GOOG ~$7,883, 36.1% of a ~$21,820 book, 20% line ~$4,364, so the remaining excess is **~$3,519**. Three tranches of ~$1,100 (Sep, Oct, Nov) total $3,300 and now very nearly close it, where four tranches did not before this sale. Recompute again before tranche 2.
 
-- **Size:** four tranches of ~$1,100, one per month, Aug through Nov 2026. This reaches the line without a single large print.
+- **Size:** four tranches of ~$1,100, one per month, Aug through Nov 2026. Tranche 1 done 8/10; **tranche 2 due 2026-09-01**.
 - **Trigger:** a calendar date, not a price. Execute on the first trading day of each month regardless of where GOOG trades. This is a risk action at a preset line per [[Portfolio Strategy]], so a price condition would turn it back into a market call.
 - **Account order:** sell from the Roth first. Avg cost is 185.63 against a 332.60 close, so the taxable lot carries a large embedded gain and the Roth leg is tax-free. Move to taxable only once the Roth GOOG is exhausted.
-- **Proceeds:** do NOT redeploy into the AI/data-center theme, which is at ~63.6% against a 30% hard cap. Cash, or a name outside the theme that clears the Checklist.
+- **Proceeds:** do NOT redeploy into the AI/data-center theme, which is at ~59.9% against a 30% hard cap. Cash, or a name outside the theme that clears the Checklist. **Added 2026-08-10: proceeds are not spendable in the week they arrive.**
 - **Recompute the excess each month** before the tranche; a falling price shrinks it and may end the plan early.
 
-**ORCL, no trim owed.** 17.7% at market, under the 20% ceiling. It re-enters the plan only on a breach or a thesis break. Separately, the 7/16 decision to hold the remainder of a BBB- credit still has no written reasoning behind it; that is a writing task, not a trim.
+**ORCL, now in breach.** 20.2% at market as of the 2026-08-07 close, its first breach of the 20% ceiling, about $36 over. The overage is trivial in dollars but the ceiling is a preset line, so it owes either a token trim or a written note that it is inside rounding and will be checked again next run. Separately, the 7/16 decision to hold the remainder of a BBB- credit still has no written reasoning behind it; that is a writing task, not a trim.
 
 ## Open trigger decisions (agent-maintained log; close items by writing the decision)
 
 - ORCL: FIRED 2026-07-16. S&P downgrade to BBB- tied to debt-funded AI capex (pre-registered trigger matched exactly). Status: CLOSED 2026-07-16. Kevin's decision: trim (~$500 sold), hold the remainder at ~18.8% weight, now under the 20% ceiling. Note: the hold-remainder leg is a de facto re-underwrite of a BBB- credit with a ~$42B projected FY27 FCF deficit; no written reasoning exists for it yet.
 - GOOG: PLAUSIBLY FIRED 2026-07-16. EU binding instructions to open Android and search data to AI rivals; adverse-remedy trigger arguably met, market shrugged. Written decision owed: re-underwrite or dismiss with one line. Status: OPEN. (A ~$500 cap-discipline trim was logged 2026-07-16; it does not address this trigger.)
-- NCLH: FIRED 2026-07-30, logged 2026-08-10. FY26 net yield guidance cut to about -5% from flat-to-down; the booking/onboard-spend guidance-cut prong. The refinancing/dilution prong did NOT fire. Went uncaught for seven sessions (the 8/4, 8/6 and 8/7 daily runs died) and was first surfaced by the 2026-08-09 weekly retest, which also calls the cycle-recovery thesis BROKEN, a full exit under [[Sell Discipline]]. Status: OPEN.
-- ZTS: FIRED 2026-08-05, logged 2026-08-10. Key dermatology sales -16% to $395M and FY26 organic revenue guided to -3%/-1%; the competitive-launch-against-a-key-franchise (derm) prong. The sustained-vet-visit-volume-decline prong did NOT fire. Status: OPEN.
-- OKLO: FIRED 2026-08-07, logged 2026-08-10. $1.9B of 2026 ATM equity disclosed with Q2; the dilutive-raise prong. The NRC-licensing-setback/timeline-slip prong did NOT fire, licensing is clean. Note the stock rose 14.8% that session on the revenue beat and first criticality, which is what made the raise easy to miss. Status: OPEN.
+- NCLH: FIRED 2026-07-30, logged 2026-08-10. FY26 net yield guidance cut to about -5% from flat-to-down; the booking/onboard-spend guidance-cut prong. The refinancing/dilution prong did NOT fire. Went uncaught for seven sessions (the 8/4, 8/6 and 8/7 daily runs died) and was first surfaced by the 2026-08-09 weekly retest, which also calls the cycle-recovery thesis BROKEN, a full exit under [[Sell Discipline]]. Status: **CLOSED 2026-08-10. Kevin's decision: full exit**, ~$488, per the Sell Discipline rule that a thesis break is an exit and not a tranche.
+- ZTS: FIRED 2026-08-05, logged 2026-08-10. Key dermatology sales -16% to $395M and FY26 organic revenue guided to -3%/-1%; the competitive-launch-against-a-key-franchise (derm) prong. The sustained-vet-visit-volume-decline prong did NOT fire. Status: **CLOSED 2026-08-10. Kevin's decision: full exit**, ~$586. Note this was a Lane A name exited on a trigger rather than trimmed at a ceiling, so the decision reads as a thesis break on the derm franchise.
+- OKLO: FIRED 2026-08-07, logged 2026-08-10. $1.9B of 2026 ATM equity disclosed with Q2; the dilutive-raise prong. The NRC-licensing-setback/timeline-slip prong did NOT fire, licensing is clean. Note the stock rose 14.8% that session on the revenue beat and first criticality, which is what made the raise easy to miss. Status: **CLOSED 2026-08-10. Kevin's decision: full exit**, ~$188. Consistent with the standing note that OKLO arguably tripped the Philosophy refuse-to-own line on pure-narrative names.
 
-**Known concentrations (vs the Tight caps, recomputed 2026-07-29 from shares x 2026-07-28 closes; book ~$20,287):**
-- GOOG ~41.7%, still ~2.1x the 20% single-name hard-trim ceiling; excess is ~$4,400 at market. ORCL ~17.7%, under the ceiling.
-- AI / data-center capex theme: GOOG + ORCL + NBIS + OKLO + IREN = ~63.6% vs the 30% hard cap. Direction: better, still more than double the cap.
-- Breadth: 14 names above 2% vs the floor of 8 (VSAT ~1.9% now sits just below the line). Correlated pair: PATK + NCLH are both leveraged consumer-discretionary/rates bets (~5.2% combined); not a named theme yet, watch it. KMX shares that rates/consumer-credit driver and would make it ~9.2% if grouped.
+**Known concentrations (vs the Tight caps, recomputed 2026-08-10 from shares x 2026-08-07 closes; book ~$21,820 including ~$2,362 cash):**
+- GOOG ~36.1%, still ~1.8x the 20% single-name hard-trim ceiling; excess is ~$3,519 at market, from ~$4,619 before the 8/10 tranche. ORCL ~20.2%, a first breach by ~$36.
+- AI / data-center capex theme: GOOG + ORCL + NBIS + IREN = ~59.9% vs the 30% hard cap, from ~65.8%. OKLO left the group on the 8/10 exit. Still roughly double the cap, and **the arithmetic has not changed: running the GOOG plan to completion and exiting NBIS and IREN entirely still leaves the theme near 40%, because GOOG and ORCL alone are ~56%.** Either the cap forces GOOG well below its own single-name ceiling, or the theme definition needs a written revision. That decision is unmade.
+- Breadth: 12 names above 2% vs the floor of 8, from 14 (the three 8/10 exits). VSAT ~1.9%, IREN ~0.8% and QXO ~0.2% sit below the line. Correlated group: PATK + KMX + ADT are leveraged consumer-discretionary/rates bets, ~8.6% combined; NCLH left that group on 8/10. Not a named theme yet, watch it.
+- Healthcare is ~13.4% across GEHC, VEEV, XRAY and VRTX, on genuinely different drivers, so not one theme. But GEHC plus any second medtech name would share a hospital-capex and procedure-volume driver; check that before a second medtech buy, not after.
 - Per-company one-liner theses retired 2026-07-23 (Kevin's call); buys gate on the Checklist/lane system instead. The per-name "thesis owed" counter is dropped. Two system items remain outstanding: RYAN's elevated-risk (financials) deep dive and ADT's stress-test maturity ladder.
