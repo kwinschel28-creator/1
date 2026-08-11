@@ -46,8 +46,8 @@ How to log a new idea: append a row with the anchor close on the surfacing date,
 | 2026-08-10 | TKO | INS | NA | no | 186.56 | 2026-08-07 | watchlist | n/a | n/a | Piotroski 8, net debt/FCF 2.0x, rev +18.2%, best balance sheet on the Lane B screen. But margin flat 27.5 to 27.9, so no inflection, and only 17% off high |
 | 2026-08-11 | PLNT | INS | SENT | no | 48.96 | 2026-08-10 | first-pass | n/a | n/a | Clears both 8/11 screens: 2 open-market buyers ~$479k, Piotroski 5, op margin 33.9% vs 30.0% y/y, ROIC 13.2%, two EPS beats, -47% in six months. Missing leg: in-circle |
 | 2026-08-11 | SITE | INS | SENT | no | 99.41 | 2026-08-10 | first-pass | n/a | n/a | 2 buyers ~$1.06M through 8/4, Piotroski 7, current ratio 2.3, 41% off six-month high. Missing leg: the inflection, op margin 12.9% vs 12.8% is flat |
-| 2026-08-11 | LII | QD | SENT | no | 423.28 | 2026-08-10 | first-pass | n/a | n/a | Lane A candidate: ROIC 25.8%, Piotroski 6, two EPS beats, revenue growing, -24% in six months. Missing leg: no insider cluster |
-| 2026-08-11 | DINO | INS | NA | no | 85.22 | 2026-08-10 | first-pass | n/a | n/a | Energy diversifier: Piotroski 9, 2 buyers ~$1.14M, op margin 11.2% vs 4.1% y/y. Missing leg: dislocation, only 10% off its high |
+| 2026-08-11 | LII | QD | SENT | no | 423.28 | 2026-08-10 | watchlist (Kevin interested 8/11) | n/a | n/a | Lane A candidate: ROIC 25.8%, Piotroski 6, two EPS beats, revenue growing, -24% in six months. Missing leg: no insider cluster. Kevin flagged it as a name he likes 8/11; no first-pass done, and LII shares a housing/rates driver with PATK |
+| 2026-08-11 | DINO | INS | NA | no | 85.22 | 2026-08-10 | watchlist (Kevin interested 8/11) | n/a | n/a | Energy diversifier: Piotroski 9, 2 buyers ~$1.14M, op margin 11.2% vs 4.1% y/y. Missing leg: dislocation, only 10% off its high. Kevin flagged it as a name he likes 8/11; no first-pass done. First energy name and the cleanest diversifier away from the 55% AI theme |
 
 ## Closed / passed
 
@@ -66,6 +66,8 @@ How to log a new idea: append a row with the anchor close on the surfacing date,
   - Inside INS the discriminator was health/circle, not the insider signal alone: winners were Piotroski 4+ and in-circle (XRAY, VRNS); the one laggard (GEHC) was Piotroski 2.
   - Execution gap: the 3 best names after XRAY (GWRE, VRNS, ADSK) were left on watchlist; the names actually bought (VEEV, GEHC, VRTX) trailed the ones skipped.
   - Caveat: 3 weeks, n=13, price-return only. Treat as a baseline to track forward, not a proven edge.
+
+**2026-08-11 note.** XRAY, the ledger's best call (+26.9% at the 7/20 re-score), round-tripped to +10.6% on cost and Kevin decided a full exit on 8/11 after the ATR stop re-fired. Worth carrying into the 8/21 review: the entry signal was right and the exit rule was the part that never got written down. Of the four ideas surfaced 8/11, Kevin picked LII and DINO, both from the non-insider or non-dislocated legs of the stack, and passed on PLNT and SITE, which cleared more of the sourcing legs. That is the second time the paying-signal stack and his preference have pointed at different names; if it happens again, the stack or the preference is wrong and the ledger should say which.
 
 _Next review: 2026-08-21._
 
