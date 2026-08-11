@@ -26,7 +26,7 @@ How to log a new idea: append a row with the anchor close on the surfacing date,
 
 | Proposed | Ticker | Bucket | Cause | In-circle | Anchor $ | Anchor date | Action | Last re-score | Since | Note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-06-30 | XRAY | INS | SENT | yes | 10.61 | 2026-06-30 | bought | 13.46 @ 07-20 | **+26.9%** | 9-director cluster into a falling stock; cleanest signal call |
+| 2026-06-30 | XRAY | INS | SENT | yes | 10.61 | 2026-06-30 | bought, **EXITED 2026-08-11 at 11.745** | 11.745 @ 08-11 | **+10.7% vs anchor** | 9-director cluster into a falling stock; cleanest signal call. Peaked 14.27, round-tripped, full exit on a re-fired ATR stop. Entry signal was right; the give-back is an exit-rule question, not a sourcing question |
 | 2026-06-30 | GWRE | QD | SENT | yes | 123.05 | 2026-06-30 | watchlist | 149.19 @ 07-20 | **+21.2%** | fell on earnings despite raised guidance; overreaction setup |
 | 2026-06-30 | VRNS | INS | SENT | yes | 41.96 | 2026-06-30 | watchlist | 47.45 @ 07-20 | +13.1% | SaaS, already recovering vs SMA200 at surface |
 | 2026-06-30 | ADSK | INS | SENT | yes | 194.42 | 2026-06-30 | watchlist | 217.80 @ 07-20 | +12.0% | routed as Lane A quality-on-dislocation |
@@ -44,10 +44,10 @@ How to log a new idea: append a row with the anchor close on the surfacing date,
 | 2026-08-10 | ISRG | QD | MACRO | yes | 378.81 | 2026-08-07 | **bought 8/10, $600, 2.75%** | n/a | n/a | Only candidate that did NOT cut guidance; held 13.5-15.5% procedure growth, fell for not raising. ROIC 16.1%, zero debt, rev +18.5%. Cause is ACA credit expiry deferring elective procedures. PE 42.7 vs 5yr median 70.4. Kevin's 3-question check: Q1/Q2 pass, Q3 fails on wrong procedure mix |
 | 2026-08-10 | TSCO | INS | FUND | no | 34.56 | 2026-08-07 | watchlist | n/a | n/a | Insiders bought 8/4 after the cut, gross margin holding. But guidance cut, LT framework withdrawn, ROIC 11.8% fails Lane A gate |
 | 2026-08-10 | TKO | INS | NA | no | 186.56 | 2026-08-07 | watchlist | n/a | n/a | Piotroski 8, net debt/FCF 2.0x, rev +18.2%, best balance sheet on the Lane B screen. But margin flat 27.5 to 27.9, so no inflection, and only 17% off high |
-| 2026-08-11 | PLNT | INS | SENT | no | 48.96 | 2026-08-10 | first-pass | n/a | n/a | Clears both 8/11 screens: 2 open-market buyers ~$479k, Piotroski 5, op margin 33.9% vs 30.0% y/y, ROIC 13.2%, two EPS beats, -47% in six months. Missing leg: in-circle |
-| 2026-08-11 | SITE | INS | SENT | no | 99.41 | 2026-08-10 | first-pass | n/a | n/a | 2 buyers ~$1.06M through 8/4, Piotroski 7, current ratio 2.3, 41% off six-month high. Missing leg: the inflection, op margin 12.9% vs 12.8% is flat |
-| 2026-08-11 | LII | QD | SENT | no | 423.28 | 2026-08-10 | watchlist (Kevin interested 8/11) | n/a | n/a | Lane A candidate: ROIC 25.8%, Piotroski 6, two EPS beats, revenue growing, -24% in six months. Missing leg: no insider cluster. Kevin flagged it as a name he likes 8/11; no first-pass done, and LII shares a housing/rates driver with PATK |
-| 2026-08-11 | DINO | INS | NA | no | 85.22 | 2026-08-10 | watchlist (Kevin interested 8/11) | n/a | n/a | Energy diversifier: Piotroski 9, 2 buyers ~$1.14M, op margin 11.2% vs 4.1% y/y. Missing leg: dislocation, only 10% off its high. Kevin flagged it as a name he likes 8/11; no first-pass done. First energy name and the cleanest diversifier away from the 55% AI theme |
+| 2026-08-11 | PLNT | INS | SENT | no | 48.96 | 2026-08-10 | first-pass | n/a | n/a | PASSED by Kevin 2026-08-11: "trouble seeing PLNT's membership growing." Clears both 8/11 screens: 2 open-market buyers ~$479k, Piotroski 5, op margin 33.9% vs 30.0% y/y, ROIC 13.2%, two EPS beats, -47% in six months. Missing leg: in-circle |
+| 2026-08-11 | SITE | INS | SENT | no | 99.41 | 2026-08-10 | first-pass | n/a | n/a | PASSED by Kevin 2026-08-11: "trouble seeing SITE's business model growing." 2 buyers ~$1.06M through 8/4, Piotroski 7, current ratio 2.3, 41% off six-month high. Missing leg: the inflection, op margin 12.9% vs 12.8% is flat |
+| 2026-08-11 | LII | QD | SENT | no | 423.28 | 2026-08-10 | watchlist (Kevin interested 8/11) | n/a | n/a | Lane A candidate: ROIC 25.8%, Piotroski 6, two EPS beats, revenue growing, -24% in six months. Missing leg: no insider cluster. Kevin picked it 8/11, reason given: "fits current trends of industrials/energy" (sector-trend reasoning, flagged as theme-as-thesis). No first-pass done. Shares a housing/rates driver with PATK |
+| 2026-08-11 | DINO | INS | NA | no | 85.22 | 2026-08-10 | watchlist (Kevin interested 8/11) | n/a | n/a | Energy diversifier: Piotroski 9, 2 buyers ~$1.14M, op margin 11.2% vs 4.1% y/y. Missing leg: dislocation, only 10% off its high. Kevin picked it 8/11, reason given: "fits current trends of industrials/energy" (sector-trend reasoning, flagged as theme-as-thesis). No first-pass done. First energy name and the cleanest diversifier away from the 55% AI theme |
 
 ## Closed / passed
 
@@ -68,6 +68,8 @@ How to log a new idea: append a row with the anchor close on the surfacing date,
   - Caveat: 3 weeks, n=13, price-return only. Treat as a baseline to track forward, not a proven edge.
 
 **2026-08-11 note.** XRAY, the ledger's best call (+26.9% at the 7/20 re-score), round-tripped to +10.6% on cost and Kevin decided a full exit on 8/11 after the ATR stop re-fired. Worth carrying into the 8/21 review: the entry signal was right and the exit rule was the part that never got written down. Of the four ideas surfaced 8/11, Kevin picked LII and DINO, both from the non-insider or non-dislocated legs of the stack, and passed on PLNT and SITE, which cleared more of the sourcing legs. That is the second time the paying-signal stack and his preference have pointed at different names; if it happens again, the stack or the preference is wrong and the ledger should say which.
+
+**2026-08-11 addendum.** Kevin's reasons are now on the record and they split cleanly. PLNT and SITE were passed on business-quality grounds (membership growth, business-model growth), which is exactly the judgment the first-pass exists to apply, though neither was researched before the call. LII and DINO were picked because they "fit current trends of industrials/energy," which is sector momentum, not a company reason, and is the bias #3 pattern. Track whether the trend-picked names or the stack-cleared names do better; that is the cleanest natural experiment this ledger has produced so far.
 
 _Next review: 2026-08-21._
 
