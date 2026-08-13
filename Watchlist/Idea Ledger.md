@@ -78,6 +78,7 @@ How to log a new idea: append a row with the anchor close on the surfacing date,
 | 2026-08-13 | TKO | INS | SENT | no | 195.14 | 2026-08-12 | watchlist | n/a | n/a | 2 buyers $3.0M but stale (May only), Piotroski 8, 14% off high. Sports-media rights out of circle |
 | 2026-08-13 | AZO | QD | SENT | yes | 3045.87 | 2026-08-12 | first-pass | n/a | n/a | Overreaction screen: two straight beats, ROIC 29.5%, Piotroski 7, 21% off high, no cluster. Lane A dislocated-quality shape, counter-cyclical autoparts |
 | 2026-08-13 | LOW | QD | SENT | yes | 215.97 | 2026-08-12 | watchlist | n/a | n/a | Two straight beats, ROIC 22.8%, Piotroski 6, 25% off high on rates. Overlaps the PATK/KMX consumer-rates group |
+| 2026-08-13 | TPL | QD | SENT | no | 342.77 | 2026-08-12 | watchlist | n/a | n/a | Overreaction screen: rev +31%, op margin 78%, near-zero debt, Piotroski 7, 21% off high. Fresh officer buy 8/11 ($0.51M/2 buyers) but $1.27M discretionary selling alongside. Royalty model, oil-price torque; energy diversifier off the 51% AI theme |
 
 ## Re-score log
 
@@ -101,6 +102,8 @@ Two findings worth keeping:
 1. **None of the four has a single insider purchase in twelve months.** Combined: 0 buyers, 16 sellers, ~$23.3M sold. Every one is a QD name, and the ledger baseline says INS is the primary engine and Kevin's actual edge while QD is secondary. A shortlist with zero insider buying is a shortlist with his edge switched off. Worth asking whether the winner-attribution screen should carry an insider-activity gate, or at minimum a display column, so this is visible at screen time rather than at first-pass time.
 
 2. **The "revenue growing" filter has a defect and it fired on its first live use.** WING passed at +6.4% while domestic same-store sales fell 7.5%; the growth was 102 new franchise units. For franchisors and unit-expansion models, reported revenue is not demand. Gate on same-store or organic growth instead, or flag the model type for a manual check. Adding to [[Sourcing Rules]].
+
+**2026-08-13 sourcing note (both-sides insider check, run after the 8/11 defect log).** Counting sells alongside buys re-ranked the whole board. GSHD, the biggest buy cluster on the screen ($12.5M/8 buyers), shows $26.7M of discretionary selling against it plus debt up 142% in 8 quarters: downgraded, and the financials gate stands. MGY: $0.33M bought vs $10.85M sold, downgraded. AZO: $0.49M bought vs $4.68M sold with ROIC decaying 40.5% to 29.5% over 8 quarters, the LII shape, downgraded. Clean files: JKHY (2 buyers, ZERO sellers, ROIC rising 18.7% to 22.7%, debt falling) and ELAN (4 buyers, 3 officers, ZERO sellers, op margin -2.1% to +8.0%). TPL mixed. Standing rule going forward: no insider-sourced idea is presented on buys alone; the both-sides net and the ROIC trajectory come with it.
 
 _Next review: 2026-08-21._
 
