@@ -84,6 +84,8 @@ Five recurring failure modes to re-check on future runs:
 
 Chosen fixes: hard fail on ATR (no data source, no trim signal, ever), full process files in the repo, and each brief committed to `briefs/YYYY-MM-DD.md` so the next run has real prior-run memory instead of guessing at deltas.
 
+**2026-08-13 run notes.** (1) The 8/11 and 8/12 runs died; no briefs exist for those dates and dead runs cannot notify. Kevin should check the routine's run history in the web UI. (2) The 8/13 run was branch-restricted and could not push to main directly; Kevin merged same-day. The routine's repo attachment needs "Allow unrestricted branch pushes" enabled or every brief lands on a side branch and the next run reads stale memory. (3) `Daily Brief Prompt 2026-08-13.md` supersedes the 7/29 file: it removes the hardcoded entry-date exclusions (stale since the 8/10 confirmations, and they would have suppressed the CRS stop signal that legitimately fired 8/13) and the hardcoded lane roster (still listed ZTS). NOT LIVE until Kevin pastes it into the routine's Instructions box.
+
 **Borrowed-conviction watch, added 2026-07-29.** On this date Kevin instructed the agent to set the Lane B valuation targets and the GOOG cut/trim plan itself ("I don't have time for these"). Those numbers are now in `Holdings.md` flagged as borrowed conviction, and they mechanically fire TRIM SIGNAL blocks. This is exactly the pattern section 1 warns about: the agent becoming his next borrowed-conviction source. When a target fires, name in one clause that the target is agent-set so he re-checks the anchor before acting.
 
 ## 7. Stock Research Agent project

@@ -57,6 +57,12 @@ How to log a new idea: append a row with the anchor close on the surfacing date,
 | 2026-08-13 | SITE | INS | SENT | ? | 96.60 | 2026-08-12 | first-pass | n/a | n/a | 2 buyers $1.1M, Piotroski 7, current ratio 2.3, 43% off high, industrial distribution. Missing leg: margin expansion marginal (12.8% to 12.9%) |
 | 2026-08-13 | DINO | INS | SENT | ? | 87.93 | 2026-08-12 | first-pass | n/a | n/a | 2 buyers $2.4M, Piotroski 9, op margin 4.1% to 11.2%, refining. Missing leg: no dislocation, only 7% off high |
 | 2026-08-13 | GSHD | INS | SENT | no | 65.55 | 2026-08-12 | first-pass (repeat 8/10) | n/a | n/a | Biggest cluster on the screen: 7 buyers $12.2M, op margin 16.7% to 23.5%, 28% off high, Piotroski 6. Financials, so the Philosophy elevated-risk deep dive gates it; also doubles RYAN's insurance-brokerage driver |
+| 2026-08-13 | OPCH | INS | GUID-CUT | yes | 23.84 | 2026-08-12 | pass (guidance cut) | n/a | n/a | 4 buyers 5/4-5/7 at the Q1 cut; Stelara LOE is structural, revenue guide cut $5.9B to $5.73B, securities-fraud probes open. EBITDA guide held, but this is the FISV shape: dislocation caused by a cut |
+| 2026-08-13 | ELAN | INS | SENT | yes | 22.13 | 2026-08-12 | watchlist | n/a | n/a | 4 buyers thru 8/7 (3 officers), Piotroski 6, 21% off high, animal health. Healthcare already ~18.8% vs the 20% soft flag; a starter breaches it |
+| 2026-08-13 | FRPT | INS | SENT | ? | 72.31 | 2026-08-12 | watchlist | n/a | n/a | 6 director buyers but $460k total and zero officers; thin dollars for a $3.6B company. Staples diversifier if the cluster deepens |
+| 2026-08-13 | TKO | INS | SENT | no | 195.14 | 2026-08-12 | watchlist | n/a | n/a | 2 buyers $3.0M but stale (May only), Piotroski 8, 14% off high. Sports-media rights out of circle |
+| 2026-08-13 | AZO | QD | SENT | yes | 3045.87 | 2026-08-12 | first-pass | n/a | n/a | Overreaction screen: two straight beats, ROIC 29.5%, Piotroski 7, 21% off high, no cluster. Lane A dislocated-quality shape, counter-cyclical autoparts |
+| 2026-08-13 | LOW | QD | SENT | yes | 215.97 | 2026-08-12 | watchlist | n/a | n/a | Two straight beats, ROIC 22.8%, Piotroski 6, 25% off high on rates. Overlaps the PATK/KMX consumer-rates group |
 
 ## Re-score log
 
