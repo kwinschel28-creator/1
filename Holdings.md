@@ -1,7 +1,7 @@
 ---
 type: holdings
 tags: [investing/process]
-updated: 2026-08-10
+updated: 2026-08-12
 ---
 
 # Holdings
@@ -27,7 +27,6 @@ What this note is for: my current book. The portfolio-fit workflow uses this to 
 | GEHC | GE HealthCare | 12.145 | ~65.6 | 71.77 | 872 | 4.0% | B (insider cluster) | Medical imaging/equipment; hospital capex | In? (medtech) |
 | KMX | CarMax | 13.891 | 50.39 | 58.18 | 808 | 3.7% | B (insider cluster) | Used-car demand, auto credit | ? (fill in) |
 | VEEV | Veeva Systems | 3.407 | 176.06 | 230.47 | 785 | 3.6% | A | Healthcare SaaS; pharma R&D/commercial spend | ? (fill in) |
-| XRAY | Dentsply Sirona | 52.071 | 10.54 | 12.12 | 631 | 2.9% | B (insider cluster 6/15) | Dental equipment/consumables; turnaround | ? (fill in) |
 | VRTX | Vertex Pharma | 1.260 | 497.97 | 496.07 | 625 | 2.9% | A | Biotech; CF franchise, pipeline | ? (fill in) |
 | NBIS | Nebius Group A | 3.271 | 213.99 | 187.97 | 615 | 2.8% | B | AI cloud / GPU data-center infrastructure | Out? |
 | ISRG | Intuitive Surgical | ~1.58 | ~378.81 | 378.81 | 600 | 2.75% | A (dislocated quality) | Robotic surgery; elective procedure volumes | In (medtech) |
@@ -39,9 +38,13 @@ What this note is for: my current book. The portfolio-fit workflow uses this to 
 | IREN | IREN Ltd | 4.408 | 45.37 | 41.23 | 182 | 0.8% | B | Bitcoin mining / AI-HPC data centers | Out? |
 | QXO | QXO Inc | 3 | 24.00 | 16.16 | 48 | 0.2% | B | Building-products distribution; M&A roll-up (Jacobs) | Out |
 
-**Cash:** ~$2,814 (12.9%), after the ADT exit, the ORCL theme-cap trim and the ISRG and BSX starters. First real dry powder since 7/02. No cash ceiling is set; see [[Portfolio Strategy]]. **Total book:** ~$21,820.
+> The Px, Mkt $ and Wt % columns above are a 2026-08-07 snapshot and the weights no longer sum correctly now that XRAY has been removed. **Live weights are in the Known concentrations block below, recomputed 2026-08-12 from 2026-08-11 closes.** Do not read weights off this table.
 
-**Exited 2026-08-10:** NCLH (~$488, thesis break), ZTS (~$586, derm trigger), OKLO (~$188, dilutive-raise trigger), ADT (~$552, no trigger). The first three were the pre-registered rule firing, not a price call.
+**Cash:** ~$3,500 (16.1%), after the ADT exit, the ORCL theme-cap trim, the XRAY exit and the ISRG and BSX starters. Figure is Kevin's, reported 2026-08-12. First real dry powder since 7/02. No cash ceiling is set; see [[Portfolio Strategy]]. **Total book:** ~$21,719 at 2026-08-11 closes.
+
+**Exited 2026-08-10:** NCLH (~$488, thesis break), ZTS (~$586, derm trigger), OKLO (~$188, dilutive-raise trigger), ADT (~$552, no trigger), **XRAY (~$607, fired ATR stop)**. All but ADT were the pre-registered rules firing, not price calls.
+
+> **Correction 2026-08-12.** XRAY was recorded below as "Kevin's decision: keep, no trim" on 2026-08-10. That was wrong. **Kevin sold XRAY in full on 2026-08-10** and reported it 2026-08-12, after the 8/12 brief had already fired a TRIM SIGNAL on a position he no longer owned. Proceeds ~$607 (52.071 sh at the 8/10 close of 11.66; the session ranged 11.63 to 12.12). The agent inferred a decision it was never told and logged the inference as Kevin's own words. Cash reconciles: the logged $2,814 plus ~$607 is ~$3,421 against the ~$3,500 Kevin reports, a gap inside fill noise, which also confirms no other trade is missing from this file. See the position-confirmation gate added below.
 
 **ADT exit is DISCRETIONARY and its reason is UNRECORDED.** No trigger fired: interest coverage was 3.05x against a 2.5x line and rising, the maturity ladder had just been checked clean (net leverage 2.8x, nothing above $1.67B before 2030), and no insider selling appeared. It was sold the same day its stress-test closed favourably, while RYAN, which is one print from its trigger and still owes its gate, was kept. Every exit owes a one-line written reason per [[Sell Discipline]]; this one is owed.
 
@@ -63,7 +66,6 @@ One pre-registered, event-based trigger per name. The daily brief checks news ag
 - VRTX: material CF-franchise competitive/pricing threat, or a lead pipeline program fails.
 - VEEV: guidance cut tied to pharma R&D spend, or seat/logo growth stalls.
 - CRS: aerospace build-rate cuts at Boeing/Airbus, or specialty-alloy pricing rolls over.
-- XRAY: turnaround margin milestones missed, or the 6/15 insider cluster reverses.
 - VSAT: ViaSat-3 technical setback, major defense contract loss, or refinancing stress.
 - IREN: no new AI/HPC contract wins in two quarters while BTC mining economics deteriorate.
 - QXO: Brad Jacobs steps back, or a large acquisition at a stretched price.
@@ -80,7 +82,6 @@ Entry dates marked (assumed) need confirming against the Fidelity export.
 
 | Ticker | Lane | Entry date | Valuation target | Time-stop (re-underwrite by) | Notes |
 |---|---|---|---|---|---|
-| XRAY | B | 2026-06-30 (confirmed 8/10) | **18.50** (12x FY27E adj EPS 1.55) | 2028-01 (~6 qtrs) | Prior-cycle high 41.56 REJECTED as anchor: pre-impairment company, GAAP EPS negative 4 of last 5 years. Street 13.38 is below spot, so street rejected too. Target rests entirely on the margin-inflection thesis landing. |
 | GEHC | B | 2026-07-02 | **82.00** (15.3x FY27E EPS 5.36) | 2028-01 | Between street 79.33 and 52wk high 89.77. Piotroski 2, still impaired; harvest thesis is margin inflection, not compounding. |
 | KMX | B | 2026-07-02 | **62.00** (17.7x normalized EPS ~3.50) | 2028-01 | Insider-cluster bet. **Only ~5% above spot by design.** Street target 51.31 sits BELOW spot; FY26 EPS 1.68 vs 3.21 prior; stock at 94% of 52wk high. Price has worked without earnings recovering, so the gap to fair value is mostly closed. Expect this to fire first. |
 | PATK | B | 2026-07-16 | **118.00** (~15x mid-cycle EPS ~7.85) | 2028-01 | Insider cluster 6/10. Cyclical trough: rev 3.95B vs 4.88B 2022 peak, EPS 3.90 vs 8.99 peak. Street 116.90 corroborates. 2022 high 148.50 was a cycle blowoff, not a base case. |
@@ -96,7 +97,21 @@ Thesis-completion and time-stop are qualitative and checked at earnings and the 
 
 **Every holding carries a lane.** Lane A: GOOG, ORCL, VRTX, VEEV, ISRG (ZTS exited 8/10). Lane B: everything else. The provisional "A?" and "B?" marks were resolved to A and B. Lane assignments for the seven previously-blank names were agent-set at Kevin's instruction and, like the valuation targets, are **borrowed conviction, flagged for override**.
 
-**Entry dates confirmed 2026-08-10** for CRS (2025-09-04) and VSAT (2026-06-30); OKLO was exited the same day. Both stops are now live and computed: CRS stop 533.59 against a 570.66 close, VSAT stop 70.57 against an 80.38 close, neither crossed nor within 1 ATR. **IREN also confirmed 2026-06-30**, stop 33.01 against a 41.23 close, not crossed and not within 1 ATR. **XRAY confirmed 2026-06-30 and its stop fired immediately: peak since entry 14.27, ATR 0.704, stop 12.16 against a 12.12 close on 8/7.** Every holding is now on the stop monitor with a confirmed entry date; there are no uncomputable stops left.
+**Entry dates confirmed 2026-08-10** for CRS (2025-09-04), VSAT (2026-06-30) and IREN (2026-06-30); OKLO and XRAY were exited. All stops are live and computed against the 2026-08-11 closes: CRS 535.45 against 537.57 (inside 1 ATR, approaching), VSAT 71.47 against 84.52, IREN 33.77 against 39.75, RYAN 40.82 against 42.17 (inside 1 ATR, approaching). Every remaining holding is on the stop monitor with a confirmed entry date; there are no uncomputable stops left.
+
+## Position-confirmation gate (added 2026-08-12 after the XRAY false signal)
+
+The ATR rule already hard-fails on a guessed input: no ATR number, no trim signal. The XRAY error proves the same discipline was missing one level up. The stop was computed correctly on a position Kevin had already sold, because the *share count* was assumed while the *price* was sourced. A mechanical rule run on a stale position is exactly as wrong as one run on a guessed ATR.
+
+Three rules, same shape as the ATR hard-fail:
+
+1. **Every position row carries a `Confirmed` date** (below). It is set only by a Fidelity export reconcile or by Kevin stating the position directly. An agent-logged trade from a verbal report sets it to the report date; an agent *inference* never sets it.
+2. **No mechanical signal on a position confirmed more than 10 trading sessions ago.** The brief still reports weights and catalysts for such a name, but it may not fire a TRIM SIGNAL, an approaching-stop note, or a valuation-target hit. It writes `stale position, N sessions since confirm` in the Data-gaps footer instead. No confirmation, no signal.
+3. **A decision is Kevin's only if Kevin said it.** The agent may record `DECISION UNRECORDED` or `agent recommendation, not executed`. It may never write "Kevin's decision: X" from an inference, a silence, or an unchanged share count. Every fired trigger and fired stop stays OPEN in the log until Kevin closes it in his own words.
+
+Rule 3 is the one that actually caused this. The 8/10 entry read "TRIM SIGNAL, XRAY: fired and CLOSED. Kevin's decision: keep, no trim," and then, in the same paragraph, "the reason for keeping is UNRECORDED." A decision whose reason is unrecorded is not a decision that was reported; it is one that was assumed. The file even flagged its own gap and the inference survived anyway.
+
+**Confirmed dates (2026-08-12):** every remaining position is confirmed as of 2026-08-10 by Kevin's reports of that day's trading plus the 8/12 XRAY correction, EXCEPT the share counts themselves, which are still ESTIMATED from approximate fills for GOOG, ORCL, ISRG, BSX, RYAN and PATK and have never been reconciled to a Fidelity export. A full export reconcile is owed and is now the oldest open item in this file.
 
 ## Lane A cut/trim plan (agent-set 2026-07-29 at Kevin's instruction; borrowed conviction, override freely)
 
@@ -120,14 +135,14 @@ Lane A names do not get ATR stops or valuation harvests. They cut for one of two
 - ZTS: FIRED 2026-08-05, logged 2026-08-10. Key dermatology sales -16% to $395M and FY26 organic revenue guided to -3%/-1%; the competitive-launch-against-a-key-franchise (derm) prong. The sustained-vet-visit-volume-decline prong did NOT fire. Status: **CLOSED 2026-08-10. Kevin's decision: full exit**, ~$586. Note this was a Lane A name exited on a trigger rather than trimmed at a ceiling, so the decision reads as a thesis break on the derm franchise.
 - OKLO: FIRED 2026-08-07, logged 2026-08-10. $1.9B of 2026 ATM equity disclosed with Q2; the dilutive-raise prong. The NRC-licensing-setback/timeline-slip prong did NOT fire, licensing is clean. Note the stock rose 14.8% that session on the revenue beat and first criticality, which is what made the raise easy to miss. Status: **CLOSED 2026-08-10. Kevin's decision: full exit**, ~$188. Consistent with the standing note that OKLO arguably tripped the Philosophy refuse-to-own line on pure-narrative names.
 
-**Known concentrations (vs the Tight caps, recomputed 2026-08-10 from shares x 2026-08-07 closes; book ~$21,820 including ~$2,362 cash):**
-- GOOG ~36.1%, still ~1.8x the 20% single-name hard-trim ceiling; excess is ~$3,519 at market, from ~$4,619 before the 8/10 tranche. **ORCL ~15.1% after the 8/10 trim of ~$1,100, back under the ceiling from a 20.2% breach.** That trim was a theme-cap action, not a ceiling action: the ceiling only required ~$36. The 7/16 reasoning for holding a BBB- credit is still unwritten.
-- AI / data-center capex theme: GOOG + ORCL + NBIS + IREN = ~54.9% vs the 30% hard cap, from ~65.8% at the start of 8/10. OKLO left the group on exit and ORCL was trimmed ~$1,100. Still roughly double the cap, and **the arithmetic has not changed: running the GOOG plan to completion and exiting NBIS and IREN entirely still leaves the theme near 40%, because GOOG and ORCL alone are ~56%.** Either the cap forces GOOG well below its own single-name ceiling, or the theme definition needs a written revision. That decision is unmade.
-- Breadth: 12 names above 2% vs the floor of 8 (four 8/10 exits, ADT among them; ISRG added).
-- **Healthcare ~18.8%** across GEHC, VEEV, XRAY, VRTX, ISRG and BSX. Drivers still differ across all six, so healthcare itself is not one theme, but it is now within ~1pt of the 20% soft flag.
-- **NEW NAMED THEME, elective procedure volumes / hospital spending: GEHC + ISRG + BSX = ~9.5%.** Under the 20% soft flag, so no breach and no action required. Recorded because the link is not sector labelling, it is mechanism: ISRG's drawdown was driven by insurance coverage losses deferring elective and benign procedures, BSX's by WATCHMAN volume weakness, and GEHC sits downstream of the same hospital budgets. ISRG and BSX were bought the same afternoon, at the same 2.75% size, from the same agent screens, on the same underlying driver. Per [[Cognitive Biases]] that is theme-as-thesis and borrowed conviction stacking on one decision, which is the combination Kevin asked to have flagged. VSAT ~1.9%, IREN ~0.8% and QXO ~0.2% sit below the line. Correlated group: PATK + KMX are leveraged consumer-discretionary/rates bets, ~6.1% combined; NCLH and ADT left that group on 8/10. Not a named theme yet, watch it.
-- **TRIM SIGNAL, XRAY: fired and CLOSED 2026-08-10. Kevin's decision: keep, no trim.** Close 12.12 against an ATR stop of 12.16, a 4-cent cross on a 0.704 ATR. The reason for keeping is UNRECORDED and is owed under [[Sell Discipline]], which treats a fired stop as requiring a decision, not a default hold. **Monitor handling:** because no tranche was sold, the stop was not re-set by a trim, so this same cross would otherwise re-fire every session. Treat the 8/10 cross as acknowledged and do not re-raise it unless XRAY makes a new closing low below 12.12, or a new post-entry peak resets the stop higher. Q2 was reported 8/6: revenue $898M beat, FY guidance held, turnaround benefit pushed to Q4, so the margin-inflection thesis is intact but deferred. Valuation target 18.50 is nowhere near and did not fire.
-- Healthcare is ~13.4% across GEHC, VEEV, XRAY and VRTX, on genuinely different drivers, so not one theme. But GEHC plus any second medtech name would share a hospital-capex and procedure-volume driver; check that before a second medtech buy, not after.
+**Known concentrations (vs the Tight caps, recomputed 2026-08-12 from shares x 2026-08-11 closes; book ~$21,719 including ~$3,500 cash):**
+- GOOG ~35.2%, still ~1.8x the 20% single-name hard-trim ceiling; excess is ~$3,305 at market, from ~$3,519 on 8/10. **ORCL ~15.0%, under the ceiling** since the 8/10 theme-cap trim. The 7/16 reasoning for holding a BBB- credit is still unwritten.
+- AI / data-center capex theme: GOOG + ORCL + NBIS + IREN = ~54.0% vs the 30% hard cap, from ~54.9% on 8/10. Still roughly double the cap, and **the arithmetic has not changed: running the GOOG plan to completion and exiting NBIS and IREN entirely still leaves the theme near 40%, because GOOG and ORCL alone are ~50%.** Either the cap forces GOOG well below its own single-name ceiling, or the theme definition needs a written revision. That decision is unmade.
+- Breadth: 13 names above 2% vs the floor of 8 (XRAY exited 8/10 took it from 14).
+- **Healthcare ~16.6%** across GEHC, VEEV, VRTX, ISRG and BSX, down from ~18.8% on the XRAY exit and no longer close to the 20% soft flag. Drivers still differ across all five, so healthcare itself is not one theme.
+- **NEW NAMED THEME, elective procedure volumes / hospital spending: GEHC + ISRG + BSX = ~9.9%.** Under the 20% soft flag, so no breach and no action required. Recorded because the link is not sector labelling, it is mechanism: ISRG's drawdown was driven by insurance coverage losses deferring elective and benign procedures, BSX's by WATCHMAN volume weakness, and GEHC sits downstream of the same hospital budgets. ISRG and BSX were bought the same afternoon, at the same 2.75% size, from the same agent screens, on the same underlying driver. Per [[Cognitive Biases]] that is theme-as-thesis and borrowed conviction stacking on one decision, which is the combination Kevin asked to have flagged. VSAT ~1.9%, IREN ~0.8% and QXO ~0.2% sit below the line. Correlated group: PATK + KMX are leveraged consumer-discretionary/rates bets, ~6.1% combined; NCLH and ADT left that group on 8/10. Not a named theme yet, watch it.
+- **TRIM SIGNAL, XRAY: fired 2026-08-10 and CLOSED 2026-08-10 by a full exit, ~$607.** Close 12.12 against an ATR stop of 12.16 on 8/7, a 4-cent cross on a 0.704 ATR; Kevin sold the whole position. The rule worked: the stop fired, the position went, and XRAY then fell to 11.61 by 8/11, so the exit was ~4% better than holding. **The failure was the record, not the rule.** This file logged the opposite decision, the 8/12 brief fired a TRIM SIGNAL on a position that no longer existed, and it went out as a push notification. See the position-confirmation gate above.
+- GEHC plus any second medtech name shares a hospital-capex and procedure-volume driver; check that before a third medtech buy, not after. That check is why the elective-procedure theme below is named.
 - Per-company one-liner theses retired 2026-07-23 (Kevin's call); buys gate on the Checklist/lane system instead. The per-name "thesis owed" counter is dropped. One system item remains outstanding: RYAN's elevated-risk gate. Per the 2026-08-10 Checklist amendment the written deep dive is the agent's to produce and was delivered 2026-08-10 (organic growth 6.7% in Q2 against a 5-7% full-year guide, so the two-quarter trigger is one print away; debt up ~$277M over two quarters against falling book equity; Up-C structure makes book leverage unreadable). What remains is Kevin's three-question check, which is a two-minute action, not a research task.
 
 **ADT stress-test (debt maturity ladder): RESOLVED 2026-08-10.** Total debt ~$7.42B at 6/30/26, net leverage 2.8x adjusted EBITDA, inside the Checklist's 3.5x ceiling for non-defensives. Near-term maturities are ~$241M against ~$1.6B of TTM free cash flow, roughly 6.7x covered. The largest single maturity, ~$1.67B, is not due until 2030 and the rest is spread 2027 to 2033; the 2026 first-lien notes were already addressed with a $500M redemption in 2025. Interest coverage is 3.05x TTM and rising from a 2.64x trough in Q1 2025, so the pre-registered 2.5x trigger is not near. There is no refinancing wall. This item is closed.
