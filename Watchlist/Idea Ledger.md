@@ -53,6 +53,10 @@ How to log a new idea: append a row with the anchor close on the surfacing date,
 | 2026-08-10 | FISV | INS | 52.41 | 2026-08-07 | pass (deteriorating) | n/a | Rev -4.1%, op margin 31.8% to 19.2% in six quarters, ROIC 7.1%, second straight year of guidance cuts, core bank accounts -3%. Cluster bought 6/17, BEFORE the Q2 cut: the insiders are already wrong |
 | 2026-08-10 | PODD | INS | 141.17 | 2026-08-07 | pass (thesis crack) | n/a | Numbers strong (rev +23.5%, ROIC 16.9%) but Type 2 patients discontinuing before 90 days, which was the growth story, plus a securities class action over pod manufacturing quality covering 8.5% of production |
 | 2026-08-10 | CHRW | QD | 149.35 | 2026-08-07 | pass (structural) | n/a | Amazon opening its supply chain to third parties plus a live AI-disruption question on high-fee brokerage. Screen showed rev +19.3% while the company reported -0.9%; row not trusted |
+| 2026-08-13 | PLNT | INS+QD | SENT | ? | 48.26 | 2026-08-12 | first-pass | n/a | n/a | Only name hitting both screens: 3 buyers, op margin 30.0% to 33.9%, 58% off high, Piotroski 5, ROIC 13.2%. Missing leg: circle unrecorded |
+| 2026-08-13 | SITE | INS | SENT | ? | 96.60 | 2026-08-12 | first-pass | n/a | n/a | 2 buyers $1.1M, Piotroski 7, current ratio 2.3, 43% off high, industrial distribution. Missing leg: margin expansion marginal (12.8% to 12.9%) |
+| 2026-08-13 | DINO | INS | SENT | ? | 87.93 | 2026-08-12 | first-pass | n/a | n/a | 2 buyers $2.4M, Piotroski 9, op margin 4.1% to 11.2%, refining. Missing leg: no dislocation, only 7% off high |
+| 2026-08-13 | GSHD | INS | SENT | no | 65.55 | 2026-08-12 | first-pass (repeat 8/10) | n/a | n/a | Biggest cluster on the screen: 7 buyers $12.2M, op margin 16.7% to 23.5%, 28% off high, Piotroski 6. Financials, so the Philosophy elevated-risk deep dive gates it; also doubles RYAN's insurance-brokerage driver |
 
 ## Re-score log
 
