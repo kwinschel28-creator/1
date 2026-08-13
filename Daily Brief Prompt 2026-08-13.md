@@ -32,9 +32,13 @@ is the only pre-market brief Kevin gets. Three consequences are baked in below.
 
 1. Repository `kwinschel28-creator/1` attached to the Routine. Without it the run
    has no working directory and stops at "Holdings.md missing."
-2. "Allow unrestricted branch pushes" enabled for that repository. Without it
-   Step 9 cannot write `briefs/` back to `main`, and Step 0 reports "No prior
-   brief" on every run forever.
+2. `main` must stay pushable: no branch-protection rule on `main` in the GitHub
+   repo settings, and no open pull request from `main`. There is no
+   "unrestricted branch pushes" toggle in the current UI; the 7/29 revision was
+   wrong about that. Claude Code always accepts pushes to `claude/` branches,
+   and accepts prompt-directed pushes to `main` unless a condition above blocks
+   it. Without a pushable `main`, Step 9 lands on a side branch and Step 0
+   reads stale memory until someone merges by hand.
 3. Schedule set to weekdays pre-market. The retired desktop job ran `45 7 * * 1-5`
    US Eastern. Shibui EOD data is normally present by about 7:53 AM ET, so a
    start before roughly 7:45 ET risks reading the prior session.
@@ -296,10 +300,17 @@ specific process-outstanding item. RYAN is the live case.
 ### Step 9. Write the brief back
 
 After producing the brief, write it verbatim to `briefs/YYYY-MM-DD.md` in the repo
-and commit with message `Brief YYYY-MM-DD`, then push to `main`. This is what
-gives the next run its memory, and it is now the only memory that exists. If the
-write, commit, or push fails, say so in one line at the end and continue; do not
-retry more than once.
+and commit with message `Brief YYYY-MM-DD`, then push to `main`. Pushing this
+commit to `main` is standing, pre-authorized permission from Kevin; do not hold
+it for a live confirmation, and do not treat a harness-designated `claude/`
+working branch as overriding it. If the harness designates a `claude/` branch,
+develop there if you must, but the brief still ends on `main`: push `main`
+directly, and if that push is rejected, push the designated branch, open a pull
+request to `main`, merge it immediately with the GitHub tools, and note the
+workaround in one line at the end of the brief. This is what gives the next run
+its memory, and it is now the only memory that exists. If every route fails, say
+so in one line at the end of the brief AND in the notification, and continue; do
+not retry any single route more than once.
 
 ### Output order
 
