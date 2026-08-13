@@ -39,7 +39,7 @@ What this note is for: my current book. The portfolio-fit workflow uses this to 
 | GEHC | GE HealthCare | 12.145 | ~65.6 | 71.77 | 872 | 4.0% | B (insider cluster) | Medical imaging/equipment; hospital capex | In? (medtech) |
 | KMX | CarMax | 13.891 | 50.39 | 58.18 | 808 | 3.7% | B (insider cluster) | Used-car demand, auto credit | ? (fill in) |
 | VEEV | Veeva Systems | 3.407 | 176.06 | 230.47 | 785 | 3.6% | A | Healthcare SaaS; pharma R&D/commercial spend | ? (fill in) |
-| LOPE | Grand Canyon Education | ~4.44 | ~146.50 | 146.50 | 650 | 2.95% | A | Education services; university enrolment, Title IV federal aid | Out (new sector); FILL UNCONFIRMED, see cash note |
+| LOPE | Grand Canyon Education | ~4.44 | ~146.50 | 146.50 | 650 | 2.95% | A | Education services; university enrolment, Title IV federal aid | Out (new sector); fill confirmed by Kevin 2026-08-13 |
 | VRTX | Vertex Pharma | 1.260 | 497.97 | 496.07 | 625 | 2.9% | A | Biotech; CF franchise, pipeline | ? (fill in) |
 | NBIS | Nebius Group A | 3.271 | 213.99 | 187.97 | 615 | 2.8% | B | AI cloud / GPU data-center infrastructure | Out? |
 | ISRG | Intuitive Surgical | ~1.58 | ~378.81 | 378.81 | 600 | 2.75% | A (dislocated quality) | Robotic surgery; elective procedure volumes | In (medtech) |
@@ -53,7 +53,7 @@ What this note is for: my current book. The portfolio-fit workflow uses this to 
 
 > The Px, Mkt $ and Wt % columns above are a 2026-08-07 snapshot (LOPE at its 8/10 close) and no longer sum correctly after the XRAY, CRS and NBIS exits. **Live weights are in the Known concentrations block below, recomputed 2026-08-13 from 2026-08-12 closes.** Do not read weights off this table.
 
-**Cash:** ~$4,153 (~18.8%) if the LOPE fill stands: the 8/11 session logged ~$2,776 after the XRAY exit and the LOPE starter, plus ~$529 CRS and ~$848 NBIS proceeds reported 8/13. **Kevin's reported figures conflict with the LOPE buy:** he reported ~$3,500 cash on 8/12 and "$3,500 to deploy" on 8/13, which matches the no-LOPE arithmetic (~$3,426), not ~$2,776. Either the LOPE order never filled or the $3,500 was loose. Reconcile against a Fidelity export; until then LOPE carries the position-confirmation gate's flag and no mechanical signal may rest on it. No cash ceiling is set; see [[Portfolio Strategy]]. **Total book:** ~$22,060 at 2026-08-12 closes.
+**Cash:** ~$4,153 (~18.8%): the 8/11 session logged ~$2,776 after the XRAY exit and the LOPE starter, plus ~$529 CRS and ~$848 NBIS proceeds reported 8/13. **LOPE fill confirmed by Kevin directly 2026-08-13**, which resolves the conflict with his rounder ~$3,500 cash figures of 8/12-8/13; the ~$2,776-basis arithmetic stands. Full Fidelity export reconcile still owed (share counts for GOOG, ORCL, ISRG, BSX, RYAN, PATK, LOPE remain estimates). No cash ceiling is set; see [[Portfolio Strategy]]. **Total book:** ~$22,045 at 2026-08-12 closes (LOPE at its 8/12 close of 142.06).
 
 **Exited 2026-08-13:** CRS (~$529 at the 8/12 close of 528.64, full exit on the 8/13 fired ATR stop, ~+120% realised on a 240.82 cost) and NBIS (~$848 at the 8/12 close of 259.20, full exit on the fired 240.00 valuation target, ~+21% on a 213.99 cost). Both reported by Kevin directly, mid-session 2026-08-13; fills approximate, reconcile against the next export. One-line reasons drafted in the trigger log below, Kevin to own or rewrite.
 
