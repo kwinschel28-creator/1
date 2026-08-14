@@ -1,7 +1,7 @@
 ---
 type: holdings
 tags: [investing/process]
-updated: 2026-08-13
+updated: 2026-08-14
 ---
 
 # Holdings
@@ -32,6 +32,14 @@ What this note is for: my current book. The portfolio-fit workflow uses this to 
 >
 > Two things are still ahead of the gate. LOPE's first-pass verdict was DIG DEEPER, not PASS, and it named two items owed before a buy: the GCU revenue-concentration number with contract term, and current Title IV / gainful-employment exposure. Neither is done. **No three-question check is recorded**, which is the 2026-08-10 Checklist amendment's third live test and the second miss (BSX was the first). Size is inside the 2-3% starter band, so the sizing discipline held either way. Conviction is BORROWED: agent screen, agent first-pass.
 
+> Updated 2026-08-14 (agent-logged from Kevin's report at ~9:53 ET). **Bought $650 JKHY (Lane A starter, ~4.17 sh at the 8/13 close of 155.86, fill ESTIMATED) and $650 ELAN (Lane B starter, ~28.9 sh at the 8/13 close of 22.51, fill ESTIMATED), both taxable Individual account.** Cash ~$2,853 (~12.9%). Both cleared written first-passes AND deep dives before money moved (second time after LOPE that research preceded the buy). Gate results, recorded per the pre-trade audit:
+>
+> - **JKHY timing violation, logged with objection.** The 8/13 deep-dive PASS carried one execution condition: buy AFTER the 8/18 fiscal Q4 print and first FY27 guide. Kevin bought two sessions early, at ~9:53 ET Friday, so the entire deceleration question the dislocation rests on will be answered four days after entry instead of before it. Sizing at 2.9% limits the cost of being wrong. The condition existed for a reason and was overridden without a stated reason.
+> - **JKHY elevated-risk ruling was UNSIGNED at buy.** The draft ruling ("the regime applies to balance-sheet financials, not software vendors serving them") is in the deep dive awaiting Kevin's one-line adoption. Buying before signing repeats the RYAN shape in miniature; sign it or strike it.
+> - **Three-question checks: NOT RECORDED for either buy** (fourth and fifth live tests of the 2026-08-10 amendment; misses now BSX, LOPE, JKHY, ELAN, with ISRG the one partial pass). Per the amendment a missing check caps size at starter; $650 = ~2.9% complies with that consequence. The checks can and should still be run out loud after the fact; a fired trigger re-requires them anyway.
+> - **Caps: all clear.** JKHY 2.9% at cost vs 10% Lane A build-to; ELAN 2.9% vs 4% Lane B build-to. Healthcare ~19.4% with ELAN, under the 20% soft flag by half a point, justification line pre-written in the ELAN deep dive. No AI-theme change.
+> - **Bias line: conviction on both is BORROWED end to end** (agent screen, agent first-pass, agent deep dive); Kevin has stated no reasoning of his own on either name. No theme-as-thesis claim, no excitement language, but the borrowed-conviction concentration in this book keeps rising and is the standing watch item.
+
 | Ticker | Company | Shares | Avg cost | Px (2026-08-07 close) | Mkt $ | Wt % | Lane | Driver / theme | Circle |
 |---|---|---|---|---|---|---|---|---|---|
 | GOOG | Alphabet C | ~22.30 | 185.63 | 353.47 | 7,883 | 36.1% | A | Mega-cap tech, digital ads, AI/cloud | Edge? No (large-cap) |
@@ -40,6 +48,8 @@ What this note is for: my current book. The portfolio-fit workflow uses this to 
 | KMX | CarMax | 13.891 | 50.39 | 58.18 | 808 | 3.7% | B (insider cluster) | Used-car demand, auto credit | ? (fill in) |
 | VEEV | Veeva Systems | 3.407 | 176.06 | 230.47 | 785 | 3.6% | A | Healthcare SaaS; pharma R&D/commercial spend | ? (fill in) |
 | LOPE | Grand Canyon Education | ~4.44 | ~146.50 | 146.50 | 650 | 2.95% | A | Education services; university enrolment, Title IV federal aid | Out (new sector); fill confirmed by Kevin 2026-08-13 |
+| JKHY | Jack Henry | ~4.17 | ~155.86 | 155.86 | 650 | 2.9% | A | Core-processing software for community banks/credit unions | In (recurring-revenue software); GICS Financials, regime ruling pending |
+| ELAN | Elanco Animal Health | ~28.9 | ~22.51 | 22.51 | 650 | 2.9% | B (insider cluster 5/15-8/07) | Animal health; Zenrelia/Credelio launch cycle, deleveraging | In-adjacent (animal health, post-ZTS) |
 | VRTX | Vertex Pharma | 1.260 | 497.97 | 496.07 | 625 | 2.9% | A | Biotech; CF franchise, pipeline | ? (fill in) |
 | NBIS | Nebius Group A | 3.271 | 213.99 | 187.97 | 615 | 2.8% | B | AI cloud / GPU data-center infrastructure | Out? |
 | ISRG | Intuitive Surgical | ~1.58 | ~378.81 | 378.81 | 600 | 2.75% | A (dislocated quality) | Robotic surgery; elective procedure volumes | In (medtech) |
@@ -76,6 +86,8 @@ What this note is for: my current book. The portfolio-fit workflow uses this to 
 One pre-registered, event-based trigger per name. The daily brief checks news against this list and flags any fired trigger in bold at the top. A fired trigger forces a written decision (trim, exit, or explicitly re-underwrite), not an automatic sale.
 
 - LOPE (DRAFT 2026-08-11): GCU enrolment declines for two consecutive quarters, the university-services contract is renegotiated on materially worse terms or put out to renewal risk, or an adverse Title IV / gainful-employment rulemaking changes federal-aid eligibility for the partner institutions. Lane A, so no ATR stop and no valuation harvest; it trims at the 20% ceiling or on a thesis break only.
+- JKHY (DRAFT 2026-08-14): net core-client attrition for two straight quarters, an FY27 guide marking revenue growth below ~5%, or a consolidation wave visibly shrinking the community-bank served base. Lane A: no ATR stop, no valuation harvest; ceiling or thesis break only.
+- ELAN (DRAFT 2026-08-14): a Zenrelia safety signal at scale or first-line share reversal, the 5/15-8/07 insider cluster reverses to selling, or the deleveraging path breaks (net leverage not at or below ~3.2x adjusted at the 2026 year-end print).
 - BSX (DRAFT 2026-08-10): the operating-margin inflection stalls or reverses for two straight quarters, the 8/05 insider cluster reverses to selling, or a further cut to organic growth guidance below the current 6.5-8%.
 - ISRG (DRAFT 2026-08-10): US da Vinci procedure growth breaks below ~10% y/y, or hospital capital budgets force sustained discounting on system placements. (Kevin's framing was hospital margin compression, which this operationalises. Note for the record that the procedure volume base is urology, gynecology and general surgery, not stomach.)
 - GOOG: adverse antitrust remedy ruling, or search/ads revenue decelerating below ~10% y/y without cloud offsetting. Standing: above the 20% ceiling, trim plan already owed.
@@ -103,6 +115,7 @@ Entry dates marked (assumed) need confirming against the Fidelity export.
 | Ticker | Lane | Entry date | Valuation target | Time-stop (re-underwrite by) | Notes |
 |---|---|---|---|---|---|
 | GEHC | B | 2026-07-02 | **82.00** (15.3x FY27E EPS 5.36) | 2028-01 | Between street 79.33 and 52wk high 89.77. Piotroski 2, still impaired; harvest thesis is margin inflection, not compounding. |
+| ELAN | B | 2026-08-14 | **26.30** (22x FY27E consensus EPS ~1.20; street 30.07 corroborates from above, rejected as anchor) | 2028-02 | Bought 2026-08-14. ATR(14) 1.146; stop = peak close since entry minus 3 x ATR, activates from the 8/14 close (~19.1 if the entry close holds as peak). Thesis leg: deleveraging below 3.0x by 2027 plus Zenrelia share gains. |
 | KMX | B | 2026-07-02 | **62.00** (17.7x normalized EPS ~3.50) | 2028-01 | Insider-cluster bet. **Only ~5% above spot by design.** Street target 51.31 sits BELOW spot; FY26 EPS 1.68 vs 3.21 prior; stock at 94% of 52wk high. Price has worked without earnings recovering, so the gap to fair value is mostly closed. Expect this to fire first. |
 | PATK | B | 2026-07-16 | **118.00** (~15x mid-cycle EPS ~7.85) | 2028-01 | Insider cluster 6/10. Cyclical trough: rev 3.95B vs 4.88B 2022 peak, EPS 3.90 vs 8.99 peak. Street 116.90 corroborates. 2022 high 148.50 was a cycle blowoff, not a base case. |
 | RYAN | B | 2026-07-23 | **58.00** (24.7x FY27E EPS 2.35) | 2028-01 | Insider cluster 6/03-6/12. Trailing GAAP P/E 111.8 is distorted by the Up-C structure and amortization, so operating/forward EPS used instead. Re-rate toward the 52wk high 66.25 is the bet. **ELEVATED-RISK (financials) deep dive still owed; this target does not clear that gate.** |
@@ -113,7 +126,7 @@ Entry dates marked (assumed) need confirming against the Fidelity export.
 
 Thesis-completion and time-stop are qualitative and checked at earnings and the weekly retest, not daily.
 
-**Every holding carries a lane.** Lane A: GOOG, ORCL, VRTX, VEEV, ISRG, LOPE (ZTS exited 8/10, XRAY exited 8/11, CRS and NBIS exited 8/13). Lane B: everything else. The provisional "A?" and "B?" marks were resolved to A and B. Lane assignments for the seven previously-blank names were agent-set at Kevin's instruction and, like the valuation targets, are **borrowed conviction, flagged for override**.
+**Every holding carries a lane.** Lane A: GOOG, ORCL, VRTX, VEEV, ISRG, LOPE, JKHY (ZTS exited 8/10, XRAY exited 8/11, CRS and NBIS exited 8/13). Lane B: everything else, ELAN added 8/14. The provisional "A?" and "B?" marks were resolved to A and B. Lane assignments for the seven previously-blank names were agent-set at Kevin's instruction and, like the valuation targets, are **borrowed conviction, flagged for override**.
 
 **Entry dates are all confirmed** (2026-08-10 confirmations; CRS, NBIS, OKLO and XRAY have since exited). Stops at the 2026-08-12 closes for the remaining Lane B roster: GEHC 66.40 vs 72.28, KMX 52.96 vs 58.71, PATK 78.61 vs 86.76, RYAN 40.81 vs 42.87 (just outside 1 ATR), BSX 46.25 vs 51.42, VSAT 71.76 vs 87.23, IREN 33.57 vs 43.67. None crossed, none inside 1 ATR. QXO excluded (dormant). KMX is 95% of its 62.00 valuation target and remains the likeliest first fire.
 
@@ -155,11 +168,11 @@ Lane A names do not get ATR stops or valuation harvests. They cut for one of two
 - NBIS: VALUATION TARGET 240.00 FIRED 2026-08-13 (8/12 close 259.20, +34.1% on the Q2 print). Status: **CLOSED 2026-08-13. Kevin's decision: full exit**, ~$848, reported directly mid-session. Sell Discipline's default for a fired target is a tranche; the full exit is consistent with the standing note that NBIS fit neither lane and was never underwritten. Draft one-line reason for Kevin to own or rewrite: "the bet was never underwritten, the borrowed street target was reached, and the AI theme is double its cap; nothing here is mine to re-underwrite." Realised ~+21% on cost.
 - CRS: ATR STOP FIRED 2026-08-13 (8/12 close 528.64 vs stop 536.46; peak since entry 619.25). Status: **CLOSED 2026-08-13. Kevin's decision: full exit**, ~$529, reported directly mid-session. One-share position, so the tranche default was impractical. Draft one-line reason for Kevin to own or rewrite: "peak-cycle cyclical out of circle on borrowed conviction; the stop crossed after the price came within 1% of the 625 target and reversed; harvest complete." Realised ~+120% on cost.
 
-**Known concentrations (vs the Tight caps, recomputed 2026-08-13 from shares x 2026-08-12 closes; book ~$22,060 including ~$4,153 cash; LOPE included pending fill confirmation):**
+**Known concentrations (vs the Tight caps, recomputed 2026-08-14 after the JKHY and ELAN buys; book ~$22.1k including ~$2,853 cash):**
 - GOOG ~34.6%, still ~1.7x the 20% single-name hard-trim ceiling; excess is ~$3,222 at market, from ~$3,305 at the 8/12 recompute. ORCL ~15.6%, under the ceiling. The 7/16 reasoning for holding a BBB- credit is still unwritten.
 - AI / data-center capex theme: GOOG + ORCL + IREN = ~51.1% vs the 30% hard cap, from ~54.0% at the 8/12 recompute. **NBIS left the theme on the 8/13 exit.** Still ~1.7x the cap, and the arithmetic has not changed: GOOG and ORCL alone are ~50%, so either the cap forces GOOG well below its own single-name ceiling, or the theme definition needs a written revision. That decision is unmade.
-- Breadth: 12 names above 2% vs the floor of 8 (XRAY, CRS, NBIS exits; LOPE added pending confirmation; VSAT back above the line at ~2.0%). Book is 14 names plus cash.
-- **Healthcare ~16.4%** across GEHC, VEEV, VRTX, ISRG and BSX, off the 20% soft flag. Drivers still differ across all five, so healthcare itself is not one theme.
+- Breadth: 14 names above 2% vs the floor of 8 after the JKHY and ELAN starters (VSAT hovers at the 2% line). Book is 16 names plus cash.
+- **Healthcare ~19.4%** across GEHC, VEEV, VRTX, ISRG, BSX and now ELAN, half a point under the 20% soft flag. Justification on file in the ELAN deep dive: six names, six distinct drivers, no shared mechanism beyond the sector label. Any further healthcare add crosses the flag and owes the written line BEFORE the buy.
 - **Elective procedure volumes / hospital spending theme: GEHC + ISRG + BSX = ~9.7%.** Under the 20% soft flag, no action required. Recorded because the link is mechanism, not sector labelling: ISRG's drawdown was insurance coverage losses deferring elective procedures, BSX's was WATCHMAN volume weakness, and GEHC sits downstream of the same hospital budgets. ISRG and BSX were bought the same afternoon, same size, from the same agent screens, on the same driver; per [[Cognitive Biases]] that is theme-as-thesis plus borrowed conviction stacking, the combination Kevin asked to have flagged. Correlated group: PATK + KMX leveraged consumer-discretionary/rates, ~6.0% combined. Not a named theme yet, watch it.
 - **TRIM SIGNAL, XRAY: fired 2026-08-10 (close 12.12 vs stop 12.16), re-fired 2026-08-11 on the new closing low (11.66 vs stop 12.20), CLOSED by full exit at 11.745, ~$611.57, ~+11.4% on cost.** The 8/10 entry in this file recorded "Kevin's decision: keep, no trim"; per Kevin's 8/12 correction that was an agent inference he never stated, and it is what the position-confirmation gate above now forbids. The stop itself worked: XRAY fell further after the exit. The one-line reason (thesis, risk, valuation, or time) is still owed. Exit-date discrepancy flagged in the Exited block above.
 - GEHC plus any additional medtech name shares a hospital-capex and procedure-volume driver; check that before a third medtech buy, not after. That check is why the elective-procedure theme is named.
