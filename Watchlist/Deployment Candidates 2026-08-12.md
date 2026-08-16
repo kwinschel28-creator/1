@@ -7,6 +7,17 @@ cash: ~$3,500 (16.1% of a ~$21,719 book)
 
 # Deployment Candidates 2026-08-12
 
+> # SUPERSEDED. Do not act on this file.
+>
+> **Marked 2026-08-16.** Written by a session on a stale checkout (repo state ~8/12, actual date 8/16). Four of its load-bearing claims were already false when it was written:
+>
+> 1. **The headline warning is void.** This note leads with "most of the $3,500 is not spendable this week" under the 2026-08-10 proceeds rule. **Kevin rescinded that rule on 2026-08-11**: proceeds are now spendable same-day. The objection was logged at the time; the rule is gone either way.
+> 2. **PLNT was already rejected.** Carried here as the Tier 1 lead. Kevin passed on it 2026-08-11: "trouble seeing PLNT's membership growing." SITE was passed the same day.
+> 3. **JKHY and ELAN were already bought**, 2026-08-14, $650 each, with first-passes and deep dives done and stops and targets set. This note pitches them as untouched candidates.
+> 4. **The cash figure and book weights are stale**, superseded by the 8/13 and 8/14 recomputes.
+>
+> What survives, for the ledger only: MGY, DINO and FICO were logged as watchlist rows on 8/12 and those rows stand. The reasoning in the Tier sections about *why* each name clears or misses a leg is still readable as analysis. Nothing here is a live recommendation.
+
 Screens run against the Shibui database, so no cost against the web-search cap. Universe: US common stock, market cap above $300M, AI/data-center theme excluded, current holdings excluded. Per [[Agent Context]] section 3 this note gives a one-line bull and a one-line bear per name and does NOT repeat the metric tables; passing the screen already certifies the quantitative gates.
 
 ## Read this first: most of the $3,500 is not spendable this week

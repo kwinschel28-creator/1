@@ -91,6 +91,56 @@ missing, note it on the Data line as a degraded run: you are working without
 standing memory and should say so, not proceed silently. If any of the other
 three is missing, note it in one line under Data and continue.
 
+### Step 0a. Checkout freshness gate (run this BEFORE anything else)
+
+Added 2026-08-16 after a run produced a full brief, pushed it, and sent a push
+notification from a checkout five days stale. Every input it had was internally
+consistent and all of it was old. This is the same hard-fail shape as the ATR
+rule and the position-confirmation gate: **a rule run on stale inputs is worse
+than no rule**, and staleness of the whole run is the one case neither of those
+catches.
+
+Three checks. They are cheap, they are all local or one database call, and any
+one of them failing means the checkout is not current.
+
+1. **Git.** `git fetch origin main`, then compare `HEAD` to `origin/main`. If HEAD
+   is behind, fast-forward and **re-read all six process files from the updated
+   working tree** before proceeding. Do not brief from files read before the
+   fetch.
+2. **Date arithmetic.** Compare today's date against (a) the newest filename in
+   `briefs/`, (b) the `updated:` field in `Holdings.md` frontmatter, and (c) the
+   latest session date returned by the Shibui price pull. Today's date is the
+   anchor and it comes from the session context, not from the repo.
+3. **The impossible-brief test.** If the brief you are about to write would be
+   dated at or before the newest file already in `briefs/`, stop. You are about
+   to overwrite or duplicate history.
+
+Hard fail conditions. If any of these is true, **do not emit any mechanical
+signal** (no TRIGGER ALERT, no TRIM SIGNAL, no approaching-stop note, no due
+tranche, no guardrail deltas) and say so in one line at the top:
+
+- The git fetch fails or the checkout cannot be brought current.
+- Shibui's latest session is more than 2 trading sessions behind today's date.
+- The newest brief is dated on or after today.
+- Today's date is more than 5 trading sessions after the newest brief AND the
+  git fetch showed nothing new. That combination means the repo is not the
+  memory you think it is.
+
+Write `Checkout: stale, <which check failed>` on the Data line and continue with
+news and catalysts only. Those are sourced live from the web and stay valid; the
+position-derived output is what must be suppressed.
+
+When all three pass, write `Checkout: current` on the Data line. Every run states
+it, pass or fail, the same discipline the Data line already applies to the trim
+monitor.
+
+**Why the Data line is not enough on its own.** The old rule said "if the most
+recent brief is older than the last completed trading session, say so." That rule
+fired correctly on the stale run and the run said it, then briefed anyway,
+because the rule described a died *prior* run rather than a stale *current* one.
+Reporting a gap and refusing to act on one are different rules. This is the
+second.
+
 ### Step 0. Prior brief
 
 Read the most recent file in `briefs/` if the directory exists. This is your only
