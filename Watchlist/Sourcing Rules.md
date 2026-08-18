@@ -52,6 +52,13 @@ Gates 1 to 8 are all database-side and get a name to WATCHLIST at best. **A QD-o
 
 This is the one gate that cannot be run against the database, and it is the gate that has done all the killing: FISV, PODD and TSCO on 2026-08-10, CSGP on 2026-08-18. CSGP is the case to remember, because it cleared every mechanical leg and cleared them well before the guidance cut killed it.
 
+### Proposed amendment 2026-08-18, NOT live, Kevin's call
+
+Backtested point-in-time against 2026-06-30 ([[QD Bar Backtest 2026-08-18]]): the eight gates returned 13 names averaging +20.2% to 8/17 against SPY +3.5%, 12 of 13 positive, and the single loser was the one name the qualitative layer independently killed. Two gate-level findings came out of it:
+
+- **Keep the insider veto exactly as written.** IDXX cleared every quality gate, was blocked only on net insider selling, and then returned +3.7%, essentially the index. The veto removed the weakest quality name in the cohort.
+- **Proposed: change the operating-margin gate to a 95% retention band**, matching ROIC. ADSK failed it on 22.0 versus 22.3, a 0.3-point move on a noisy ratio, and returned +24.3%. Same defect class as HLNE at 22.4 versus 22.5. Adopt it for the reason (strict inequalities on noisy ratios are measurement error) and then re-audit every gate for that phrasing at once, rather than loosening one gate per winner. Flagged against itself: this is the second gate loosened in two days after a name I liked failed it, which is how overfitting starts.
+
 ### Standing cautions
 
 - **Promotion cap.** The one-verdict-per-run cap from the [[Agent Context]] daily amendment still applies. It exists to keep a daily feed scarce, and a QD-only path produces more raw candidates than the INS path, not fewer.
