@@ -3,12 +3,12 @@ type: routine-prompt
 tags: [investing/process, automation]
 created: 2026-08-18
 supersedes: Daily Brief Prompt 2026-08-13.md
-status: NOT LIVE until Kevin pastes it into the routine's Instructions box on claude.ai/code
+status: LIVE from 2026-08-18 (Kevin confirmed the paste same day)
 ---
 
 # Daily Brief Prompt, 2026-08-18
 
-**This file is the fix for the stale-prompt failure mode.** The routine's live instructions live in the web UI and only Kevin can edit them. Everything below is the current, correct prompt. Paste the block between the markers into the Instructions box, replacing what is there.
+**This file is the fix for the stale-prompt failure mode, and it is LIVE.** Kevin confirmed on 2026-08-18 that the block below was pasted into the routine's Instructions box. The web UI is now in sync with this file. If the two ever diverge again, this file records what was pasted and the authority rule inside it settles any conflict in the vault's favour.
 
 **What was wrong with the stored version** (drift accumulated since 2026-07-29):
 
