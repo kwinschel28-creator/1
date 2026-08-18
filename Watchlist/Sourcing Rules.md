@@ -29,6 +29,35 @@ Do not kill the Lane A quality-dislocation lane. It produced GWRE (+21.2%), the 
 
 Keep the QD discipline that already works: lead with the bear case, require a one-sentence thesis in Kevin's own words, and treat rich-multiple names as a price-discipline call (IDXX).
 
+## QD-only path at a higher quality bar (Kevin's decision, 2026-08-18)
+
+**Why this exists.** The 2026-08-18 expanded sweep (six screens, ~60 names clearing at least one) found the two halves of the paying signal no longer co-occurring: every name that cleared durability, dislocation, circle and the guidance kill had no insider cluster, and every name with a real cluster failed one of the others. Kevin's call was a QD-only path at a higher quality bar rather than accepting fewer candidates.
+
+**The trade being made, stated once.** QD is the secondary engine in the n=13 baseline and INS is Kevin's stated edge. Removing the cluster leg removes the confirmation that a real insider thought the price was wrong. The bar below has to carry that weight, which is why every gate is set tighter than the INS path's equivalent, and why the PASS condition is a positive guidance event rather than the mere absence of a bad one.
+
+### Gates, all required
+
+1. **ROIC durability, hardened.** ROIC above 12% now, above 8% a year ago, and at least **90%** of the year-ago level. This replaces the 8%/5%/85% band from the [[Winner Attribution Screen 2026-08-11]]. Use a retention **band**, not a strict `now >= year_ago` inequality: the strict form dropped HLNE on 22.4 vs 22.5, a rounding edge, and dropped ADSK from earlier sweeps. A one-decimal wobble is not decay.
+2. **Balance sheet not deteriorating.** Debt/equity no worse than 1.05x the year-ago level.
+3. **Cash generative, not just profitable.** Positive TTM free cash flow AND FCF margin above 5% of TTM revenue. A quality compounder that does not convert is not one.
+4. **Real demand growth.** Revenue growth at least 4% y/y, AND the WING guard applies: for franchisors and unit-expansion models, reported revenue is not demand, so check same-store or organic growth by hand before the name advances.
+5. **Operating margin not contracting** year over year.
+6. **Piotroski 6 or better.** Raised from the INS path's floor of 4 because the insider leg is gone. Caveat kept on the record: Piotroski ran *backwards* in the n=4 attribution test, so treat it as a floor, never as a ranker.
+7. **Insider veto, both sides.** Zero insider activity is acceptable here, that is the point of the path. **Net discretionary selling kills**, same as the INS path (the DINO/GSHD/AZO lesson).
+8. **Dislocation as a setup marker, not a cause.** At least 20% off the 12-month high to qualify as a setup. It stays a display column and is never the reason, per the 2026-08-10 finding that raw drawdown selects for guidance cutters.
+
+### The PASS condition, and why it is not just "passes the gates"
+
+Gates 1 to 8 are all database-side and get a name to WATCHLIST at best. **A QD-only name reaches PASS only on the GWRE configuration: results delivered and guidance raised or reaffirmed healthy, while the price fell.** Guidance merely maintained is a WATCHLIST. Guidance cut, reset, or a reset flagged as expected by the street is a **KILL**, no exceptions and no size-down compromise.
+
+This is the one gate that cannot be run against the database, and it is the gate that has done all the killing: FISV, PODD and TSCO on 2026-08-10, CSGP on 2026-08-18. CSGP is the case to remember, because it cleared every mechanical leg and cleared them well before the guidance cut killed it.
+
+### Standing cautions
+
+- **Promotion cap.** The one-verdict-per-run cap from the [[Agent Context]] daily amendment still applies. It exists to keep a daily feed scarce, and a QD-only path produces more raw candidates than the INS path, not fewer.
+- **The gate was calibrated on a board already seen.** The first names through it on 2026-08-18 (BR, ADSK) were already on that day's shortlist. That is not independent evidence the gate works; it is evidence it was fitted to the day. Judge it forward, at the monthly re-scores, on names it surfaces that nothing else did.
+- **No PASS is a buy.** Same fixed suffix as every other verdict: agent conviction, not Kevin's. Three-question check before any buy, and the Philosophy elevated-risk deep dive first for any financial or opaque model (HLNE is the live case, the same gate RYAN still owes).
+
 ## Under test (hypotheses, added 2026-07-21)
 
 1. Dislocation depth > cluster dollar value as the INS ranking key.
@@ -48,3 +77,4 @@ Keep the QD discipline that already works: lead with the bear case, require a on
 ## Changelog
 
 - **2026-07-21.** Created from the first ledger re-score (n=13, 3 weeks). Set INS as primary engine with dislocation-depth ranking, Piotroski-4 floor, circle-first, and SENT/BREAK tagging. Added QD as secondary with a guidance-up/price-down overreaction screen. All flagged under test. Sample is tiny; nothing here is proven yet.
+- **2026-08-18.** Added the **QD-only path at a higher quality bar** on Kevin's instruction, after the expanded sweep showed the cluster and quality legs no longer co-occurring. Eight database gates plus a mandatory guidance check, with PASS reserved for the GWRE configuration (results up, guidance raised or healthy, price down). Two changes worth flagging as method, not just thresholds: ROIC durability now uses a **90% retention band instead of a strict inequality**, because the strict form was discarding names on one-decimal noise (HLNE at 22.4 vs 22.5); and **Piotroski rises to 6 on this path only**, to compensate for the missing insider confirmation, while staying a floor rather than a ranker. First run returned 9 names from ~10,300, of which 2 reached PASS (BR, ADSK) and 1 was gated on the elevated-risk regime (HLNE). Under test, calibrated on a board already seen, judge it forward.
