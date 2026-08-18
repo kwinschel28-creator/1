@@ -1,7 +1,7 @@
 ---
 type: holdings
 tags: [investing/process]
-updated: 2026-08-16
+updated: 2026-08-18
 reconciled: 2026-08-16 (Fidelity export, positions as of 2026-08-14 close)
 ---
 
@@ -41,6 +41,22 @@ What this note is for: my current book. The portfolio-fit workflow uses this to 
 > - **Caps: all clear.** JKHY 2.9% at cost vs 10% Lane A build-to; ELAN 2.9% vs 4% Lane B build-to. Healthcare ~19.4% with ELAN, under the 20% soft flag by half a point, justification line pre-written in the ELAN deep dive. No AI-theme change.
 > - **Bias line: conviction on both is BORROWED end to end** (agent screen, agent first-pass, agent deep dive); Kevin has stated no reasoning of his own on either name. No theme-as-thesis claim, no excitement language, but the borrowed-conviction concentration in this book keeps rising and is the standing watch item.
 
+> Updated 2026-08-18 (agent-logged from Kevin's report). **Bought $600 BR (Broadridge Financial Solutions, Lane A) and $600 ADSK (Autodesk, Lane A), ~2.9% each.** Cash $2,903.79 to **$1,703.79 (8.3%)**. Book 16 names to 18. **Share counts are UNKNOWN and deliberately not computed**: this is the first live application of the 2026-08-16 reconcile fix, which says a share count derived by dividing a dollar amount by a price the trade did not happen at is a guess wearing data's clothes. The dollar amounts are what Kevin reported; shares get filled in at the next export.
+>
+> Gate results, per the 2026-08-10 and 2026-07-23 Checklist amendments:
+>
+> - **Per-company thesis: NOT required and NOT requested.** Retired 2026-07-23. Buys gate on the Checklist and lane system. Recorded because the log-a-buy skill still asks for a one-liner and the vault overrides it.
+> - **Three-question check: NOT RECORDED for either buy.** Sixth and seventh live tests of the 2026-08-10 amendment; misses now BSX, LOPE, JKHY, ELAN, BR, ADSK, with ISRG the one partial pass. That is seven of eight. Per the amendment the consequence is capped starter size, and $600 (~2.9%) complies. The check is two minutes and can still be run after the fact.
+> - **Caps: all clear.** Both Lane A at ~2.9% against a 10%-at-cost build-to. Book unchanged at ~$20,621 (cash converted to positions), so no ceiling moves.
+> - **Theme: both are diversifiers, which is what the mandate asked for.** Neither is an AI/data-center capex name, so that theme stays at 48.4% rather than rising. Note the bear case on ADSK is AI *disruption*, which is a thesis risk, not exposure to the capped theme.
+> - **Two new correlated groups, both named now rather than after a third name.** (1) BR plus JKHY share a driver: recurring processing revenue from financial institutions. Combined ~6.0%, under the 20% soft flag. (2) Softer but real: VEEV, JKHY, ADSK and BR all carry the same *narrative* risk, an AI-disruption derating of software and software-like multiples, even though their end-market drivers differ (pharma R&D, community-bank IT, AEC design, broker processing). Combined ~12.8%. Under the flag, but this is precisely the hidden correlation [[Portfolio Strategy]] says the theme cap exists to catch, so it is tracked from today.
+> - **Circle: both clear.** ADSK is recurring-revenue software, Kevin's stated strongest footing. BR is GICS Industrials/Professional Services, a processor serving financials rather than a balance-sheet financial, so the [[Philosophy]] elevated-risk regime does NOT apply. That is the specific respect in which BR is cleaner than JKHY, whose regime ruling is still unsigned.
+> - **Bias line: conviction on both is BORROWED end to end.** Agent screen, agent verdict, agent guidance check, bought the same day. Kevin has stated no reasoning of his own on either name. No theme-as-thesis language and no excitement language, both clean. The borrowed-conviction concentration in this book keeps rising and remains the standing watch item.
+> - **ADSK timing, logged as a DECISION rather than an oversight.** ADSK reports Q2 FY27 on **2026-08-27**, nine days out. The agent flagged this explicitly today as "the JKHY situation again, and this time you can decide it rather than repeat it," and Kevin bought anyway. That is materially different from the JKHY case, where a written buy-after-the-print condition was overridden without a stated reason. Here the timing was surfaced before the trade and accepted. The reason is still unrecorded, and the trigger below is what the print gets checked against.
+> - **Pattern note, stated once.** Seventh same-session screen-to-buy occasion (7/2, 7/16, 7/23, 8/10, 8/11, 8/14, 8/18). But the shape has changed and it is fair to say so: like LOPE and unlike 7/2, written first-passes and a guidance check existed BEFORE money moved. What has not changed is that the research was the agent's and the comprehension gate was skipped.
+> - **Deployment mandate stays ACTIVE.** Cash $1,703.79 is still above the ~$650 single-starter line set 2026-08-12.
+> - **Both names were adopted under a filter whose alpha claim was withdrawn the same day.** See [[QD Bar Pressure Test 2026-08-18]]: out of sample the QD bar returned +3.2% against SPY +4.5%, and it is now classified a risk filter, not a source of return. BR and ADSK cleared it and cleared the guidance check, which is the strongest thing that can honestly be said for them. It is not a reason to expect them to beat the market.
+
 **RECONCILED to the Fidelity export downloaded 2026-08-16 10:58 ET. Every share count below is now broker truth, not an estimate.** Prices are 2026-08-14 closes (8/16 is a Sunday, so the export's "last price" is Friday's close). This is the first full export reconcile since 2026-07-02 and it closes the oldest open item in this file.
 
 | Ticker | Company | Shares | Avg cost | Px (2026-08-14 close) | Mkt $ | Wt % | Lane | Driver / theme | Circle |
@@ -54,6 +70,8 @@ What this note is for: my current book. The portfolio-fit workflow uses this to 
 | JKHY | Jack Henry | 4.224 | 153.87 | 153.31 | 648 | 3.1% | A | Core-processing software for community banks/credit unions | In (recurring-revenue software); GICS Financials, regime ruling pending |
 | LOPE | Grand Canyon Education | 4.425 | 146.88 | 144.20 | 638 | 3.1% | A | Education services; university enrolment, Title IV federal aid | Out (new sector) |
 | BSX | Boston Scientific | 11.867 | 50.56 | 51.83 | 615 | 3.0% | B (insider cluster 8/05) | Cardiology/EP/endoscopy devices; elective procedure volumes | In (medtech) |
+| BR | Broadridge Financial | **UNKNOWN** | (fill $600) | 167.84 (8/17) | 600 | 2.9% | A | Investor communications and trade processing for brokers/asset managers; recurring revenue from financial institutions | In (recurring-revenue processing); GICS Industrials, NOT elevated-risk |
+| ADSK | Autodesk | **UNKNOWN** | (fill $600) | 241.64 (8/17) | 600 | 2.9% | A | AEC and manufacturing design software; construction and design activity, subscription base | In (recurring-revenue software) |
 | VRTX | Vertex Pharma | 1.204 | 498.16 | 505.75 | 609 | 2.9% | A | Biotech; CF franchise, pipeline | ? (fill in) |
 | ISRG | Intuitive Surgical | 1.542 | 388.94 | 394.51 | 608 | 2.9% | A (dislocated quality) | Robotic surgery; elective procedure volumes | In (medtech) |
 | RYAN | Ryan Specialty | 12.732 | 39.19 | 41.82 | 532 | 2.6% | B (insider cluster 6/03-6/12) | Specialty insurance brokerage; hard-market fees, rates | ELEVATED-RISK (financials, deep dive owed) |
@@ -90,7 +108,9 @@ Ten of sixteen share counts had drifted. **Fourteen of the sixteen are explained
 
 > The table above is live as of the 2026-08-14 closes and its weights are correct. The Known concentrations block below is computed from the same export.
 
-**Cash: $2,903.79 (13.9%), and this is LOWER than the file has been claiming.** The export shows SPAXX of $4,203.72 ($2,207.04 taxable plus $1,996.68 Roth) against **pending activity of -$1,299.93** in the taxable account. That pending debit is the JKHY and ELAN purchases settling: $649.93 plus $650.00 is $1,299.93 to the cent. The money is spent; it has just not left the sweep yet.
+**Cash: $1,703.79 (8.3%) as of 2026-08-18** after the $1,200 BR and ADSK buys. The reconciled 8/16 figure and its working are kept below because the mechanism still matters.
+
+**Cash: $2,903.79 (13.9%) at the 2026-08-16 reconcile, and this was LOWER than the file had been claiming.** The export shows SPAXX of $4,203.72 ($2,207.04 taxable plus $1,996.68 Roth) against **pending activity of -$1,299.93** in the taxable account. That pending debit is the JKHY and ELAN purchases settling: $649.93 plus $650.00 is $1,299.93 to the cent. The money is spent; it has just not left the sweep yet.
 
 The file previously carried ~$4,153, which was the 8/13 figure and was never decremented for the 8/14 buys. Expected cash after those buys is $4,153 minus $1,300, or ~$2,853, against $2,903.79 actual, a $51 gap inside fill noise. **So the cash line reconciles cleanly once the pending debit is applied, and the practical correction is that deployable cash is ~$2,904, not ~$4,153.** Anyone reading the gross SPAXX balance would overstate dry powder by 45%.
 
@@ -116,6 +136,8 @@ Two corrections to what this line used to say: **NBIS is gone** from the Roth (e
 
 One pre-registered, event-based trigger per name. The daily brief checks news against this list and flags any fired trigger in bold at the top. A fired trigger forces a written decision (trim, exit, or explicitly re-underwrite), not an automatic sale.
 
+- BR (DRAFT 2026-08-18): recurring revenue growth falls below ~5% constant currency for two consecutive quarters, closed sales decline year over year for two consecutive years, or a structural loss of the regulatory proxy-distribution franchise (an SEC rule change removing the mandated intermediary role). Lane A: no ATR stop, no valuation harvest; 20% ceiling or thesis break only. Note the live bear case the buy was made into: FY27 closed sales guided $290-330M against $305M actual, so flat-to-down sales momentum is already priced and is NOT itself the trigger; two consecutive down years is.
+- ADSK (DRAFT 2026-08-18): billings or constant-currency revenue growth guided below ~8% for FY28, net revenue retention breaking below ~100%, or credible evidence of AI-native design tools taking seats in AEC or manufacturing rather than only in adjacent workflows. Lane A: ceiling or thesis break only. **First test is the Q2 FY27 print on 2026-08-27**, bought into deliberately; the FY27 guide was raised at Q1 (revenue $8.155-8.215B, non-GAAP EPS $12.40-12.65) and a cut or withdrawal of that raise at Q2 is a thesis event, not noise.
 - LOPE (DRAFT 2026-08-11): GCU enrolment declines for two consecutive quarters, the university-services contract is renegotiated on materially worse terms or put out to renewal risk, or an adverse Title IV / gainful-employment rulemaking changes federal-aid eligibility for the partner institutions. Lane A, so no ATR stop and no valuation harvest; it trims at the 20% ceiling or on a thesis break only.
 - JKHY (DRAFT 2026-08-14): net core-client attrition for two straight quarters, an FY27 guide marking revenue growth below ~5%, or a consolidation wave visibly shrinking the community-bank served base. Lane A: no ATR stop, no valuation harvest; ceiling or thesis break only.
 - ELAN (DRAFT 2026-08-14): a Zenrelia safety signal at scale or first-line share reversal, the 5/15-8/07 insider cluster reverses to selling, or the deleveraging path breaks (net leverage not at or below ~3.2x adjusted at the 2026 year-end print).
@@ -157,7 +179,7 @@ Entry dates marked (assumed) need confirming against the Fidelity export.
 
 Thesis-completion and time-stop are qualitative and checked at earnings and the weekly retest, not daily.
 
-**Every holding carries a lane.** Lane A: GOOG, ORCL, VRTX, VEEV, ISRG, LOPE, JKHY (ZTS exited 8/10, XRAY exited 8/11, CRS and NBIS exited 8/13). Lane B: everything else, ELAN added 8/14. The provisional "A?" and "B?" marks were resolved to A and B. Lane assignments for the seven previously-blank names were agent-set at Kevin's instruction and, like the valuation targets, are **borrowed conviction, flagged for override**.
+**Every holding carries a lane.** Lane A: GOOG, ORCL, VRTX, VEEV, ISRG, LOPE, JKHY, BR (added 8/18), ADSK (added 8/18) (ZTS exited 8/10, XRAY exited 8/11, CRS and NBIS exited 8/13). Lane B: everything else, ELAN added 8/14. The provisional "A?" and "B?" marks were resolved to A and B. Lane assignments for the seven previously-blank names were agent-set at Kevin's instruction and, like the valuation targets, are **borrowed conviction, flagged for override**.
 
 **Entry dates are all confirmed** (2026-08-10 confirmations; CRS, NBIS, OKLO and XRAY have since exited). Stops at the 2026-08-12 closes for the remaining Lane B roster: GEHC 66.40 vs 72.28, KMX 52.96 vs 58.71, PATK 78.61 vs 86.76, RYAN 40.81 vs 42.87 (just outside 1 ATR), BSX 46.25 vs 51.42, VSAT 71.76 vs 87.23, IREN 33.57 vs 43.67. None crossed, none inside 1 ATR. QXO excluded (dormant). KMX is 95% of its 62.00 valuation target and remains the likeliest first fire.
 
@@ -173,7 +195,9 @@ Three rules, same shape as the ATR hard-fail:
 
 Rule 3 is the one that actually caused this. The 8/10 entry read "TRIM SIGNAL, XRAY: fired and CLOSED. Kevin's decision: keep, no trim," and then, in the same paragraph, "the reason for keeping is UNRECORDED." A decision whose reason is unrecorded is not a decision that was reported; it is one that was assumed. The file even flagged its own gap and the inference survived anyway.
 
-**Confirmed dates: ALL POSITIONS CONFIRMED 2026-08-16** by the Fidelity export downloaded 10:58 ET (positions as of the 2026-08-14 close). Every share count in this file is broker truth. No position is estimated. **This closes the standing reconcile debt**, which had been open since the 2026-07-02 export and was the oldest item in the file.
+**BR and ADSK: reported by Kevin 2026-08-18, so `Confirmed 2026-08-18` for the position, but SHARES UNKNOWN until an export lands.** Under the ATR hard-fail logic a name with no share count cannot carry a dollar-weighted mechanical signal; both are Lane A and therefore exempt from stops and valuation harvests anyway, so nothing is suppressed in practice. Fill the share counts at the next reconcile.
+
+**Confirmed dates: ALL OTHER POSITIONS CONFIRMED 2026-08-16** by the Fidelity export downloaded 10:58 ET (positions as of the 2026-08-14 close). Every share count in this file is broker truth. No position is estimated. **This closes the standing reconcile debt**, which had been open since the 2026-07-02 export and was the oldest item in the file.
 
 Under rule 2 above the whole book is signal-eligible until 2026-08-31, ten trading sessions out. After that date the brief starts suppressing mechanical signals unless a fresh export lands, so **the reconcile is a recurring obligation, not a one-off**. The 8/16 export took six weeks to arrive and the drift it corrected reached $604 on a single name.
 
@@ -206,7 +230,7 @@ Lane A names do not get ATR stops or valuation harvests. They cut for one of two
 **Known concentrations (vs the Tight caps, recomputed 2026-08-16 from the Fidelity export at 2026-08-14 closes; book $20,830.54 including $2,903.79 net cash). These are the first cap numbers in this file computed from broker-true share counts rather than estimates.**
 - GOOG **34.17%**, still ~1.7x the 20% single-name hard-trim ceiling; excess is **$2,952.72** at market, from ~$3,222 at the 8/14 estimate. The excess shrank on the reconcile as well as on price: the file was crediting GOOG with 1.578 shares it does not hold. ORCL **13.32%**, comfortably under the ceiling and 2.3pts lower than the file claimed, same cause. The 7/16 reasoning for holding a BBB- credit is still unwritten.
 - AI / data-center capex theme: GOOG + ORCL + IREN = **48.43%** vs the 30% hard cap, from ~51.1% at the 8/14 estimate. Still ~1.6x the cap. The arithmetic is unchanged in shape but has genuinely improved: GOOG and ORCL alone are now ~47.5%, against ~50% before. Running the GOOG plan to completion would bring the theme to roughly 34%, which is within sight of the cap for the first time. Either the cap forces GOOG below its own single-name ceiling, or the theme definition needs a written revision. That decision is unmade.
-- Breadth: **14 names above 2%** vs the floor of 8. Book is 16 names plus cash. VSAT sits at 2.06%, IREN 0.93% and QXO 0.21% are below the line.
+- Breadth: **16 names above 2%** vs the floor of 8 (BR and ADSK added 2026-08-18 at ~2.9% each). Book is 18 names plus cash. VSAT sits at 2.06%, IREN 0.93% and QXO 0.21% are below the line.
 - **Healthcare 20.28%, which BREACHES the 20% soft flag.** GEHC, VEEV, ELAN, BSX, VRTX and ISRG. The 8/14 entry recorded this as ~19.4%, half a point clear; the reconcile puts it half a point over. **The breach is small and is a soft flag, not a hard cap, so it requires a written justification rather than a trim.** The justification already drafted in the ELAN deep dive applies unchanged: six names, six distinct drivers, no shared mechanism beyond the sector label. What changes is that the line is now owed rather than pre-emptive, and **any further healthcare add owes it in writing BEFORE the buy**. Recorded rather than actioned because the mechanism test, not the sector label, is what [[Portfolio Strategy]] makes binding.
 - Elective procedure volumes / hospital spending: GEHC + ISRG + BSX = **10.17%**, under the 20% soft flag. This is the named sub-theme inside healthcare and it is the one with a genuine shared mechanism, which is why it is tracked separately from the sector total above.
 - Leveraged consumer discretionary / rates: PATK + KMX = **6.35%**. Not a named theme, still watched.
