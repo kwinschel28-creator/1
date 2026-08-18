@@ -50,7 +50,7 @@ Keep the QD discipline that already works: lead with the bear case, require a on
    **Both the window and the floor were added 2026-08-18 after this gate misfired on its first live run**, and the failure is worth keeping because it is not a threshold problem. The original spec never stated a lookback window at all. The morning sweep used 180 days, the backtest used 120, and the first implementation inherited 120. Under 120 days, Broadridge's CEO buying $1.03M on 2026-03-06 fell outside the window while a single routine $305k sale by the Chief Legal Officer on 6/04 fell inside, so a name with **3.4x more insider buying than selling was vetoed as a net seller.** With no buys in the window at all, the original form also made *any* sale of *any* size a veto, which is not what "net selling kills" means and would have vetoed most large caps. An unstated parameter is a bug, not a judgement call: **every gate must name its measurement window.**
 8. **Dislocation as a setup marker, not a cause.** At least 20% off the 12-month high to qualify as a setup. It stays a display column and is never the reason, per the 2026-08-10 finding that raw drawdown selects for guidance cutters.
 
-### Near-miss rule (live 2026-08-18) — the systemic fix
+### Near-miss rule (live 2026-08-18), the systemic fix
 
 Gates 1, 5 and 7 were each patched after a good name failed on rounding. Patching them one at a time as winners are discovered is how a screen gets overfitted, so the general fix is at the reporting layer instead:
 
