@@ -2,7 +2,7 @@
 type: sourcing-rules
 tags: [investing/process, sourcing]
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-08-21
 review_cadence: monthly
 ---
 
@@ -20,6 +20,24 @@ The insider signal alone is not the edge. In the baseline, the discriminator bet
 - **Financial-health floor:** soft Piotroski floor of 4. Below 4 is a falling-knife flag, not an auto-pass; if taken, size down. GEHC at Piotroski 2 was the INS laggard.
 - **Circle first:** in-circle names (SaaS, commercial healthcare/medtech) get priority and full size. Out-of-circle names (e.g. LW) can be surfaced but are size-capped per the "learning is not competence" guard.
 - **Dislocation cause:** tag each name SENT (sentiment/multiple drop, business intact) vs BREAK (fundamental deterioration) at surface time. Baseline winners were all SENT; the one BREAK name (GEHC) lagged. Track whether this holds.
+
+### Recency gate: a purchase confirms only if it postdates the last earnings report (Kevin's decision, 2026-08-21)
+
+**The rule.** An insider purchase counts toward the cluster gate only if its `tx_date` is later than the company's most recent earnings `report_date`. Purchases from before that print are **context, not signal**, and are displayed with both dates so the staleness is visible. The cluster thresholds are unchanged (2+ distinct discretionary buyers, $250k floor on the INS path, $400k on the Lane B inflection screen); what changes is which purchases are eligible to be counted.
+
+**Why.** A purchase is a dated claim about the forward outlook. An earnings report is the event most likely to falsify that claim. HUBS on 2026-08-21 is the case that produced the rule: a genuinely strong cluster, CEO Rangan $522k plus co-founder and CTO Shah $1.81M plus director Norrington $250k, $2.59M inside two days on 5/11-5/12, bought straight into the May AI-pricing selloff. Then Q2 on 8/12 cut FY26 revenue guidance and the stock fell 20.2%. The fourth buyer, director Dischler at $200k, went in on 8/10, two sessions *before* that print. Not one purchase in the window postdated the event that broke the name, yet a 120-day window scored all four as one live cluster. The window treats a May buy and an August buy as equivalent; a guidance reset in between says they are not.
+
+**The gate is naturally satisfiable, not a de facto ban.** Insider trading windows open right after earnings, so a real cluster normally forms post-print by construction. That is the point: the rule does not ask for something unusual, it asks for the normal thing to have actually happened.
+
+**Two states, not one.** Distinguish these in output, because they carry different information:
+- **NOT CONFIRMED (stale):** insiders had most of a quarter after the print and did not buy. Damning.
+- **NOT CONFIRMED YET (window young):** fewer than ~10 trading sessions since the print. Report the session count and hold; this is a not-yet, not a fail.
+
+**Applies to the buy side only, for now.** The insider veto in the QD path (gate 7 below) keeps its 180-day window and is NOT changed by this. Reasoning: a buy is an affirmative forward claim, so a reset invalidates it, while the veto is a risk filter where a stale sell is still a fact about the seller. The symmetry question is real and is logged for a future review rather than settled by assumption.
+
+**Retro-check, 2026-08-21, and its honest limit.** Run across 22 screened and ledger names. Seven survive with 2+ confirming buyers: ELAN (5, $1.47M), CODI (5, $1.81M), BSX (3, $9.39M), GSHD (2, $11.45M), MLAB (2, $902k), CMC (2, $604k), VFC (2, $787k). Fourteen drop out, HUBS 4 buyers to 1 among them, along with PLNT 3 to 1, SITE and DINO 2 to 1, and XRAY, FRPT, MMSI, OPCH, POOL, SPOK, TKO, CAVA, ALKT and LFTO to zero. **Side benefit worth recording:** ALKT ($135M) and LFTO ($60M), the two-buyer block trades flagged 2026-08-20 as sponsor size rather than officer conviction, both go to zero here. The recency gate does the job a per-buyer dollar ceiling was proposed for, without adding a threshold.
+
+**The limit:** this is a snapshot of today, not a point-in-time reconstruction. It shows what the rule does to the current board, including correctly demoting watchlist names whose clusters a new print has since aged out. It does NOT establish that post-print clusters beat pre-print clusters on forward returns, which needs a real cohort study. **Adopted as live and logged UNDER TEST on that basis.** The backtest is available on request and belongs in the next monthly review.
 
 ## Secondary feed: quality-dislocation (QD) with an overreaction screen
 
@@ -98,6 +116,7 @@ The four level thresholds are genuine cliffs and always will be. Widening each o
 
 ## Under test (hypotheses, added 2026-07-21)
 
+0. **Recency gate (added 2026-08-21):** post-print clusters carry signal, pre-print clusters do not. Adopted live on reasoning plus a same-day snapshot retro-check; the forward-return cohort study is owed.
 1. Dislocation depth > cluster dollar value as the INS ranking key.
 2. Piotroski >= 4 soft floor within INS.
 3. SENT names outperform BREAK names; validate over more cohorts before weighting.
@@ -117,3 +136,4 @@ The four level thresholds are genuine cliffs and always will be. Widening each o
 - **2026-07-21.** Created from the first ledger re-score (n=13, 3 weeks). Set INS as primary engine with dislocation-depth ranking, Piotroski-4 floor, circle-first, and SENT/BREAK tagging. Added QD as secondary with a guidance-up/price-down overreaction screen. All flagged under test. Sample is tiny; nothing here is proven yet.
 - **2026-08-18 (second entry, same day).** **Pressure tested and the alpha claim was withdrawn.** Three non-overlapping out-of-sample cohorts with 3-month forward returns and three control baskets each ([[QD Bar Pressure Test 2026-08-18]]): the bar returned +3.2% against a universe at +3.8% and SPY at +4.5%. It underperformed both. The +20.2% that motivated the path was in-sample and regime-specific. What replicated instead is a low-beta quality tilt: it beat every control by 4-6 points in the falling tape (Aug 2025), lagged the universe by half in the ripping tape (Nov 2025), and beat the universe on median and hit rate in 2 of 3 cohorts. **Reclassified from alpha source to risk filter.** Also recorded: cluster-on-top variants returned n=1 and n=2 showing +33.7% and +17.4%, which are meaningless and are logged specifically so they are never quoted as evidence. Two EPS beats added nothing. Gate changes made live the same day: operating margin to a 95% band, insider veto to a 10% tolerance, and the **near-miss rule** added so future rounding losses are surfaced rather than fixed by widening gates one winner at a time.
 - **2026-08-18.** Added the **QD-only path at a higher quality bar** on Kevin's instruction, after the expanded sweep showed the cluster and quality legs no longer co-occurring. Eight database gates plus a mandatory guidance check, with PASS reserved for the GWRE configuration (results up, guidance raised or healthy, price down). Two changes worth flagging as method, not just thresholds: ROIC durability now uses a **90% retention band instead of a strict inequality**, because the strict form was discarding names on one-decimal noise (HLNE at 22.4 vs 22.5); and **Piotroski rises to 6 on this path only**, to compensate for the missing insider confirmation, while staying a floor rather than a ranker. First run returned 9 names from ~10,300, of which 2 reached PASS (BR, ADSK) and 1 was gated on the elevated-risk regime (HLNE). Under test, calibrated on a board already seen, judge it forward.
+- **2026-08-21.** Added the **recency gate on the INS path** (Kevin's decision, in his words: "an insider purchase should only count as confirming if it postdates the most recent earnings report"). Spec in the INS section above. Origin: HUBS was surfaced by the 8/21 insider screen, called "the strongest raw file in weeks" in that morning's brief on database evidence alone, then screened on request the same day and KILLED on the guidance gate. Its 4-buyer, $2.79M cluster was entirely pre-print, three buyers on 5/11-5/12 and the fourth two sessions before the 8/12 Q2 report that cut FY26 revenue guidance. Same-day snapshot retro-check over 22 names: 7 survive with 2+ confirming buyers, 14 drop out including the ALKT and LFTO block trades flagged 8/20 as sponsor rather than officer conviction. **Logged UNDER TEST:** the retro-check is a snapshot, not a point-in-time reconstruction, and no forward-return study yet shows post-print clusters beating pre-print ones. Buy side only; the QD-path insider veto keeps its 180-day window, with the symmetry question logged rather than assumed. Worth stating plainly alongside this: the gate this rule adds is cheap and mechanical, and it would have flagged HUBS at screen time instead of two web searches later, but it does not address the actual failure in that sequence, which was attaching a superlative to a name whose guidance check had not run.
