@@ -1,7 +1,7 @@
 ---
 type: agent-context
 tags: [investing/process, automation, memory]
-updated: 2026-07-29
+updated: 2026-08-27
 purpose: Standing context ported from Cowork desktop auto-memory so the mobile brief has the same knowledge. Read this first on every run.
 ---
 
@@ -62,6 +62,17 @@ Two additions to the mandate while it is active:
 
 - **Escalate on freshness, not on schedule.** A candidate that clears the full stack (cluster plus Piotroski 4+ plus in-circle plus deep dislocation) AND whose most recent insider purchase is dated within 5 trading days goes at the TOP of the brief, above the market pulse, not buried in the ideas section. A fresh cluster is the perishable part of the signal; everything else on the list keeps.
 - **Track the deployable date, not just the cash.** Kevin's 2026-08-10 rule says proceeds are not spendable in the week they arrive. The brief states the deployable date alongside the cash figure so the number is never reported as though it were all spendable today. As of 2026-08-12 the ~$3,500 arrived 8/10, so the deployable date is 2026-08-17, and GOOG tranche 2 (~$1,100) adds to it on 2026-09-01.
+
+**Standing amendment 2026-08-27 (Kevin's instruction): the web-search cap rises from 6 to 10 per run, and the number lives HERE, not in the routine prompt.** Kevin asked for it after the 2026-08-27 run spent all six searches on the pulse, VEEV, BSX, IREN, ORCL and one promotion candidate, and therefore carried AMRZ forward unverdicted when the guidance check would have killed it. **The stored routine prompt still reads "Hard cap of 6 web searches per run." The vault is authority, so runs use 10 until he re-pastes the prompt**, and the brief says so in one line rather than following the stale number.
+
+Two mechanics, because a raised budget is not self-managing:
+
+- **Spend order is fixed, and the guidance check outranks breadth.** Market pulse, then the holdings sweep and any 5%+ mover, then the guidance check on the one promotable candidate, then anything else. The 8/27 run had its priorities right and simply ran out; with 10 the promotion check should never be the item that gets cut. If it is going to be cut anyway, the candidate is reported with no verdict AND no adjective, per the writing rule below.
+- **More searches raise the headline-sourcing risk, so the existing hard rule is restated rather than relaxed:** every percent figure comes from the price pull, never from a headline. A larger search budget buys causes, dates and guidance language. It does not buy numbers.
+
+**Recorded alongside it, per the goalpost-movement practice this file uses:** this change was made the same morning a cap blocked something specific, which is the shape flagged on 6/30, 7/16, 7/23 and 8/10. It is noted for consistency and the substance is different in one respect that matters: the constraint removed was the agent's own budget, not one of Kevin's process gates, and no gate on a buy was touched. The vault takes no position on whether 10 is the right number and records that it was raised on a demonstrated miss rather than on a preference.
+
+**Writing rule, added the same day and cheap enough to be unconditional: no superlative on a name whose guidance check has not run.** The 8/27 brief called AMRZ "the freshest file on the board" with "the cleanest both-sides check on the board," which was factually true and still wrong, because the gate that kills was the one that had not run and it killed it. This is the 2026-08-21 HUBS failure verbatim ("the strongest raw file in weeks," then killed on guidance two searches later) and the 8/26 TTMI row had already written the fix down one day earlier. Describe the file, withhold the adjective. This is a writing discipline, not a screen threshold, and the search-cap increase removes the excuse for the miss without removing the need for the rule.
 
 Standing bias note, stated once and not repeated every run: the recurring failure here is not finding ideas, it is that the best names get left on the watchlist while weaker names get bought in haste (the 2026-07-21 ledger finding, unchanged through six same-session screen-to-buy events). More monitoring raises the number of candidates; it does not fix that. The three-question check and the not-this-week rule are what fix it, and both are Kevin's to run.
 

@@ -2,7 +2,7 @@
 type: sourcing-rules
 tags: [investing/process, sourcing]
 created: 2026-07-21
-updated: 2026-08-26
+updated: 2026-08-27
 review_cadence: monthly
 ---
 
@@ -96,6 +96,18 @@ One design flaw, three symptoms: **distance from a trailing high says nothing ab
 The guard says reported revenue is not demand for franchisors and unit-expansion models, and it was written the day WING forced it. It did not catch HLNE, whose 56.5% revenue growth is a 170% surge in carried interest measured off a down quarter.
 
 The guard needs a named list rather than a case-by-case judgement. **Any model where reported revenue contains a performance-linked or transaction-linked component needs the organic line checked by hand:** asset managers and anything earning carried interest or incentive fees, brokers and investment banks, royalty models, and unit-expansion franchisors. For an asset manager the demand metric is fee-earning AUM and management-fee revenue, not total revenue.
+
+### Gate 8: one counter-example, logged for the same review (added 2026-08-27)
+
+AMRZ is the case that shows gate 8 is not broken everywhere. Its 12-month low of 43.69 was set 2026-08-25 and it closed 44.74 on 8/26, so it sits **2.4% above its low** and its 32.2% drawdown is genuinely current. Its 2025-06-23 spin from Holcim also falls outside a 12-month window starting 2025-08-27, so the REZI contamination does not apply either. Read against the three failures above, the pattern sharpens: **gate 8 misleads specifically when distance-from-high and distance-from-low disagree**, and it is sound when they agree. That is direct support for the candidate fix already on the review list (pair gate 8 with distance from the 12-month low or from where insiders last bought) and it argues for pairing rather than replacement.
+
+### The post-cut cluster question (raised 2026-08-27, NOT resolved)
+
+The 8/21 recency gate asked whether a purchase before a print carries the same information as one after it, and answered no. AMRZ raises the mirror question and it is not answered here.
+
+AMRZ cut its full-year adjusted EBITDA guide on 2026-08-06 and **seven distinct insiders bought after it**, part of a 180-day file of 12 buyers, $8.10M, and **zero discretionary sales** across 36 measured rows, with the CEO alone about $5.5M and every buyer averaging down from 58 to 44. That is a stronger file than XRAY's nine-director cluster, the best name in the 2026-07-21 baseline. The guidance gate killed it anyway, correctly, because the gate does not negotiate and that is the whole reason it has done all the killing (FISV, PODD, TSCO, CSGP, INTU, now AMRZ).
+
+**The open question:** a cluster forming *after* a cut is buying with the bad news already public, which is not the same act as a cluster formed before one. The HUBS logic that produced the recency gate would, applied symmetrically, say a post-cut buy is the most informed purchase available. The counter-argument is the base rate the Checklist already names: insiders know the business, not the multiple or the macro, and AMRZ's insiders are down roughly 22% on the March buys. **Logged for a real cohort study at a monthly review, not settled by reasoning, and no gate is softened on the day a name is wanted.**
 
 ### Near-miss rule (live 2026-08-18), the systemic fix
 
