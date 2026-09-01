@@ -325,3 +325,42 @@ The cluster is genuine and is not the sponsor-subscription noise the recent-IPO 
 4. **Nine months of public history and all three gate-8 defects at once.** IPO **2025-12-10**, emerging growth company, three reported quarters in the database. The 12-month high of 96.40 was set **2026-07-01** and the low of 21.98 on **2026-01-06** right after listing, so "-60.5% off the high" measures a post-IPO blowoff (WDFC defect), "73.1% above the low" makes the drawdown historical (PGY/HLNE defect), and the window spans both the IPO and a February acquisition (REZI defect). ROIC has run 21.8%, 12.3%, 10.0% across the only three quarters that exist, and revenue growth of +114% is acquisition-driven roll-up growth, not organic. A southeastern residential and commercial site-development contractor is also firmly out of circle.
 
 **The sourcing lesson, and it is the useful output of this check.** Both INS names surfaced this morning carried strong raw insider files and both died on things no insider screen can see: a guidance cut and pending litigation on one, a CFO departure and a nine-quarter FCF deficit on the other. **The 2026-07-21 baseline finding is holding up under pressure: the cluster is not the edge, and health, circle and cause are what separate the winners from the laggards.** It also vindicates withholding the adjective this morning under the 2026-08-27 writing rule. Both were described and neither was praised, and both were killed within hours.
+
+**2026-09-01 brief. One promotion (NXPI, PASS), ten INS names killed on health, gate-8 near miss for the fifth consecutive run.**
+
+| Re-score | Ticker | Source | Cause | In circle | Anchor | Anchor date | Verdict | Re-score px | vs anchor | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-01 | NXPI | QD | SENT | adjacent | 224.64 | 2026-08-31 | **PASS (first-pass grade), Lane A** | n/a | n/a | See below |
+
+**NXPI. PASS, and the GWRE configuration was checked rather than assumed.**
+
+All eight database gates clear: ROIC 12.8% at 107% retention, operating margin 131% of year-ago, revenue +19.5%, FCF margin 21.3% on $2.81B TTM free cash flow, Piotroski 8, D/E 0.96 from 1.20, current ratio 2.04, -33.9% off the 12-month high. **Gate 7 measured 5 rows and found zero discretionary activity on either side.** That is an acceptable pass on the QD path, and the row count is reported per the 2026-08-26 measurement rule so it cannot be confused with the zero-row NOT MEASURED cases.
+
+The PASS condition: Q2 reported 2026-07-28 after close, revenue $3.496B (+19.5% y/y, +10% sequential) against a $3.45B consensus, adjusted EPS $3.61 against $3.50, non-GAAP gross margin 58.0% (+150bp). **Guidance was raised:** Q3 revenue midpoint $3.75B against a $3.71B consensus, all regions and end markets guided to grow sequentially, and the CFO reaffirmed the 2027 commitments implying double-digit revenue growth in 2026 and 2027 with gross margin toward 60%. **The price fell anyway, confirmed from the price pull and not a headline: -7.00% on 2026-07-29 and -6.53% on 2026-07-31.** The stated cause is the width of the guidance ranges ($3.65B to $3.85B revenue, $3.89 to $4.32 EPS against a $4.01 estimate) inside a semiconductor sector that fell 13% in July, its worst month in nearly four years. Results up, guidance up, price down. That is the configuration the path reserves a PASS for.
+
+Three things logged against it so they are not lost if the name is ever sized.
+
+1. **ROIC 12.8% is 0.8 points above the 12% gate**, the thinnest gate-1 clearance any promoted name has had.
+2. **Gate 8 half-disagrees.** 33.9% off the high but 22.8% above the 12-month low, the configuration the 2026-08-26 review flagged as the one where distance-from-high overstates dislocation. The AMRZ counter-example says gate 8 is sound only when the two measurements agree, and here they partly do not.
+3. **The dislocation correlates with a theme already in breach.** NXPI's end markets are automotive and industrial, genuinely different return drivers from data-center capex, but the July derating that created the setup was sector-wide semis. The AI/data-center theme is 47.5% against a 30% hard cap. Size is the answer, not avoidance, and this is a Lane A starter at most.
+
+**Ten new INS names, zero survivors, and the failures are all health rather than cluster quality.**
+
+| Ticker | Cluster | Killed on |
+|---|---|---|
+| EQPT | 4 buyers, $3.09M, latest 2026-08-21 | **$45.4M discretionary selling over 180 days against $3.09M of buying; TTM FCF -$855M; D/E 3.97** |
+| ABTC | 2 buyers, $2.32M | ROIC -32.1%, current ratio 0.19, TTM FCF -$137M |
+| PAR | 3 buyers, $15.96M | ROIC -5.3%, TTM FCF -$24M, 62.2% above the 12-month low |
+| CTEV | 4 buyers, $743k | TTM FCF -$18M, $643k of discretionary selling, 246.3% above the low |
+| CC | 7 buyers, $489k | ROIC -18.3%, negative book equity, revenue -1.5% |
+| ACDC | 3 buyers, $9.75M | TTM FCF -$49M, D/E 2.24 from 1.40, revenue -0.8% |
+| FBIN | 2 buyers, $30.7M | ROIC 4.6% from 9.1%, revenue -4.1%, operating margin -0.8% |
+| VIA | 2 buyers, $1.62M | Recent listing, ROIC -14.1%, TTM FCF -$48M, 115.7% above the low |
+| MAIR | 2 buyers, $219.6M | Sponsor-size block, the ALKT/LFTO shape; recent listing, no ROIC history |
+| UA | 2 buyers, $5.97M | No fundamentals in the database for the Class C line, NOT MEASURABLE |
+
+**EQPT is the entry worth keeping.** It is the only one of the ten with the sound gate-8 configuration (-50.4% off the high and just 12.1% above the 12-month low, so the drawdown is current), a genuine post-print cluster, and Piotroski 6. It dies on the both-sides check by a factor of fifteen, which is the DINO/GSHD lesson doing exactly the job it was added for. **Recorded as evidence that the both-sides check earns its place on the INS path, not only in the QD veto.**
+
+**Gate-8 near miss, fifth consecutive run.** Two names clear gates 1 to 7 and miss only the 20% line inside the 10% band: **TEL at -18.7% off the high and 7.9% above its 12-month low**, missing by 1.3 points or 6.5% of the threshold, and **LMT at -18.9%**. TEL is now its third straight appearance (6.5% above the low on 8/31, 3.7% on 8/28) and is again the configuration where distance-from-high and distance-from-low agree and the gate excludes anyway. Fifth run of corroboration for the pairing fix already queued. Not patched today.
+
+**Gate 7 is now removing three quarters of the board, and the overdue hit-rate check matters more each run.** Across both paths this run it vetoed 18 of the 24 names it measured, including SPOT ($22.9M discretionary selling, zero buyers), APP, AMAT, LRCX, MU, WDC, AVGO, ESLT, EME and STRL, and on the near-miss list VMI, DCI, LEVI, MGY and PEP. Three more returned **zero rows and are NOT MEASURED, not passed**: AGI, ITRN and B. The 2026-08-25 note asked for a hit-rate check when the gate was removing nine of eleven finalists; it is now removing about 75%, and the monthly review that would settle it is 11 days overdue.
