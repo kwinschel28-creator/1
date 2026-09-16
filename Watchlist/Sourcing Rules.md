@@ -123,6 +123,32 @@ Gates 1 to 8 are all database-side and get a name to WATCHLIST at best. **A QD-o
 
 This is the one gate that cannot be run against the database, and it is the gate that has done all the killing: FISV, PODD and TSCO on 2026-08-10, CSGP on 2026-08-18. CSGP is the case to remember, because it cleared every mechanical leg and cleared them well before the guidance cut killed it.
 
+### Entry due-diligence check, moved to SURFACE time (live 2026-09-16, Kevin's instruction)
+
+**No name is promoted to a first-pass verdict without both answers attached.** This is the [[Checklist]] Gate 2 of the same date, relocated from buy time to screen time on purpose: the documented failure is that the check does not happen in the moment a name is wanted, so it is made the agent's obligation before Kevin ever sees the name. It costs zero web searches; both legs are database-side.
+
+**Leg 1: pending business combination.** Run this and report the result on every promoted name, including a clear result. Reporting "clear" matters as much as reporting a flag, per the 2026-08-26 measurement rule that a gate must always say what it measured.
+
+```sql
+SELECT g.ticker, COUNT(*) AS combo_filings,
+  MIN(sf.filing_date) AS first_filed, MAX(sf.filing_date) AS latest_filed,
+  string_agg(DISTINCT sf.raw_form_type, ', ') AS forms
+FROM shibui.sec_filings sf
+INNER JOIN shibui.general_info g ON g.cik = sf.cik
+WHERE g.ticker = '<TICKER>'
+  AND sf.filing_date >= CURRENT_DATE - INTERVAL '15 months'
+  AND sf.form_type IN ('S-4','DEFM14A','425','SC 13E3')
+GROUP BY g.ticker
+```
+
+- **Use the business-combination forms ONLY. Do NOT add the 8-K item 1.01 leg.** Tested 2026-09-16: item 1.01 is "entry into a material definitive agreement" and fires on credit facilities and supply contracts, so it returned a hit on **all eight** names in the first test batch including five with no deal of any kind. A check that flags everything is a check that gets ignored, which is the same defect class as gate 8 selecting for guidance cutters. The tightened form list returned **PATK flagged (7 filings, first filed 2026-06-30) and ten of twelve controls clear.**
+- **A flag is a prompt to read the filing, not a verdict.** BSX also flags, on S-4 and 425 filings dated 2026-01-15 to 2026-04-22, because it was the **acquirer** in a bolt-on that had already closed before the 8/10 entry. An acquirer doing bolt-ons and a company that has agreed to be merged are different situations and the filing has to be read to tell them apart. Report the form mix and the date span so the distinction is visible without opening the filing.
+- **What a flag changes about the position, which is the actual point.** If the company has agreed to be acquired or merged, its price is partly a deal spread on an unvoted transaction. **The Lane B ATR trailing stop is then measuring the spread, not the operating thesis**, and any prong written about operations is describing a company that may not exist at close. PATK is the worked example: entry 2026-07-16, merger agreed 2026-06-30, stop fired 2026-09-08, merger surfaced 2026-09-10, exited 2026-09-16 at roughly -19%.
+
+**Leg 2: guidance recency.** Report the company's most recent `report_date` from `earnings_quarterly` alongside the guidance figure found by the promotion-slot web search, and state explicitly whether any guidance the candidate's thesis rests on **predates that print**. The existing guidance-cut kill (the FISV gate) asks whether guidance was cut. This asks a different and prior question: **whether the guidance being relied on is still the current one.** BSX is the worked example: the 6.5-8% baseline written into its prong on 2026-08-10 had been replaced by 5-6% at the 2026-07-29 call, twelve days earlier, so the prong could not fire as written and nobody noticed for ten days.
+
+**Both legs are reported, never used to auto-kill.** Neither a pending deal nor a guidance reset disqualifies a name on its own; both change what a trigger has to say and what a stop is measuring. The failure being fixed is silence, not permissiveness.
+
 ### Live output at adoption, 2026-08-17 closes
 
 Twelve names clear all ten gate conditions: **INTU, PGY, BR, HLNE, SEZL, ISRG, ADSK, WMG, TOST, JKHY, PCTY, LOGI** (ISRG and JKHY already held). Four near-misses surfaced by the new rule: **EPAM** (ROIC 11.2%, 93% of threshold), **WWW** (ROIC 11.4%, 95%), **RMD** (op margin 95.7% of the band), **BSY** (op margin 97.9%).
@@ -173,6 +199,8 @@ The four level thresholds are genuine cliffs and always will be. Widening each o
 5. Log every rule change below.
 
 ## Changelog
+
+- **2026-09-16.** **Entry due-diligence check added and moved to surface time**, at Kevin's instruction after the PATK and BSX exits ("let's implement what would have caught both"). Two legs, both database-side and free against the search cap: a pending-business-combination check on Forms 425/S-4/DEFM14A/SC 13E3, and a guidance-recency check reporting whether the guidance a thesis rests on predates the latest print. **Tested against the case that motivated it before adoption**, which is a first for this file: run on PATK it returns the 2026-06-30 LCI merger, sixteen days ahead of the 7/16 entry that missed it, with ten of twelve controls clear. The 8-K item 1.01 leg was **tested and rejected** for firing on all eight names in the first batch. Companion gate in [[Checklist]]: the not-this-week rule, specified for the first time after being named but never written since 2026-07-29.
 
 - **2026-07-21.** Created from the first ledger re-score (n=13, 3 weeks). Set INS as primary engine with dislocation-depth ranking, Piotroski-4 floor, circle-first, and SENT/BREAK tagging. Added QD as secondary with a guidance-up/price-down overreaction screen. All flagged under test. Sample is tiny; nothing here is proven yet.
 - **2026-08-18 (second entry, same day).** **Pressure tested and the alpha claim was withdrawn.** Three non-overlapping out-of-sample cohorts with 3-month forward returns and three control baskets each ([[QD Bar Pressure Test 2026-08-18]]): the bar returned +3.2% against a universe at +3.8% and SPY at +4.5%. It underperformed both. The +20.2% that motivated the path was in-sample and regime-specific. What replicated instead is a low-beta quality tilt: it beat every control by 4-6 points in the falling tape (Aug 2025), lagged the universe by half in the ripping tape (Nov 2025), and beat the universe on median and hit rate in 2 of 3 cohorts. **Reclassified from alpha source to risk filter.** Also recorded: cluster-on-top variants returned n=1 and n=2 showing +33.7% and +17.4%, which are meaningless and are logged specifically so they are never quoted as evidence. Two EPS beats added nothing. Gate changes made live the same day: operating margin to a 95% band, insider veto to a 10% tolerance, and the **near-miss rule** added so future rounding losses are surfaced rather than fixed by widening gates one winner at a time.
